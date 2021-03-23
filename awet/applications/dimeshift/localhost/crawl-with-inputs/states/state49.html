@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<link href="../css/shCore.css" rel="stylesheet" type="text/css" />
+<link href="../css/shCoreDefault.css" rel="stylesheet" type="text/css" />
+<style>
+.tooltip-inner {
+	max-width: 300px;
+	word-wrap: break-word;
+}
+
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+</style>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="../index.html#graph">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#">State inspector</a></li>
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>	<div class='container' >
+		<h1>Summary of state49</h1>
+		<table class="table table-bordered table-striped">
+			<colgroup>
+				<col class="span1">
+				<col class="span7">
+			</colgroup>
+			<tbody>
+				<tr>
+					<th>URL</th>
+					<td><a href='http://localhost:3000/wallets/2'>http://localhost:3000/wallets/2</a></td>
+				</tr>
+				<tr>
+					<th>Fan in</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Fan out</th>
+					<td>1</td>
+				</tr>
+				<tr>
+					<th>Interaction elements</th>
+					<td>9</td>
+				</tr>
+				<tr>
+					<th>Nearest State</th>
+					<td>state46</td>
+				</tr>
+				<tr>
+					<th>Distance to nearest State</th>
+					<td>18.0</td>
+				</tr>
+				<tr>
+					<th>Has Near Duplicate</th>
+					<td>false</td>
+				</tr>
+				<tr>
+					<th>Cluster</th>
+					<td>-1</td>
+				</tr>
+				<tr>
+					<th>Failed events</th>
+					<td>xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1], xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[2]/A[1]</td>
+			</tbody>
+		</table>
+		<ul id='tabs' class="nav nav-tabs">
+			<li class="active">
+				<a href="#screenshot">Screenshot</a>
+			</li>
+			<li>
+				<a href="#dom">Captured DOM</a>
+			</li>	
+			<li>
+				<a href="#interactions">Interactions</a>
+			</li>			
+		</ul>
+		<div class="tab-content">
+			<div class="tab-pane active" style="position: relative;" id='screenshot'>			
+				<img style='max-width: none;' border='0' src='../screenshots/state49.png' /> 
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 44px; top: 62px; width: 55px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 119px; top: 62px; width: 53px; height: 18px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/A[1]" class='hovers'
+				style="position: absolute; z-index: 20; left: 553px; top: 242px; width: 182px; height: 19px; border: 2px solid green;  cursor: pointer;" onclick="location.href='state50.html'"></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/H3[1]/SPAN[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 669px; top: 307px; width: 66px; height: 24px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 45px; top: 612px; width: 690px; height: 36px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 45px; top: 206px; width: 690px; height: 36px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 45px; top: 477px; width: 690px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 521px; top: 630px; width: 59px; height: 32px; border: 2px solid orange;  " ></div>
+								<div rel="tooltip" data-original-title="/HTML[1]/BODY[1]/DIV[4]/DIV[3]/BUTTON[1]" class='hovers'
+				style="position: absolute; z-index: 10; left: 698px; top: 630px; width: 69px; height: 32px; border: 2px solid orange;  " ></div>
+							</div>
+			<div class="tab-pane" id='dom'>
+				<h2>Captured DOM</h2>
+				<pre class='brush: html'>&lt;html&gt;&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+	&lt;!-- Le HTML5 shim, for IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	  &lt;script src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+	&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+	&lt;title&gt;Sample Bank Account Wallet | DimeShift&lt;/title&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no&quot;&gt;
+	&lt;link rel=&quot;icon&quot; href=&quot;/images/favicon.ico&quot; type=&quot;image/x-icon&quot;&gt;
+
+	&lt;script async=&quot;&quot; src=&quot;//www.google-analytics.com/analytics.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+		var site_path = window.location.protocol + &quot;//&quot; + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+	&lt;/script&gt;
+
+	&lt;script src=&quot;//localhost:35729/livereload.js&quot;&gt;&lt;/script&gt;
+
+	&lt;link href=&quot;/resources/css.css&quot; media=&quot;screen&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;
+	&lt;meta name=&quot;google-site-verification&quot; content=&quot;MyNePgPoKL2FkR070Lj1pIT8Or7gERZiobVzjG0PtOk&quot;&gt;
+	&lt;script&gt;
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-400436-21', 'auto');
+		ga('send', 'pageview');
+	&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://www.gstatic.com/charts/49/loader.js&quot;&gt;&lt;/script&gt;&lt;link id=&quot;load-css-0&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://www.gstatic.com/charts/49/css/core/tooltip.css&quot;&gt;&lt;link id=&quot;load-css-1&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://www.gstatic.com/charts/49/css/util/util.css&quot;&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://www.gstatic.com/charts/49/js/jsapi_compiled_default_module.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://www.gstatic.com/charts/49/js/jsapi_compiled_graphics_module.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://www.gstatic.com/charts/49/js/jsapi_compiled_ui_module.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; charset=&quot;UTF-8&quot; src=&quot;https://www.gstatic.com/charts/49/js/jsapi_compiled_corechart_module.js&quot;&gt;&lt;/script&gt;&lt;/head&gt;
+&lt;body style=&quot;&quot; class=&quot;&quot;&gt;
+&lt;div id=&quot;wrap&quot;&gt;
+		&lt;!-- Fixed navbar --&gt;
+	&lt;div class=&quot;navbar navbar-inverse navbar-fixed-top headroom disable-selection&quot; id=&quot;header&quot;&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;navbar-header&quot;&gt;
+				&lt;!-- Button for smallest screens --&gt;
+				&lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt; &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt; &lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt; &lt;/button&gt;
+				
+
+				&lt;a href=&quot;/&quot; class=&quot;btn btn-info btn-lg btn-logo&quot;&gt;$ dimeshift&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+				&lt;ul class=&quot;nav navbar-nav pull-right&quot;&gt;
+					&lt;li class=&quot;header_is_not_signed_in&quot; style=&quot;display: none;&quot;&gt;
+						&lt;a href=&quot;/&quot; class=&quot;menu_category menu_category_home&quot; data-i18n=&quot;Home&quot;&gt;Головна&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;header_is_signed_in active&quot; style=&quot;&quot;&gt;
+						&lt;a href=&quot;/wallets&quot; class=&quot;menu_category menu_category_wallets&quot; data-i18n=&quot;Wallets&quot;&gt;Гаманці&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;header_is_signed_in active&quot; style=&quot;&quot;&gt;
+						&lt;a href=&quot;/plans&quot; class=&quot;menu_category menu_category_wallets&quot; data-i18n=&quot;Goals&quot;&gt;Цілі&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;mailto:jeka911@gmail.com?subject=Wallet&quot; class=&quot;menu_category&quot; data-i18n=&quot;Contact&quot;&gt;Зв&rsquo;язатися з нами&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://docs.dimeshift.apiary.io/&quot; class=&quot;menu_category&quot;&gt;API&lt;/a&gt;&lt;/li&gt;
+					&lt;li class=&quot;header_is_not_signed_in&quot; style=&quot;display: none;&quot;&gt;
+						&lt;a href=&quot;/user/registration&quot; data-i18n=&quot;Register&quot;&gt;Зареєструватися&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;header_is_not_signed_in&quot; style=&quot;display: none;&quot;&gt;
+						&lt;a href=&quot;/user/signin&quot; class=&quot;signin_caller&quot; data-i18n=&quot;Sign In&quot;&gt;Увійти&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;header_is_signed_in&quot; style=&quot;&quot;&gt;
+						&lt;a href=&quot;/profile&quot; data-i18n=&quot;Settings&quot;&gt;Налаштування&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li class=&quot;header_is_signed_in&quot; style=&quot;&quot;&gt;
+						&lt;a href=&quot;/user/logout&quot; class=&quot;signout_caller&quot; data-i18n=&quot;Log Out&quot;&gt;Вийти&lt;/a&gt;
+					&lt;/li&gt;
+					&lt;li&gt;
+						&lt;a href=&quot;/user/change_language&quot; class=&quot;icon_holder&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-globe&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+					&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;&lt;!--/.nav-collapse --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt; 
+	&lt;!-- /.navbar --&gt;
+
+
+
+	&lt;div class=&quot;container&quot; id=&quot;container&quot;&gt;
+
+		&lt;div id=&quot;fill_profile_invitation&quot; style=&quot;display: none;&quot;&gt;
+			&lt;div class=&quot;alert alert-info&quot;&gt;
+			&lt;span data-i18n=&quot;Please don't forget to let us know your email address, so you can sign in to DimeShift on your next visit&quot;&gt;Будь ласка, заповніть ваш профіль, щоб ви змогли увійти в ваш обліковий запис наступного разу&lt;/span&gt;. &lt;a href=&quot;/user/fillprofile&quot; class=&quot;btn btn-primary btn-xs&quot; data-i18n=&quot;Do it&quot;&gt;Заповнити&lt;/a&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div class=&quot;page_holder&quot; id=&quot;page_holder_1&quot; style=&quot;display: none;&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;page_holder&quot; id=&quot;page_holder_2&quot; style=&quot;display: block;&quot;&gt;&lt;div class=&quot;page&quot;&gt;&lt;ul class=&quot;breadcrumb&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:3000&quot;&gt;&lt;span data-i18n=&quot;Home&quot;&gt;Головна&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:3000/wallets&quot;&gt;&lt;span data-i18n=&quot;Wallets&quot;&gt;Гаманці&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;active&quot;&gt;Sample Bank Account Wallet&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;div class=&quot;row&quot;&gt;
+
+	&lt;div class=&quot;col-xs-12 col-sm-12 col-md-4 pull-right&quot;&gt;
+		&lt;div class=&quot;panel panel-default&quot;&gt;
+			&lt;div class=&quot;panel-heading&quot;&gt;
+				&lt;h3 class=&quot;panel-title&quot;&gt;Sample Bank Account Wallet&lt;/h3&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;panel-body&quot;&gt;
+			
+				&lt;p class=&quot;text-center text-success wallet_total&quot;&gt;&lt;strong&gt;$3041.&lt;sup&gt;02&lt;/sup&gt;&lt;/strong&gt;&lt;/p&gt;
+				
+				&lt;button type=&quot;button&quot; id=&quot;add_profit_button&quot; class=&quot;btn btn-success btn-block&quot;&gt;&lt;span data-i18n=&quot;Add Income&quot;&gt;Додати прибуток&lt;/span&gt;&lt;/button&gt;
+				&lt;div class=&quot;pull-right&quot;&gt;&lt;span data-i18n=&quot;or&quot;&gt;чи&lt;/span&gt; &lt;a href=&quot;#&quot; class=&quot;action tour-tour-element tour-tour-1-element tour-step-element-reflex&quot; id=&quot;set_total_to_button&quot; aria-describedby=&quot;popover240788&quot;&gt;&lt;span data-i18n=&quot;set total to&quot;&gt;встановити загальну суму у&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+
+	&lt;/div&gt;
+
+	&lt;div class=&quot;col-xs-12 col-sm-12 col-md-8 pull-left&quot;&gt;
+
+		&lt;div class=&quot;list-group&quot;&gt;
+			&lt;div class=&quot;list-group-item &quot;&gt;
+				&lt;h3 class=&quot;panel-title&quot;&gt;&lt;span data-i18n=&quot;Transactions&quot;&gt;Транзакції&lt;/span&gt;
+					&lt;span class=&quot;pull-right&quot;&gt;&lt;a href=&quot;http://localhost:3000/wallets/2/import/&quot; class=&quot;btn btn-default btn-xs&quot;&gt;&lt;span class=&quot;glyphicon glyphicon-import&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; &lt;span data-i18n=&quot;Import&quot;&gt;Імпорт&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;
+				&lt;/h3&gt;
+
+				&lt;div class=&quot;form-group&quot;&gt;
+					&lt;form method=&quot;post&quot; id=&quot;add_transaction_form&quot;&gt;
+						&lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;add_transaction_text&quot; placeholder=&quot;Опишіть витрату і натисніть Enter&quot; data-i18nplaceholder=&quot;Describe expense and press Enter to add&quot;&gt;
+						&lt;input type=&quot;number&quot; min=&quot;0&quot; step=&quot;0.01&quot; class=&quot;form-control hideme&quot; id=&quot;add_transaction_amount&quot; placeholder=&quot;Сума транзакції&quot; data-i18nplaceholder=&quot;Transaction amount&quot;&gt;
+						&lt;button type=&quot;submit&quot; class=&quot;hideme&quot;&gt;
+					
+				&lt;/button&gt;&lt;/form&gt;&lt;/div&gt;
+			&lt;/div&gt;
+
+			&lt;div id=&quot;transactions_container&quot;&gt;&lt;div id=&quot;transactions_container&quot;&gt;
+	
+
+
+
+					&lt;div class=&quot;list-group-item item&quot; data-id=&quot;52&quot;&gt;
+			&lt;div class=&quot;pull-left transaction_time&quot;&gt;
+								&lt;div class=&quot;transaction_time_date&quot;&gt;2 грудня 2020&lt;/div&gt;
+				&lt;div class=&quot;transaction_time_time&quot;&gt;10:53&lt;/div&gt;
+							&lt;/div&gt;
+
+			&lt;div class=&quot;pull-right text-danger transaction_amount&quot;&gt;&amp;nbsp; &lt;strong&gt;$263.&lt;sup&gt;00&lt;/sup&gt;&lt;/strong&gt;&lt;/div&gt;
+			
+			&lt;h6 class=&quot;list-group-item-heading transaction_description&quot;&gt;Translations&lt;/h6&gt;
+		&lt;/div&gt;
+				&lt;div class=&quot;list-group-item item&quot; data-id=&quot;51&quot;&gt;
+			&lt;div class=&quot;pull-left transaction_time&quot;&gt;
+								&lt;div class=&quot;transaction_time_date&quot;&gt;1 грудня 2020&lt;/div&gt;
+				&lt;div class=&quot;transaction_time_time&quot;&gt;08:58&lt;/div&gt;
+							&lt;/div&gt;
+
+			&lt;div class=&quot;pull-right text-danger transaction_amount&quot;&gt;&amp;nbsp; &lt;strong&gt;$26.&lt;sup&gt;00&lt;/sup&gt;&lt;/strong&gt;&lt;/div&gt;
+			
+			&lt;h6 class=&quot;list-group-item-heading transaction_description&quot;&gt;PPM Campaign&lt;/h6&gt;
+		&lt;/div&gt;
+			
+		&lt;div class=&quot;list-group-item&quot;&gt;
+		&lt;button type=&quot;button&quot; class=&quot;btn btn-default btn-sm btn-info btn-block&quot; id=&quot;goto_prev&quot;&gt;
+		&lt;span class=&quot;glyphicon glyphicon-chevron-down&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Листопад 2020&lt;/button&gt;
+	&lt;/div&gt;
+	
+
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+		&lt;/div&gt;	
+
+
+	&lt;/div&gt;
+
+	&lt;div class=&quot;col-xs-12 col-sm-12 col-md-4 pull-right&quot;&gt;
+
+		&lt;div id=&quot;plans_container&quot;&gt;
+
+
+&lt;div class=&quot;panel panel-default&quot;&gt;
+	&lt;div class=&quot;panel-heading&quot;&gt;
+		&lt;h3 class=&quot;panel-title&quot;&gt;&lt;span data-i18n=&quot;Goals&quot;&gt;Цілі&lt;/span&gt;&lt;/h3&gt;
+	&lt;/div&gt;
+	
+			&lt;div class=&quot;panel-body&quot;&gt;
+			&lt;span data-i18n=&quot;There're no goals defined for this wallet&quot;&gt;Для цього гаманця не визначені цілі&lt;/span&gt;
+			&lt;a href=&quot;http://localhost:3000/plans&quot; class=&quot;btn btn-default btn-block&quot;&gt;&lt;span data-i18n=&quot;Set Goal&quot;&gt;Встановити ціль&lt;/span&gt;&lt;/a&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;&lt;/div&gt;
+
+		&lt;div class=&quot;panel panel-default&quot; id=&quot;balance_canvas_container&quot;&gt;
+			&lt;div class=&quot;panel-heading&quot;&gt;
+				&lt;h3 class=&quot;panel-title&quot;&gt;&lt;span data-i18n=&quot;Expenses per day trends&quot;&gt;Тенденції витрат за день&lt;/span&gt;&lt;/h3&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;panel-body&quot;&gt;
+				&lt;div id=&quot;balance_canvas&quot; class=&quot;ct-chart&quot; style=&quot;display: block;&quot;&gt;&lt;div style=&quot;position: relative;&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;position: relative; width: 688px; height: 200px;&quot;&gt;&lt;div aria-label=&quot;A chart.&quot; style=&quot;position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;&quot;&gt;&lt;svg width=&quot;688&quot; height=&quot;200&quot; aria-label=&quot;A chart.&quot; style=&quot;overflow: hidden;&quot;&gt;&lt;defs id=&quot;_ABSTRACT_RENDERER_ID_0&quot;&gt;&lt;clipPath id=&quot;_ABSTRACT_RENDERER_ID_1&quot;&gt;&lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;688&quot; height=&quot;170&quot;&gt;&lt;/rect&gt;&lt;/clipPath&gt;&lt;/defs&gt;&lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;688&quot; height=&quot;200&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#ffffff&quot;&gt;&lt;/rect&gt;&lt;g&gt;&lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;688&quot; height=&quot;170&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill-opacity=&quot;0&quot; fill=&quot;#ffffff&quot;&gt;&lt;/rect&gt;&lt;g clip-path=&quot;url(http://localhost:3000/wallets/2#_ABSTRACT_RENDERER_ID_1)&quot;&gt;&lt;g&gt;&lt;rect x=&quot;0&quot; y=&quot;169&quot; width=&quot;688&quot; height=&quot;1&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#cccccc&quot;&gt;&lt;/rect&gt;&lt;rect x=&quot;0&quot; y=&quot;113&quot; width=&quot;688&quot; height=&quot;1&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#cccccc&quot;&gt;&lt;/rect&gt;&lt;rect x=&quot;0&quot; y=&quot;56&quot; width=&quot;688&quot; height=&quot;1&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#cccccc&quot;&gt;&lt;/rect&gt;&lt;rect x=&quot;0&quot; y=&quot;0&quot; width=&quot;688&quot; height=&quot;1&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#cccccc&quot;&gt;&lt;/rect&gt;&lt;rect x=&quot;0&quot; y=&quot;141&quot; width=&quot;688&quot; height=&quot;1&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#ebebeb&quot;&gt;&lt;/rect&gt;&lt;rect x=&quot;0&quot; y=&quot;85&quot; width=&quot;688&quot; height=&quot;1&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#ebebeb&quot;&gt;&lt;/rect&gt;&lt;rect x=&quot;0&quot; y=&quot;28&quot; width=&quot;688&quot; height=&quot;1&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#ebebeb&quot;&gt;&lt;/rect&gt;&lt;/g&gt;&lt;g&gt;&lt;rect x=&quot;0&quot; y=&quot;169&quot; width=&quot;688&quot; height=&quot;1&quot; stroke=&quot;none&quot; stroke-width=&quot;0&quot; fill=&quot;#333333&quot;&gt;&lt;/rect&gt;&lt;/g&gt;&lt;g&gt;&lt;path d=&quot;M18.57894736842105,112.60333333333332C18.57894736842105,112.60333333333332,42.68421052631579,82.65277777778716,54.73684210526315,90.07C66.78947368421052,97.48722222221284,78.8421052631579,156.87194444444538,90.89473684210526,157.10666666666665C102.94736842105263,157.34138888888796,114.99999999999999,96.5013888888795,127.05263157894736,91.47833333333332C139.10526315789474,86.45527777778716,151.15789473684208,130.06666666666666,163.21052631578945,126.96833333333333C175.26315789473682,123.87,187.31578947368422,77.72361111112049,199.36842105263156,72.88833333333334C211.42105263157893,68.05305555554617,223.4736842105263,99.59972222221283,235.52631578947367,97.95666666666666C247.578947368421,96.3136111111205,259.63157894736844,51.5051388888795,271.6842105263158,63.03C283.7368421052631,74.5548611111205,295.7894736842105,149.75986111111206,307.84210526315786,167.10583333333332C319.89473684210526,184.4518055555546,331.9473684210526,180.03902777777873,344,167.10583333333332C356.05263157894734,154.17263888888795,368.1052631578947,100.84375,380.1578947368421,89.50666666666666C392.2105263157895,78.16958333333334,404.26315789473676,101.66480833333333,416.31578947368416,99.08333333333333C428.36842105263156,96.50185833333333,440.4210526315789,63.361427777787156,452.4736842105263,74.01781666666666C464.5263157894737,84.67420555554617,476.578947368421,148.18769166666667,488.6315789473684,163.02166666666668C500.6842105263158,177.85564166666666,512.7368421052631,185.5545305555546,524.7894736842105,163.02166666666668C536.8421052631579,140.48880277778716,548.8947368421052,27.355038888879506,560.9473684210526,27.82448333333332C573,28.29392777778716,585.0526315789473,142.836025,597.1052631578947,165.83833333333334C609.157894736842,188.84064166666667,621.2105263157895,177.5744444444454,633.2631578947368,165.83833333333334C645.3157894736842,154.1022222222213,669.4210526315788,95.42166666666667,669.4210526315788,95.42166666666667&quot; stroke=&quot;#a94442&quot; stroke-width=&quot;2&quot; fill-opacity=&quot;1&quot; fill=&quot;none&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;g&gt;&lt;/g&gt;&lt;/g&gt;&lt;g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;div aria-label=&quot;A tabular representation of the data in the chart.&quot; style=&quot;position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;&quot;&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Amount&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;14/11&lt;/td&gt;&lt;td&gt;202&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;15/11&lt;/td&gt;&lt;td&gt;282&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;16/11&lt;/td&gt;&lt;td&gt;44&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17/11&lt;/td&gt;&lt;td&gt;277&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;18/11&lt;/td&gt;&lt;td&gt;151&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;19/11&lt;/td&gt;&lt;td&gt;343&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20/11&lt;/td&gt;&lt;td&gt;254&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;21/11&lt;/td&gt;&lt;td&gt;378&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;22/11&lt;/td&gt;&lt;td&gt;8.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;23/11&lt;/td&gt;&lt;td&gt;8.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;24/11&lt;/td&gt;&lt;td&gt;284&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;25/11&lt;/td&gt;&lt;td&gt;250&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;26/11&lt;/td&gt;&lt;td&gt;338.99&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;27/11&lt;/td&gt;&lt;td&gt;23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;28/11&lt;/td&gt;&lt;td&gt;23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;29/11&lt;/td&gt;&lt;td&gt;502.99&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;30/11&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1/12&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2/12&lt;/td&gt;&lt;td&gt;263&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div aria-hidden=&quot;true&quot; style=&quot;display: none; position: absolute; top: 210px; left: 698px; white-space: nowrap; font-family: Arial; font-size: 12px; font-weight: bold;&quot;&gt;Expenses&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+&lt;div class=&quot;hidden&quot;&gt;
+	&lt;span id=&quot;tour_step_0&quot;&gt;Для початку додамо в гаманець трохи грошей :)&lt;br&gt;&lt;br&gt;Натисніть на цю кнопку і заповніть невелику форму у спливаючому віконці. Це просто.&lt;/span&gt;
+	&lt;span id=&quot;tour_step_1&quot;&gt;На відміну від інших подібних систем, DimeShift розробляли реалісти. Ми не просимо вас вводити дані про кожну транзакцію, іноді буває простіше в якийсь момент встановити поточну суму.&lt;br&gt;&lt;br&gt;Це можна робити щовечора або навіть раз на кілька днів.&lt;br&gt;&lt;br&gt;Якщо раптом ви забули про своє рішення вести облік, а через час повернулися до цієї ідеї - все окей, повертайтеся до своїх гаманців в будь-який час.&lt;/span&gt;
+	&lt;span id=&quot;tour_step_2&quot;&gt;Настав час вказати витрати.&lt;br&gt;&lt;br&gt;Можна описати транзакцію в один рядок, наприклад '99.99, краща трата в моєму житті'&lt;br&gt;&lt;br&gt;Натисніть Enter, коли опис буде готовим&lt;/span&gt;
+	&lt;span id=&quot;tour_step_3&quot;&gt;Список транзакцій оновився&lt;/span&gt;
+	&lt;span id=&quot;tour_step_4&quot;&gt;Кожна транзакція відображається на графіку, наочно демонструючі ваші витрати&lt;/span&gt;
+	&lt;span id=&quot;tour_step_5&quot;&gt;Заповніть ваш профіль, щоб мати можливість увійти до нього наступного разу&lt;/span&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;div id=&quot;push&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+	&lt;div id=&quot;preloader&quot; style=&quot;opacity: 1; display: none;&quot;&gt;&lt;/div&gt;
+	&lt;footer id=&quot;footer&quot; role=&quot;contentinfo&quot;&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;pull-right&quot;&gt;
+				&lt;a href=&quot;https://github.com/jeka-kiselyov/dimeshift&quot; data-i18n=&quot;View Source on GitHub&quot;&gt;Код на GitHub&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;p class=&quot;muted credit&quot;&gt;&lt;span data-i18n=&quot;Copyright&quot; class=&quot;hidden-xs hidden-sm&quot;&gt;Розроблено у&lt;/span&gt;&lt;span class=&quot;visible-xs-inline visible-sm-inline&quot;&gt;&copy;&lt;/span&gt; 2017 &lt;a href=&quot;http://dimeshift.com&quot;&gt;DimeShift&lt;/a&gt;&lt;span class=&quot;hidden-xs hidden-sm&quot;&gt;.&lt;/span&gt; &lt;span data-i18n=&quot;GNU Affero GPL License&quot; class=&quot;hidden-xs hidden-sm&quot;&gt;ліцензія GNU Affero GPL&lt;/span&gt; &lt;/p&gt;
+		&lt;/div&gt;
+	&lt;/footer&gt;
+
+    &lt;script type=&quot;text/javascript&quot; src=&quot;https://www.google.com/jsapi&quot;&gt;&lt;/script&gt;
+	&lt;script src=&quot;/resources/js.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/jquery/jquery.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/bootstrap/js/modal.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/bootstrap/js/button.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/bootstrap/js/dropdown.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/bootstrap/js/collapse.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/bootstrap/js/tooltip.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/bootstrap/js/popover.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/bootstrap-tour/build/js/bootstrap-tour.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/underscore/underscore-min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/backbone/backbone.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/backbone.paginator/lib/backbone.paginator.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/bootstrap-clickonmouseover/bootstrap.clickonmouseover.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/magnific-popup/dist/jquery.magnific-popup.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/mprogress/build/js/mprogress.min.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/vendors/jsmart/jsmart.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/functions.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/helper.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/view_stack.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/settings.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/local_storage.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/template_manager.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/i18n.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/exchange.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/abstract/dialog.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/abstract/page.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/models/plan.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/models/transaction.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/models/user.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/models/wallet.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/models/wallets_access.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/collections/plans.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/collections/transactions.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/collections/users.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/collections/wallets.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/collections/wallets_accesses.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/add_profit.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/add_wallet.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/change_language.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/edit_wallet.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/fill_profile.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/hide_wallet.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/logout.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/registration.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/remove_access.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/remove_plan.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/remove_transaction.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/restore.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/set_total_to.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/signin.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/transaction_details.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/dialogs/wallet_accesses.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/widgets/index.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/parts/profile_change_password.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/parts/profile_remove_account.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/parts/transactions.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/parts/wallet_plans.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/404.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/import_xls.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/index.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/plan.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/plans.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/profile.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/update_password.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/wallet.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/pages/wallets.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/tours/wallet.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/tours/wallets.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/charts/balance.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/views/header.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/log.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/app/router.js&quot;&gt;&lt;/script&gt;&lt;script type=&quot;text/javascript&quot; src=&quot;/scripts/setup.js&quot;&gt;&lt;/script&gt;
+
+&lt;div id=&quot;dialog_wrapper&quot;&gt;&lt;/div&gt;&lt;div class=&quot;popover tour-tour tour-tour-1 tour-tour-reflex fade bottom in&quot; role=&quot;tooltip&quot; id=&quot;step-1&quot; style=&quot;top: 262px; left: 508.695px; display: block;&quot;&gt; &lt;div class=&quot;arrow&quot; style=&quot;left: 50%;&quot;&gt;&lt;/div&gt; &lt;h3 class=&quot;popover-title&quot;&gt;Step 2 of 6&lt;/h3&gt; &lt;div class=&quot;popover-content&quot;&gt;На відміну від інших подібних систем, DimeShift розробляли реалісти. Ми не просимо вас вводити дані про кожну транзакцію, іноді буває простіше в якийсь момент встановити поточну суму.&lt;br&gt;&lt;br&gt;Це можна робити щовечора або навіть раз на кілька днів.&lt;br&gt;&lt;br&gt;Якщо раптом ви забули про своє рішення вести облік, а через час повернулися до цієї ідеї - все окей, повертайтеся до своїх гаманців в будь-який час.&lt;/div&gt; &lt;div class=&quot;popover-navigation&quot;&gt; &lt;div class=&quot;btn-group&quot;&gt; &lt;button class=&quot;btn btn-sm btn-default&quot; data-role=&quot;prev&quot;&gt;&laquo; Prev&lt;/button&gt; &lt;button class=&quot;btn btn-sm btn-default&quot; data-role=&quot;next&quot;&gt;Next &raquo;&lt;/button&gt;  &lt;/div&gt; &lt;button class=&quot;btn btn-sm btn-default&quot; data-role=&quot;end&quot;&gt;End tour&lt;/button&gt; &lt;/div&gt; &lt;/div&gt;&lt;/body&gt;&lt;/html&gt;</pre>
+			</div>
+			<div class="tab-pane" id='interactions'>
+				<h2>Interactions</h2>
+				<table class="table table-bordered table-striped">
+					<tbody>
+						<tr>
+							<th>Xpath</th>
+							<th>Destination</tg>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/A[1]</td>
+							<td><a href="state50.html">state50</a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/H3[1]/SPAN[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+												<tr>
+							<td>/HTML[1]/BODY[1]/DIV[4]/DIV[3]/BUTTON[1]</td>
+							<td><a href=".html"></a></td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../lib/shCore.js"></script>
+	<script type="text/javascript" src="../lib/shBrushXml.js"></script>
+	<script type="text/javascript" src="../lib/jquery-2.0.3.min.js"></script>
+	<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	<script type="text/javascript">
+    	$(document).ready(function() {
+			SyntaxHighlighter.all()
+
+			$('#tabs a').click(function (e) {
+		  		e.preventDefault();
+		  		$(this).tab('show');
+			})
+		});
+    	
+    	$('.hovers').tooltip({
+    	    placement: function(a, element) {
+    	        var position = $(element).position();
+    	        if (position.left > 515) {
+    	            return "left";
+    	        }
+    	        if (position.left < 515) {
+    	            return "right";
+    	        }
+    	        if (position.top < 110){
+    	            return "bottom";
+    	        }
+    	        return "top";
+    	    }
+    	});
+	</script>
+</body>
+</html>

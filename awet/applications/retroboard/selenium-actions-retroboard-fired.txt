@@ -1,0 +1,158 @@
+ driver.findElement(By.cssSelector(".theme__withIcon___f6YT1 > .theme__inputElement___27dyY")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__filled___1UI7Z")).sendKeys("Nadir");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__dropdown___co-4M")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__selected___2Uc3r div:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__templateValue___3if5o div:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__selected___2Uc3r div:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__templateValue___3if5o strong")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__selected___2Uc3r div:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("0")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".PostBoard__column___2nAoB:nth-child(1) .theme__inputElement___27dyY")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__filled___1UI7Z")).sendKeys("Deadlinea yetiştik");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".PostBoard__column___2nAoB:nth-child(2) .theme__inputElement___27dyY")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".PostBoard__column___2nAoB:nth-child(2) .theme__inputElement___27dyY")).sendKeys("Çok basit oldu.");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".PostBoard__column___2nAoB:nth-child(3) .theme__inputElement___27dyY")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".PostBoard__column___2nAoB:nth-child(3) .theme__inputElement___27dyY")).sendKeys("Planlı çalışın.");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".SessionName__editIcon___AOR2M")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".SessionName__edit___2Unj- .theme__inputElement___27dyY")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".SessionName__edit___2Unj- .theme__inputElement___27dyY")).sendKeys("Last Retro");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".PostBoard__column___2nAoB:nth-child(1) .theme__inputElement___27dyY")).click();
+Thread.sleep(3000);
+-----
+driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__templateValue___3if5o small")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__templateValue___3if5o div:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__tab___2YMGw")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("0")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__primary___22ZvQ")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.id("crawljax-menu"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("crawljax-menu")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo:nth-child(5)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__backdrop___WbaQn")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__itemContentRoot___3ofPf")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".Post__well___1WcRv .theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".Post__notWell___37RjH .theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("crawljax-menu")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo:nth-child(5)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__backdrop___WbaQn")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".index__user___1gwdA")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("crawljax-logout")).click();
+Thread.sleep(3000);
+
+    driver.close();
+Thread.sleep(3000);
+------

@@ -1,0 +1,182 @@
+@Test
+public void petclinictest2() {
+    driver.get("http://localhost:4000/petclinic/");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(2560, 1440));
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".dropdown:nth-child(3) > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".open > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(5) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".dropdown:nth-child(2) > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".open > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".dropdown:nth-child(3) > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(4) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(5) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(4) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("tr:nth-child(2) .btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("div > .btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).sendKeys("Gergedan");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(3)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(5) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).sendKeys("Solunum");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(3)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("td > .btn:nth-child(1)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).sendKeys("Kem\'k");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(3)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("td > .btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);
+@Test
+public void petclinictest2() {
+    driver.get("http://localhost:4000/petclinic/");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(2560, 1440));
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".dropdown:nth-child(3) > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".open > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(5) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".dropdown:nth-child(2) > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".open > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".dropdown:nth-child(3) > .dropdown-toggle")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(4) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(5) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(4) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("tr:nth-child(2) .btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("div > .btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).sendKeys("Gergedan");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(3)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(5) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).sendKeys("Solunum");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(3)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("td > .btn:nth-child(1)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("name")).sendKeys("Kem\'k");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(3)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("td > .btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

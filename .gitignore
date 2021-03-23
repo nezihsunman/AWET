@@ -1,0 +1,39 @@
+.project
+.classpath
+.settings/
+target/
+.DS_Store
+.idea
+*.iml
+applications/*/localhost/crawl*
+dependency-graph-*.txt
+dependency-graph-*.png
+FUN.tsv
+VAR.tsv
+*.log
+*coverage-reports
+*.png
+*.js
+*.js.map
+network-logs# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Maven
+*.log
+target/
+release.properties
+pom.xml.releaseBackup
+git.properties
+output/
+out/
+
+# Mac
+.DS_Store

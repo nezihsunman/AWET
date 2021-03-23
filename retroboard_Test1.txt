@@ -1,0 +1,192 @@
+@Test
+public void test1() {
+    driver.get("http://localhost:4000/");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(1554, 884));
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//a"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.doubleClick(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//span"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.doubleClick(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/label"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).clickAndHold().perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.xpath("//li/div/div/div"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).release().perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div/div[2]")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/div/div/div[2]/div/div/div[2]"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).clickAndHold().perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.xpath("//li"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).release().perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[2]/div/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/div/div[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'content\']/div/div/div/div[2]/div/div[2]/input")).sendKeys("Yigit");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'content\']/div/div/div/div[2]/div/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//img")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("0")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("Time");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("Time");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys(Keys.ENTER);
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("Time Management");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys(Keys.ENTER);
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div/div/input")).sendKeys("Energy");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div/div/input")).sendKeys(Keys.ENTER);
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/div/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/div/div/div/input")).sendKeys("Let\'s do it!");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/div/div/div/input")).sendKeys(Keys.ENTER);
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span/span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("Yigit\'s");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys(Keys.ENTER);
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

@@ -1,0 +1,637 @@
+{
+  "states" : {
+    "state9" : {
+      "name" : "state9",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 206,
+        "left" : 651,
+        "xpath" : "//BUTTON[@id = 'crawljax-logout']",
+        "width" : 103,
+        "height" : 36
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 9,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 11.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271237186,
+      "nearestState" : "state4"
+    },
+    "state6" : {
+      "name" : "state6",
+      "url" : "http://localhost:4000/session/S1TxXKqsw",
+      "candidateElements" : [ {
+        "top" : 619,
+        "left" : 754,
+        "xpath" : "//BUTTON[@id = 'crawljax-menu']",
+        "width" : 36,
+        "height" : 36
+      }, {
+        "top" : 710,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 710,
+        "left" : 418,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 826,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 826,
+        "left" : 418,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 942,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[5]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 942,
+        "left" : 418,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[6]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1143,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1143,
+        "left" : 418,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 982,
+        "left" : 741,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/DIV[2]/NAV[1]/BUTTON[1]",
+        "width" : 35,
+        "height" : 36
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 6,
+      "failedEvents" : [ "xpath //BUTTON[@id = 'crawljax-menu']", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[5]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[6]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 7.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271179707,
+      "nearestState" : "state4"
+    },
+    "state13" : {
+      "name" : "state13",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ ],
+      "fanIn" : 0,
+      "fanOut" : 0,
+      "id" : 13,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271257873,
+      "nearestState" : "state3"
+    },
+    "index" : {
+      "name" : "index",
+      "url" : "http://localhost:4000",
+      "candidateElements" : [ {
+        "top" : 13,
+        "left" : 34,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/HEADER[1]/DIV[1]/A[1]",
+        "width" : 184,
+        "height" : 37
+      }, {
+        "top" : 268,
+        "left" : 150,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 105,
+        "height" : 36
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 1,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271149597,
+      "nearestState" : "null"
+    },
+    "state5" : {
+      "name" : "state5",
+      "url" : "http://localhost:4000/session/S1TxXKqsw",
+      "candidateElements" : [ {
+        "top" : 155,
+        "left" : 754,
+        "xpath" : "//BUTTON[@id = 'crawljax-menu']",
+        "width" : 36,
+        "height" : 36
+      }, {
+        "top" : 277,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 478,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 679,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 450,
+        "left" : 40,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/DIV[2]/SECTION[1]/BUTTON[1]",
+        "width" : 214,
+        "height" : 36
+      }, {
+        "top" : 518,
+        "left" : 741,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/DIV[2]/NAV[1]/BUTTON[1]",
+        "width" : 35,
+        "height" : 36
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 5,
+      "failedEvents" : [ "xpath //BUTTON[@id = 'crawljax-menu']", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 13.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271165812,
+      "nearestState" : "state4"
+    },
+    "state12" : {
+      "name" : "state12",
+      "url" : "http://localhost:4000/session/BkEImt9sw",
+      "candidateElements" : [ {
+        "top" : 277,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 478,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 679,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 12,
+      "failedEvents" : [ "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 11.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271251147,
+      "nearestState" : "state9"
+    },
+    "state8" : {
+      "name" : "state8",
+      "url" : "http://localhost:4000/session/S1TxXKqsw",
+      "candidateElements" : [ {
+        "top" : 1638,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[15]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1638,
+        "left" : 418,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[16]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1754,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[17]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1955,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1955,
+        "left" : 418,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 2071,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 2071,
+        "left" : 418,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 2187,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[5]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1913,
+        "left" : 561,
+        "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/DIV[2]/ASIDE[1]/BUTTON[1]",
+        "width" : 90,
+        "height" : 36
+      }, {
+        "top" : 1913,
+        "left" : 651,
+        "xpath" : "//BUTTON[@id = 'crawljax-logout']",
+        "width" : 103,
+        "height" : 36
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 8,
+      "failedEvents" : [ "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[15]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[16]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[17]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[5]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 15.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271219612,
+      "nearestState" : "state6"
+    },
+    "state7" : {
+      "name" : "state7",
+      "url" : "http://localhost:4000/session/S1TxXKqsw",
+      "candidateElements" : [ {
+        "top" : 1315,
+        "left" : 739,
+        "xpath" : "//BUTTON[@id = 'crawljax-menu']",
+        "width" : 36,
+        "height" : 36
+      }, {
+        "top" : 277,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 277,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 393,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 393,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 509,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[5]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 509,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[6]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 710,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 710,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 826,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 826,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 942,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[5]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 942,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[6]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1058,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[7]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1058,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[8]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1174,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[9]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1174,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[10]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1290,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[11]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1290,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[12]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1406,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[13]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1406,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[14]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1522,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[15]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1522,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[16]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1723,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1723,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1839,
+        "left" : 38,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      }, {
+        "top" : 1839,
+        "left" : 410,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+        "width" : 89,
+        "height" : 36
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 7,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 22.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271202461,
+      "nearestState" : "index"
+    },
+    "state10" : {
+      "name" : "state10",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 10,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 6.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271240082,
+      "nearestState" : "state9"
+    },
+    "state4" : {
+      "name" : "state4",
+      "url" : "http://localhost:4000/session/S1TxXKqsw",
+      "candidateElements" : [ {
+        "top" : 12,
+        "left" : 718,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/HEADER[1]/DIV[2]/SPAN[2]/BUTTON[1]",
+        "width" : 36,
+        "height" : 36
+      }, {
+        "top" : 12,
+        "left" : 754,
+        "xpath" : "//BUTTON[@id = 'crawljax-menu']",
+        "width" : 36,
+        "height" : 36
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 4,
+      "failedEvents" : [ "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/SECTION[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/SECTION[1]/BUTTON[1]", "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/SECTION[1]/BUTTON[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271159315,
+      "nearestState" : "index"
+    },
+    "state3" : {
+      "name" : "state3",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 417,
+        "left" : 48,
+        "xpath" : "//DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/SECTION[1]/BUTTON[1]",
+        "width" : 704,
+        "height" : 36
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 3,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 4.0,
+      "cluster" : -1,
+      "timeAdded" : 1607271156781,
+      "nearestState" : "index"
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Let's start",
+    "id" : "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Let's start, attributes={class=theme__button___1iKuo theme__raised___ONZv6 theme__accent___3MS_k, data-react-toolbox=button, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/INPUT[1]##admin,user"
+  }, {
+    "from" : "state3",
+    "to" : "state4",
+    "text" : "Create a new session",
+    "id" : "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/SECTION[1]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create a new session, attributes={class=theme__button___1iKuo theme__raised___ONZv6 theme__accent___3MS_k, data-react-toolbox=button, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Work,All the rest:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Social life,Time off:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Brilliant idea,Work remotely"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'content']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/HEADER[1]/DIV[2]/SPAN[2]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=, attributes={class=theme__toggle___1Zy-o theme__neutral___uDC3j theme__inverse___2Z8iZ, data-react-toolbox=button, title=Invite, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Work,All the rest:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Social life,Time off:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Brilliant idea,Work remotely"
+  }, {
+    "from" : "state5",
+    "to" : "state6",
+    "text" : "Copy URL to Clipboard",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[2]/DIV[1]/DIV[2]/SECTION[1]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Copy URL to Clipboard, attributes={class=theme__button___1iKuo theme__flat___2ui7t theme__primary___2NhN1, data-react-toolbox=button, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Work,All the rest:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Social life,Time off:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Brilliant idea,Work remotely"
+  }, {
+    "from" : "state6",
+    "to" : "state7",
+    "text" : "Ok",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[2]/DIV[1]/DIV[2]/NAV[1]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Ok, attributes={class=theme__button___1iKuo theme__flat___2ui7t theme__neutral___uDC3j theme__button___3HGWm, data-react-toolbox=button, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Work,All the rest:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Social life,Time off:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Brilliant idea,Work remotely"
+  }, {
+    "from" : "state7",
+    "to" : "state8",
+    "text" : "menu",
+    "id" : "xpath //BUTTON[@id = 'crawljax-menu']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=menu, attributes={class=theme__toggle___1Zy-o theme__neutral___uDC3j theme__inverse___2Z8iZ, data-react-toolbox=button, id=crawljax-menu, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Work,All the rest:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Social life,Time off:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Brilliant idea,Work remotely"
+  }, {
+    "from" : "state8",
+    "to" : "state9",
+    "text" : "Leave",
+    "id" : "xpath /HTML[1]/BODY[1]/DIV[2]/DIV[1]/DIV[2]/ASIDE[1]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Leave, attributes={class=theme__button___1iKuo theme__flat___2ui7t theme__accent___3MS_k, data-react-toolbox=button, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Work,All the rest:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Social life,Time off:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Brilliant idea,Work remotely"
+  }, {
+    "from" : "state9",
+    "to" : "state10",
+    "text" : "Logout",
+    "id" : "xpath //BUTTON[@id = 'crawljax-logout']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Logout, attributes={class=theme__button___1iKuo theme__flat___2ui7t theme__accent___3MS_k, data-react-toolbox=button, id=crawljax-logout, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state4",
+    "to" : "state12",
+    "text" : "menu",
+    "id" : "xpath //BUTTON[@id = 'crawljax-menu']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=menu, attributes={class=theme__toggle___1Zy-o theme__neutral___uDC3j theme__inverse___2Z8iZ, data-react-toolbox=button, id=crawljax-menu, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Work,All the rest:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Social life,Time off:xpath##/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/INPUT[1]##Brilliant idea,Work remotely"
+  } ],
+  "statistics" : {
+    "duration" : "2 minutes 4 seconds",
+    "crawlPaths" : 2,
+    "averageDomSize" : "65.976 kB",
+    "edges" : 9,
+    "startDate" : "2020-12-06 19:12:20 TRT",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state13",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "state13",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "state4",
+        "count" : 2
+      },
+      "mostFanIn" : {
+        "id" : "state9",
+        "count" : 1
+      },
+      "totalNumberOfStates" : 11,
+      "urls" : {
+        "http://localhost:4000/" : [ "state9", "state13", "state10", "state3" ],
+        "http://localhost:4000/session/S1TxXKqsw" : [ "state6", "state5", "state8", "state7", "state4" ],
+        "http://localhost:4000" : [ "index" ],
+        "http://localhost:4000/session/BkEImt9sw" : [ "state12" ]
+      }
+    },
+    "failedEvents" : 27
+  },
+  "exitStatus" : "EXHAUSTED"
+}

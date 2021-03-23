@@ -1,0 +1,1172 @@
+{
+  "nodes" : [ {
+    "name" : "state31",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ {
+      "top" : 264,
+      "left" : 564,
+      "xpath" : "//TABLE[@id = 'specialties']/TBODY[1]/TR[1]/TD[2]/BUTTON[2]",
+      "width" : 71,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 31,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517493456,
+    "nearestState" : "state30"
+  }, {
+    "name" : "state30",
+    "url" : "http://localhost:3000/petclinic/specialties/1/edit",
+    "candidateElements" : [ {
+      "top" : 218,
+      "left" : 518,
+      "xpath" : "//FORM[@id = 'specialty']/DIV[2]/DIV[1]/BUTTON[1]",
+      "width" : 77,
+      "height" : 36
+    }, {
+      "top" : 218,
+      "left" : 595,
+      "xpath" : "//FORM[@id = 'specialty']/DIV[2]/DIV[1]/BUTTON[2]",
+      "width" : 73,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 30,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517489449,
+    "nearestState" : "state29"
+  }, {
+    "name" : "state52",
+    "url" : "http://localhost:3000/petclinic/vets",
+    "candidateElements" : [ {
+      "top" : 276,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-VET-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 276,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-VET-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[2]",
+      "width" : 81,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 52,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517585672,
+    "nearestState" : "state51"
+  }, {
+    "name" : "state51",
+    "url" : "http://localhost:3000/petclinic/vets/add",
+    "candidateElements" : [ {
+      "top" : 385,
+      "left" : 209,
+      "xpath" : "//FORM[@id = 'vet']/DIV[5]/DIV[1]/BUTTON[1]",
+      "width" : 72,
+      "height" : 36
+    }, {
+      "top" : 385,
+      "left" : 282,
+      "xpath" : "//FORM[@id = 'vet']/DIV[5]/DIV[1]/BUTTON[2]",
+      "width" : 86,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 51,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517581689,
+    "nearestState" : "state49"
+  }, {
+    "name" : "state6",
+    "url" : "http://localhost:3000/petclinic/welcome",
+    "candidateElements" : [ {
+      "top" : 68,
+      "left" : 245,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 169,
+      "height" : 76
+    }, {
+      "top" : 150,
+      "left" : 246,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[3]/UL[1]/LI[1]/A[1]",
+      "width" : 158,
+      "height" : 76
+    }, {
+      "top" : 226,
+      "left" : 246,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[3]/UL[1]/LI[2]/A[1]",
+      "width" : 158,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 414,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 130,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 544,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[5]/A[1]",
+      "width" : 144,
+      "height" : 76
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 6,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517400502,
+    "nearestState" : "state4"
+  }, {
+    "name" : "state8",
+    "url" : "http://localhost:3000/petclinic/pettypes",
+    "candidateElements" : [ {
+      "top" : 68,
+      "left" : 414,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 130,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 544,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[5]/A[1]",
+      "width" : 144,
+      "height" : 76
+    }, {
+      "top" : 276,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-PETTYPE-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 276,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-PETTYPE-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[2]",
+      "width" : 55,
+      "height" : 36
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 3,
+    "id" : 8,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517405882,
+    "nearestState" : "state6"
+  }, {
+    "name" : "state4",
+    "url" : "http://localhost:3000/petclinic/welcome",
+    "candidateElements" : [ {
+      "top" : 68,
+      "left" : 129,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 116,
+      "height" : 76
+    }, {
+      "top" : 150,
+      "left" : 130,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[2]/UL[1]/LI[1]/A[1]",
+      "width" : 158,
+      "height" : 76
+    }, {
+      "top" : 226,
+      "left" : 130,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[2]/UL[1]/LI[2]/A[1]",
+      "width" : 158,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 245,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 169,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 414,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 130,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 544,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[5]/A[1]",
+      "width" : 144,
+      "height" : 76
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 4,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517395620,
+    "nearestState" : "index"
+  }, {
+    "name" : "state19",
+    "url" : "http://localhost:3000/petclinic/owners",
+    "candidateElements" : [ {
+      "top" : 276,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-LIST[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 103,
+      "height" : 36
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 1,
+    "id" : 19,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517442562,
+    "nearestState" : "state17"
+  }, {
+    "name" : "state11",
+    "url" : "http://localhost:3000/petclinic/pettypes",
+    "candidateElements" : [ {
+      "top" : 68,
+      "left" : 544,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[5]/A[1]",
+      "width" : 144,
+      "height" : 76
+    }, {
+      "top" : 276,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-PETTYPE-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 276,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-PETTYPE-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[2]",
+      "width" : 55,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 11,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517414644,
+    "nearestState" : "state10"
+  }, {
+    "name" : "state55",
+    "url" : "http://localhost:3000/petclinic/vets/add",
+    "candidateElements" : [ {
+      "top" : 385,
+      "left" : 209,
+      "xpath" : "//FORM[@id = 'vet']/DIV[5]/DIV[1]/BUTTON[1]",
+      "width" : 72,
+      "height" : 36
+    }, {
+      "top" : 385,
+      "left" : 282,
+      "xpath" : "//FORM[@id = 'vet']/DIV[5]/DIV[1]/BUTTON[2]",
+      "width" : 86,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 55,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517598634,
+    "nearestState" : "state52"
+  }, {
+    "name" : "state10",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ {
+      "top" : 68,
+      "left" : 414,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 130,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 544,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[5]/A[1]",
+      "width" : 144,
+      "height" : 76
+    }, {
+      "top" : 276,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-SPECIALTY-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 276,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-SPECIALTY-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[2]",
+      "width" : 55,
+      "height" : 36
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 3,
+    "id" : 10,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517410832,
+    "nearestState" : "state8"
+  }, {
+    "name" : "state17",
+    "url" : "http://localhost:3000/petclinic/welcome",
+    "candidateElements" : [ ],
+    "fanIn" : 2,
+    "fanOut" : 0,
+    "id" : 17,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517432663,
+    "nearestState" : "state16"
+  }, {
+    "name" : "state39",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ {
+      "top" : 264,
+      "left" : 564,
+      "xpath" : "//TABLE[@id = 'specialties']/TBODY[1]/TR[1]/TD[2]/BUTTON[2]",
+      "width" : 71,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 39,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517530523,
+    "nearestState" : "state38"
+  }, {
+    "name" : "state16",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ {
+      "top" : 276,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-SPECIALTY-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 276,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-SPECIALTY-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[2]",
+      "width" : 55,
+      "height" : 36
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 16,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517429144,
+    "nearestState" : "state14"
+  }, {
+    "name" : "state38",
+    "url" : "http://localhost:3000/petclinic/specialties/2/edit",
+    "candidateElements" : [ {
+      "top" : 218,
+      "left" : 518,
+      "xpath" : "//FORM[@id = 'specialty']/DIV[2]/DIV[1]/BUTTON[1]",
+      "width" : 77,
+      "height" : 36
+    }, {
+      "top" : 218,
+      "left" : 595,
+      "xpath" : "//FORM[@id = 'specialty']/DIV[2]/DIV[1]/BUTTON[2]",
+      "width" : 73,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 38,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517526755,
+    "nearestState" : "state37"
+  }, {
+    "name" : "state37",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ {
+      "top" : 264,
+      "left" : 509,
+      "xpath" : "//TABLE[@id = 'specialties']/TBODY[1]/TR[1]/TD[2]/BUTTON[1]",
+      "width" : 55,
+      "height" : 36
+    }, {
+      "top" : 264,
+      "left" : 564,
+      "xpath" : "//TABLE[@id = 'specialties']/TBODY[1]/TR[1]/TD[2]/BUTTON[2]",
+      "width" : 71,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 37,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517523067,
+    "nearestState" : "state36"
+  }, {
+    "name" : "state59",
+    "url" : "http://localhost:3000/petclinic/pettypes",
+    "candidateElements" : [ {
+      "top" : 264,
+      "left" : 509,
+      "xpath" : "//TABLE[@id = 'pettypes']/TBODY[1]/TR[1]/TD[2]/BUTTON[1]",
+      "width" : 55,
+      "height" : 36
+    }, {
+      "top" : 264,
+      "left" : 564,
+      "xpath" : "//TABLE[@id = 'pettypes']/TBODY[1]/TR[1]/TD[2]/BUTTON[2]",
+      "width" : 71,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 59,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517615095,
+    "nearestState" : "state58"
+  }, {
+    "name" : "state14",
+    "url" : "http://localhost:3000/petclinic/welcome",
+    "candidateElements" : [ ],
+    "fanIn" : 3,
+    "fanOut" : 0,
+    "id" : 14,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517420884,
+    "nearestState" : "state11"
+  }, {
+    "name" : "state36",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ {
+      "top" : 350,
+      "left" : 538,
+      "xpath" : "//FORM[@id = 'specialty']/DIV[2]/DIV[1]/BUTTON[1]",
+      "width" : 59,
+      "height" : 36
+    }, {
+      "top" : 516,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-SPECIALTY-LIST[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 516,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-SPECIALTY-LIST[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[2]",
+      "width" : 55,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 36,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517519023,
+    "nearestState" : "state31"
+  }, {
+    "name" : "state58",
+    "url" : "http://localhost:3000/petclinic/pettypes",
+    "candidateElements" : [ {
+      "top" : 350,
+      "left" : 538,
+      "xpath" : "//FORM[@id = 'pettype']/DIV[2]/DIV[1]/BUTTON[1]",
+      "width" : 59,
+      "height" : 36
+    }, {
+      "top" : 516,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-PETTYPE-LIST[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 516,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-PETTYPE-LIST[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[2]",
+      "width" : 55,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 58,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517610805,
+    "nearestState" : "state55"
+  }, {
+    "name" : "state60",
+    "url" : "http://localhost:3000/petclinic/pettypes/1/edit",
+    "candidateElements" : [ {
+      "top" : 218,
+      "left" : 518,
+      "xpath" : "//FORM[@id = 'pettype']/DIV[2]/DIV[1]/BUTTON[1]",
+      "width" : 77,
+      "height" : 36
+    }, {
+      "top" : 218,
+      "left" : 595,
+      "xpath" : "//FORM[@id = 'pettype']/DIV[2]/DIV[1]/BUTTON[2]",
+      "width" : 73,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 60,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517619134,
+    "nearestState" : "state59"
+  }, {
+    "name" : "state20",
+    "url" : "http://localhost:3000/petclinic/owners/add",
+    "candidateElements" : [ {
+      "top" : 463,
+      "left" : 209,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-ADD[1]/DIV[1]/DIV[1]/FORM[1]/DIV[7]/DIV[1]/BUTTON[1]",
+      "width" : 61,
+      "height" : 36
+    }, {
+      "top" : 463,
+      "left" : 270,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-ADD[1]/DIV[1]/DIV[1]/FORM[1]/DIV[7]/DIV[1]/BUTTON[2]",
+      "width" : 103,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 20,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517446121,
+    "nearestState" : "state19"
+  }, {
+    "name" : "state42",
+    "url" : "http://localhost:3000/petclinic/owners/add",
+    "candidateElements" : [ {
+      "top" : 463,
+      "left" : 209,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-ADD[1]/DIV[1]/DIV[1]/FORM[1]/DIV[7]/DIV[1]/BUTTON[1]",
+      "width" : 61,
+      "height" : 36
+    }, {
+      "top" : 463,
+      "left" : 270,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-ADD[1]/DIV[1]/DIV[1]/FORM[1]/DIV[7]/DIV[1]/BUTTON[2]",
+      "width" : 103,
+      "height" : 36
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 42,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517542221,
+    "nearestState" : "state39"
+  }, {
+    "name" : "state61",
+    "url" : "http://localhost:3000/petclinic/pettypes",
+    "candidateElements" : [ {
+      "top" : 264,
+      "left" : 564,
+      "xpath" : "//TABLE[@id = 'pettypes']/TBODY[1]/TR[1]/TD[2]/BUTTON[2]",
+      "width" : 71,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 61,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517622869,
+    "nearestState" : "state60"
+  }, {
+    "name" : "index",
+    "url" : "http://localhost:3000",
+    "candidateElements" : [ {
+      "top" : 16,
+      "left" : 15,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 229,
+      "height" : 46
+    }, {
+      "top" : 68,
+      "left" : 30,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 100,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 129,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 116,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 245,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[3]/A[1]",
+      "width" : 169,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 414,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[4]/A[1]",
+      "width" : 130,
+      "height" : 76
+    }, {
+      "top" : 68,
+      "left" : 544,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/DIV[1]/NAV[1]/DIV[1]/UL[1]/LI[5]/A[1]",
+      "width" : 144,
+      "height" : 76
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 4,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517382713,
+    "nearestState" : "null"
+  }, {
+    "name" : "state29",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ {
+      "top" : 264,
+      "left" : 509,
+      "xpath" : "//TABLE[@id = 'specialties']/TBODY[1]/TR[1]/TD[2]/BUTTON[1]",
+      "width" : 55,
+      "height" : 36
+    }, {
+      "top" : 264,
+      "left" : 564,
+      "xpath" : "//TABLE[@id = 'specialties']/TBODY[1]/TR[1]/TD[2]/BUTTON[2]",
+      "width" : 71,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 29,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517485592,
+    "nearestState" : "state28"
+  }, {
+    "name" : "state46",
+    "url" : "http://localhost:3000/petclinic/owners/1",
+    "candidateElements" : [ {
+      "top" : 386,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-DETAIL[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 72,
+      "height" : 36
+    }, {
+      "top" : 386,
+      "left" : 153,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-DETAIL[1]/DIV[1]/DIV[1]/BUTTON[2]",
+      "width" : 103,
+      "height" : 36
+    }, {
+      "top" : 386,
+      "left" : 256,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-DETAIL[1]/DIV[1]/DIV[1]/BUTTON[3]",
+      "width" : 115,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 46,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517557100,
+    "nearestState" : "state45"
+  }, {
+    "name" : "state68",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 68,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517663301,
+    "nearestState" : "state61"
+  }, {
+    "name" : "state23",
+    "url" : "http://localhost:3000/petclinic/vets",
+    "candidateElements" : [ {
+      "top" : 276,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-VET-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 276,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-VET-LIST[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[2]",
+      "width" : 81,
+      "height" : 36
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 23,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517458609,
+    "nearestState" : "state20"
+  }, {
+    "name" : "state45",
+    "url" : "http://localhost:3000/petclinic/owners",
+    "candidateElements" : [ {
+      "top" : 266,
+      "left" : 89,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-LIST[1]/DIV[1]/DIV[1]/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[1]/A[1]",
+      "width" : 88,
+      "height" : 16
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 1,
+    "id" : 45,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517552967,
+    "nearestState" : "state43"
+  }, {
+    "name" : "state43",
+    "url" : "http://localhost:3000/petclinic/owners",
+    "candidateElements" : [ {
+      "top" : 276,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-OWNER-LIST[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 103,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 43,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517547092,
+    "nearestState" : "state42"
+  }, {
+    "name" : "state28",
+    "url" : "http://localhost:3000/petclinic/specialties",
+    "candidateElements" : [ {
+      "top" : 350,
+      "left" : 538,
+      "xpath" : "//FORM[@id = 'specialty']/DIV[2]/DIV[1]/BUTTON[1]",
+      "width" : 59,
+      "height" : 36
+    }, {
+      "top" : 516,
+      "left" : 81,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-SPECIALTY-LIST[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[1]",
+      "width" : 68,
+      "height" : 36
+    }, {
+      "top" : 516,
+      "left" : 149,
+      "xpath" : "/HTML[1]/BODY[1]/APP-ROOT[1]/APP-SPECIALTY-LIST[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[2]",
+      "width" : 55,
+      "height" : 36
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 28,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517481549,
+    "nearestState" : "state26"
+  }, {
+    "name" : "state49",
+    "url" : "http://localhost:3000/petclinic/owners",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 49,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517572621,
+    "nearestState" : "state46"
+  }, {
+    "name" : "state26",
+    "url" : "http://localhost:3000/petclinic/welcome",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 26,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1602517470368,
+    "nearestState" : "state23"
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 4,
+    "text" : "Owners",
+    "element" : "Element{node=[A: null], tag=A, text=Owners, attributes={_ngcontent-c0=, aria-expanded=false, aria-haspopup=true, class=dropdown-toggle, data-toggle=dropdown, role=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 4,
+    "target" : 0,
+    "text" : "Owners",
+    "element" : "Element{node=[A: null], tag=A, text=Owners, attributes={_ngcontent-c0=, aria-expanded=true, aria-haspopup=true, class=dropdown-toggle, data-toggle=dropdown, role=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 6,
+    "text" : "Veterinarians",
+    "element" : "Element{node=[A: null], tag=A, text=Veterinarians, attributes={_ngcontent-c0=, aria-expanded=false, aria-haspopup=true, class=dropdown-toggle, data-toggle=dropdown, role=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 0,
+    "text" : "Veterinarians",
+    "element" : "Element{node=[A: null], tag=A, text=Veterinarians, attributes={_ngcontent-c0=, aria-expanded=true, aria-haspopup=true, class=dropdown-toggle, data-toggle=dropdown, role=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 8,
+    "text" : "Pet Types",
+    "element" : "Element{node=[A: null], tag=A, text=Pet Types, attributes={_ngcontent-c0=, href=/petclinic/pettypes, ng-reflect-router-link=/pettypes, ng-reflect-router-link-active=active, routerlink=/pettypes, routerlinkactive=active, title=pettypes}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 10,
+    "text" : "Specialties",
+    "element" : "Element{node=[A: null], tag=A, text=Specialties, attributes={_ngcontent-c0=, href=/petclinic/specialties, ng-reflect-router-link=/specialties, ng-reflect-router-link-active=active, routerlink=/specialties, routerlinkactive=active, title=specialties}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 11,
+    "text" : "Pet Types",
+    "element" : "Element{node=[A: null], tag=A, text=Pet Types, attributes={_ngcontent-c0=, class=, href=/petclinic/pettypes, ng-reflect-router-link=/pettypes, ng-reflect-router-link-active=active, routerlink=/pettypes, routerlinkactive=active, title=pettypes}}",
+    "eventType" : "click"
+  }, {
+    "source" : 11,
+    "target" : 10,
+    "text" : "Specialties",
+    "element" : "Element{node=[A: null], tag=A, text=Specialties, attributes={_ngcontent-c0=, class=, href=/petclinic/specialties, ng-reflect-router-link=/specialties, ng-reflect-router-link-active=active, routerlink=/specialties, routerlinkactive=active, title=specialties}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 14,
+    "text" : "Home",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Home, attributes={_ngcontent-c4=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 16,
+    "text" : "Specialties",
+    "element" : "Element{node=[A: null], tag=A, text=Specialties, attributes={_ngcontent-c0=, href=/petclinic/specialties, ng-reflect-router-link=/specialties, ng-reflect-router-link-active=active, routerlink=/specialties, routerlinkactive=active, title=specialties}}",
+    "eventType" : "click"
+  }, {
+    "source" : 16,
+    "target" : 17,
+    "text" : "Home",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Home, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 4,
+    "target" : 19,
+    "text" : "All",
+    "element" : "Element{node=[A: null], tag=A, text=All, attributes={_ngcontent-c0=, href=/petclinic/owners, ng-reflect-router-link=/owners, routerlink=/owners}}",
+    "eventType" : "click"
+  }, {
+    "source" : 19,
+    "target" : 20,
+    "text" : "Add Owner",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add Owner, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 20,
+    "target" : 19,
+    "text" : "Back",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={_ngcontent-c3=, class=btn btn-default, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 23,
+    "text" : "All",
+    "element" : "Element{node=[A: null], tag=A, text=All, attributes={_ngcontent-c0=, href=/petclinic/vets, ng-reflect-router-link=/vets, routerlink=/vets}}",
+    "eventType" : "click"
+  }, {
+    "source" : 23,
+    "target" : 0,
+    "text" : "Home",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Home, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 26,
+    "text" : "Home",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Home, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 28,
+    "text" : "Add",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add, attributes={_ngcontent-c4=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 28,
+    "target" : 29,
+    "text" : "Save",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Save, attributes={_ngcontent-c5=, class=btn btn-default, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 29,
+    "target" : 30,
+    "text" : "Edit",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Edit, attributes={_ngcontent-c4=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 30,
+    "target" : 31,
+    "text" : "Update",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Update, attributes={_ngcontent-c6=, class=btn btn-default, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 31,
+    "target" : 10,
+    "text" : "Delete",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Delete, attributes={_ngcontent-c4=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 11,
+    "target" : 14,
+    "text" : "Home",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Home, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 16,
+    "target" : 36,
+    "text" : "Add",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 36,
+    "target" : 37,
+    "text" : "Save",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Save, attributes={_ngcontent-c3=, class=btn btn-default, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 37,
+    "target" : 38,
+    "text" : "Edit",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Edit, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 38,
+    "target" : 39,
+    "text" : "Update",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Update, attributes={_ngcontent-c4=, class=btn btn-default, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 39,
+    "target" : 16,
+    "text" : "Delete",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Delete, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 4,
+    "target" : 42,
+    "text" : "Add New",
+    "element" : "Element{node=[A: null], tag=A, text=Add New, attributes={_ngcontent-c0=, href=/petclinic/owners/add, ng-reflect-router-link=/owners/add, routerlink=/owners/add}}",
+    "eventType" : "click"
+  }, {
+    "source" : 42,
+    "target" : 43,
+    "text" : "Back",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={_ngcontent-c2=, class=btn btn-default, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 43,
+    "target" : 42,
+    "text" : "Add Owner",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add Owner, attributes={_ngcontent-c3=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 42,
+    "target" : 45,
+    "text" : "Add Owner",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add Owner, attributes={_ngcontent-c2=, class=btn btn-default, disabled=, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 45,
+    "target" : 46,
+    "text" : "Jean Franklin",
+    "element" : "Element{node=[A: null], tag=A, text=Jean Franklin, attributes={_ngcontent-c3=, href=/petclinic/owners/1, ng-reflect-router-link=/owners/1, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 46,
+    "target" : 45,
+    "text" : "< Back",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=< Back, attributes={_ngcontent-c4=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 20,
+    "target" : 49,
+    "text" : "Add Owner",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add Owner, attributes={_ngcontent-c3=, class=btn btn-default, disabled=, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 51,
+    "text" : "Add New",
+    "element" : "Element{node=[A: null], tag=A, text=Add New, attributes={_ngcontent-c0=, href=/petclinic/vets/add, ng-reflect-router-link=/vets/add, routerlink=/vets/add}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 52,
+    "text" : "< Back",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=< Back, attributes={_ngcontent-c2=, class=btn btn-default, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 52,
+    "target" : 0,
+    "text" : "Home",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Home, attributes={_ngcontent-c3=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 23,
+    "target" : 55,
+    "text" : "Add Vet",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add Vet, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 55,
+    "target" : 23,
+    "text" : "< Back",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=< Back, attributes={_ngcontent-c3=, class=btn btn-default, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 8,
+    "target" : 58,
+    "text" : "Add",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 58,
+    "target" : 59,
+    "text" : "Save",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Save, attributes={_ngcontent-c3=, class=btn btn-default, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 59,
+    "target" : 60,
+    "text" : "Edit",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Edit, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 60,
+    "target" : 61,
+    "text" : "Update",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Update, attributes={_ngcontent-c4=, class=btn btn-default, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 61,
+    "target" : 8,
+    "text" : "Delete",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Delete, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 28,
+    "target" : 14,
+    "text" : "Home",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Home, attributes={_ngcontent-c4=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 29,
+    "target" : 10,
+    "text" : "Delete",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Delete, attributes={_ngcontent-c4=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 30,
+    "target" : 68,
+    "text" : "Cancel",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Cancel, attributes={_ngcontent-c6=, class=btn btn-default}}",
+    "eventType" : "click"
+  }, {
+    "source" : 36,
+    "target" : 17,
+    "text" : "Home",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Home, attributes={_ngcontent-c2=, class=btn btn-default}}",
+    "eventType" : "click"
+  } ]
+}

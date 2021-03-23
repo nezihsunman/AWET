@@ -1,0 +1,587 @@
+{
+  "url" : "http://localhost:3000",
+  "basicAuthUrl" : null,
+  "browserConfig" : {
+    "browserType" : "CHROME",
+    "numberOfBrowsers" : 1,
+    "browserBuilder" : { },
+    "remoteHubUrl" : null,
+    "browserOptions" : {
+      "headless" : false,
+      "pixelDensity" : 2
+    },
+    "defaultBuilder" : true,
+    "langOrNull" : null
+  },
+  "plugins" : [ "CrawlOverview", "TestSuiteGenerator" ],
+  "proxyConfiguration" : {
+    "port" : -1,
+    "hostname" : "none",
+    "type" : "NOTHING"
+  },
+  "crawlRules" : {
+    "crawlEvents" : [ "click" ],
+    "invariants" : [ ],
+    "oracleComparators" : [ {
+      "preConditions" : [ ],
+      "id" : "SimpleComparator",
+      "oracle" : { }
+    } ],
+    "ignoredFrameIdentifiers" : [ ],
+    "preCrawlConfig" : {
+      "waitConditions" : [ ],
+      "crawlConditions" : [ ],
+      "includedElements" : [ {
+        "tagName" : "A",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id649734728",
+        "eventType" : "click",
+        "eventableCondition" : null,
+        "withXpathExpression" : null
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1595953398",
+        "eventType" : "click",
+        "eventableCondition" : null,
+        "withXpathExpression" : null
+      }, {
+        "tagName" : "INPUT",
+        "attributeName" : "type",
+        "attributeValue" : "submit",
+        "text" : "",
+        "id" : "id998351292",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id998351292",
+          "conditions" : [ ],
+          "inXPath" : "//INPUT[@type='submit']",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "//INPUT[@type='submit']"
+      }, {
+        "tagName" : "INPUT",
+        "attributeName" : "type",
+        "attributeValue" : "button",
+        "text" : "",
+        "id" : "id1684106402",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1684106402",
+          "conditions" : [ ],
+          "inXPath" : "//INPUT[@type='button']",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "//INPUT[@type='button']"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1816326817",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1816326817",
+          "conditions" : [ ],
+          "inXPath" : "//A[contains(.,\\'Your Shop Name\\')]",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "//a[contains(.,\\'Your Shop Name\\')]"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id396821493",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id396821493",
+          "conditions" : [ ],
+          "inXPath" : "back",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "back"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1609742538",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1609742538",
+          "conditions" : [ ],
+          "inXPath" : "back",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "back"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1636487850",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1636487850",
+          "conditions" : [ ],
+          "inXPath" : "back",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "back"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id447144896",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id447144896",
+          "conditions" : [ ],
+          "inXPath" : "description-1-1",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "description-1-1"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id892466122",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id892466122",
+          "conditions" : [ ],
+          "inXPath" : "first-category",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "first-category"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id2144282958",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id2144282958",
+          "conditions" : [ ],
+          "inXPath" : "go-to-cart",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "go-to-cart"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1214753695",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1214753695",
+          "conditions" : [ ],
+          "inXPath" : "home",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "home"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1710422448",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1710422448",
+          "conditions" : [ ],
+          "inXPath" : "product-1-1",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "product-1-1"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1609038183",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1609038183",
+          "conditions" : [ ],
+          "inXPath" : "product-1-1",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "product-1-1"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1508130444",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1508130444",
+          "conditions" : [ ],
+          "inXPath" : "product-2-1",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "product-2-1"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id749362556",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id749362556",
+          "conditions" : [ ],
+          "inXPath" : "purchased",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "purchased"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1583816224",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1583816224",
+          "conditions" : [ ],
+          "inXPath" : "second-category",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "second-category"
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1051453514",
+        "eventType" : "click",
+        "eventableCondition" : {
+          "id" : "id1051453514",
+          "conditions" : [ ],
+          "inXPath" : "third-category",
+          "linkedInputFields" : [ ]
+        },
+        "withXpathExpression" : "third-category"
+      }, {
+        "tagName" : "A",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id1187225933",
+        "eventType" : "click",
+        "eventableCondition" : null,
+        "withXpathExpression" : null
+      }, {
+        "tagName" : "BUTTON",
+        "attributeName" : "",
+        "attributeValue" : "",
+        "text" : "",
+        "id" : "id956061012",
+        "eventType" : "click",
+        "eventableCondition" : null,
+        "withXpathExpression" : null
+      } ],
+      "excludedElements" : [ ],
+      "filterAttributeNames" : [ "closure_hashcode_(\\w)*", "jquery[0-9]+" ]
+    },
+    "formFillMode" : "NORMAL",
+    "inputSpecification" : {
+      "formInputs" : { },
+      "forms" : [ ],
+      "crawlElements" : [ ]
+    },
+    "testInvariantsWhileCrawling" : true,
+    "clickOnce" : true,
+    "randomizeCandidateElements" : false,
+    "crawlHiddenAnchors" : false,
+    "waitAfterReloadUrl" : 200,
+    "waitAfterEvent" : 250,
+    "disableIdAndNameIdentification" : false,
+    "inputFieldIdsWithEnterClick" : [ ],
+    "crawlPriorityMode" : "NORMAL",
+    "crawlNearDuplicates" : true,
+    "delayNearDuplicateCrawling" : true,
+    "allCrawlElements" : [ {
+      "tagName" : "A",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id649734728",
+      "eventType" : "click",
+      "eventableCondition" : null,
+      "withXpathExpression" : null
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1595953398",
+      "eventType" : "click",
+      "eventableCondition" : null,
+      "withXpathExpression" : null
+    }, {
+      "tagName" : "INPUT",
+      "attributeName" : "type",
+      "attributeValue" : "submit",
+      "text" : "",
+      "id" : "id998351292",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id998351292",
+        "conditions" : [ ],
+        "inXPath" : "//INPUT[@type='submit']",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "//INPUT[@type='submit']"
+    }, {
+      "tagName" : "INPUT",
+      "attributeName" : "type",
+      "attributeValue" : "button",
+      "text" : "",
+      "id" : "id1684106402",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1684106402",
+        "conditions" : [ ],
+        "inXPath" : "//INPUT[@type='button']",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "//INPUT[@type='button']"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1816326817",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1816326817",
+        "conditions" : [ ],
+        "inXPath" : "//A[contains(.,\\'Your Shop Name\\')]",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "//a[contains(.,\\'Your Shop Name\\')]"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id396821493",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id396821493",
+        "conditions" : [ ],
+        "inXPath" : "back",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "back"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1609742538",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1609742538",
+        "conditions" : [ ],
+        "inXPath" : "back",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "back"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1636487850",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1636487850",
+        "conditions" : [ ],
+        "inXPath" : "back",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "back"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id447144896",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id447144896",
+        "conditions" : [ ],
+        "inXPath" : "description-1-1",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "description-1-1"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id892466122",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id892466122",
+        "conditions" : [ ],
+        "inXPath" : "first-category",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "first-category"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id2144282958",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id2144282958",
+        "conditions" : [ ],
+        "inXPath" : "go-to-cart",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "go-to-cart"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1214753695",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1214753695",
+        "conditions" : [ ],
+        "inXPath" : "home",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "home"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1710422448",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1710422448",
+        "conditions" : [ ],
+        "inXPath" : "product-1-1",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "product-1-1"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1609038183",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1609038183",
+        "conditions" : [ ],
+        "inXPath" : "product-1-1",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "product-1-1"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1508130444",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1508130444",
+        "conditions" : [ ],
+        "inXPath" : "product-2-1",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "product-2-1"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id749362556",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id749362556",
+        "conditions" : [ ],
+        "inXPath" : "purchased",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "purchased"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1583816224",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1583816224",
+        "conditions" : [ ],
+        "inXPath" : "second-category",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "second-category"
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1051453514",
+      "eventType" : "click",
+      "eventableCondition" : {
+        "id" : "id1051453514",
+        "conditions" : [ ],
+        "inXPath" : "third-category",
+        "linkedInputFields" : [ ]
+      },
+      "withXpathExpression" : "third-category"
+    }, {
+      "tagName" : "A",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id1187225933",
+      "eventType" : "click",
+      "eventableCondition" : null,
+      "withXpathExpression" : null
+    }, {
+      "tagName" : "BUTTON",
+      "attributeName" : "",
+      "attributeValue" : "",
+      "text" : "",
+      "id" : "id956061012",
+      "eventType" : "click",
+      "eventableCondition" : null,
+      "withXpathExpression" : null
+    } ]
+  },
+  "maximumStates" : 0,
+  "maximumRuntime" : 300000,
+  "maximumDepth" : 0,
+  "considerCandidateElementsOnce" : "fired",
+  "crawlPathSeparator" : "-----",
+  "seleniumActionsFileName" : "selenium-actions-ecommerce-fired.txt",
+  "handleSameFormInputsOncePerState" : true,
+  "stateVertexFactory" : null,
+  "siteDir" : "/home/nezihsunman/workspace/AWET/awet/applications/ecommerce/localhost",
+  "outputDir" : "/home/nezihsunman/workspace/AWET/awet/applications/ecommerce/localhost/crawl0"
+}

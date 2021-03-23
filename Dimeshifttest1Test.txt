@@ -1,0 +1,56 @@
+@Test
+public void dimeshifttest1() {
+    driver.get("http://localhost:4000/");
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("$ dimeshift")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("$ dimeshift")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Home")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("image-link-1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".mfp-close")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("API")).click();
+Thread.sleep(3000);
+
+    driver.close();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);
+@Test
+public void dimeshifttest1() {
+    driver.get("http://localhost:4000/");
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("$ dimeshift")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("$ dimeshift")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Home")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("image-link-1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".mfp-close")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("API")).click();
+Thread.sleep(3000);
+
+    driver.close();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

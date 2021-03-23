@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/cs402?useSSL=false&amp;serverTimezone=UTC</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">123456789</property>
+    <!-- JDBC connection pool settings ... using built-in test pool -->
+    <property name="hibernate.connection.pool_size">1</property>
+    <!-- Select our SQL dialect -->
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+    <!-- Echo the SQL to stdout -->
+    <property name="show_sql">true</property>
+    <!-- Set the current session context -->
+    <property name="hibernate.current_session_context_class">org.hibernate.context.internal.ThreadLocalSessionContext</property>
+    <!-- Drop and re-create the database schema on startup -->
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <!-- dbcp connection pool configuration -->
+    <property name="hibernate.dbcp.initialSize">5</property>
+    <property name="hibernate.dbcp.maxTotal">20</property>
+    <property name="hibernate.dbcp.maxIdle">10</property>
+    <property name="hibernate.dbcp.minIdle">5</property>
+    <property name="hibernate.dbcp.maxWaitMillis">-1</property>
+    <mapping class="com.awet_integrated.AWET.ID" />
+    <mapping class="com.awet_integrated.AWET.ClickList" />
+  </session-factory>
+</hibernate-configuration>

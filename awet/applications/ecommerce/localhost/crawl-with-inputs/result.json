@@ -1,0 +1,1006 @@
+{
+  "states" : {
+    "state31" : {
+      "name" : "state31",
+      "url" : "http://localhost:3000/home/3/product/2",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 31,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456211869,
+      "nearestState" : "state27"
+    },
+    "state9" : {
+      "name" : "state9",
+      "url" : "http://localhost:3000/home/2",
+      "candidateElements" : [ {
+        "top" : 119,
+        "left" : 56,
+        "xpath" : "//A[@id = 'first-category']",
+        "width" : 263,
+        "height" : 42
+      }, {
+        "top" : 160,
+        "left" : 56,
+        "xpath" : "//A[@id = 'second-category']",
+        "width" : 263,
+        "height" : 42
+      }, {
+        "top" : 201,
+        "left" : 56,
+        "xpath" : "//A[@id = 'third-category']",
+        "width" : 263,
+        "height" : 42
+      }, {
+        "top" : 70,
+        "left" : 349,
+        "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+        "width" : 127,
+        "height" : 300
+      }, {
+        "top" : 70,
+        "left" : 1069,
+        "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+        "width" : 128,
+        "height" : 300
+      }, {
+        "top" : 541,
+        "left" : 359,
+        "xpath" : "//A[@id = 'product-1-2']",
+        "width" : 33,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 651,
+        "xpath" : "//A[@id = 'product-2-2']",
+        "width" : 36,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 943,
+        "xpath" : "//A[@id = 'product-3-2']",
+        "width" : 44,
+        "height" : 20
+      } ],
+      "fanIn" : 3,
+      "fanOut" : 7,
+      "id" : 9,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456187968,
+      "nearestState" : "state4"
+    },
+    "state52" : {
+      "name" : "state52",
+      "url" : "http://localhost:3000/home/2/product/2",
+      "candidateElements" : [ ],
+      "fanIn" : 3,
+      "fanOut" : 0,
+      "id" : 52,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456251588,
+      "nearestState" : "state51"
+    },
+    "state51" : {
+      "name" : "state51",
+      "url" : "http://localhost:3000/home/2",
+      "candidateElements" : [ {
+        "top" : 541,
+        "left" : 651,
+        "xpath" : "//A[@id = 'product-2-2']",
+        "width" : 36,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 943,
+        "xpath" : "//A[@id = 'product-3-2']",
+        "width" : 44,
+        "height" : 20
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 51,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456249108,
+      "nearestState" : "state49"
+    },
+    "state4" : {
+      "name" : "state4",
+      "url" : "http://localhost:3000/shopping",
+      "candidateElements" : [ {
+        "top" : 139,
+        "left" : 41,
+        "xpath" : "//BUTTON[@id = 'back']",
+        "width" : 163,
+        "height" : 34
+      } ],
+      "fanIn" : 4,
+      "fanOut" : 1,
+      "id" : 4,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456184923,
+      "nearestState" : "state3"
+    },
+    "state3" : {
+      "name" : "state3",
+      "url" : "http://localhost:3000/purchased",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 1120,
+        "xpath" : "//A[@id = 'shop-cart-icon']",
+        "width" : 102,
+        "height" : 50
+      }, {
+        "top" : 139,
+        "left" : 41,
+        "xpath" : "//BUTTON[@id = 'back']",
+        "width" : 163,
+        "height" : 34
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 3,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456183047,
+      "nearestState" : "index"
+    },
+    "state56" : {
+      "name" : "state56",
+      "url" : "http://localhost:3000/home/2/product/1",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 56,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456255182,
+      "nearestState" : "state52"
+    },
+    "state33" : {
+      "name" : "state33",
+      "url" : "http://localhost:3000/home/3/product/3",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 33,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456214852,
+      "nearestState" : "state31"
+    },
+    "state11" : {
+      "name" : "state11",
+      "url" : "http://localhost:3000/home/3",
+      "candidateElements" : [ {
+        "top" : 201,
+        "left" : 56,
+        "xpath" : "//A[@id = 'third-category']",
+        "width" : 263,
+        "height" : 42
+      }, {
+        "top" : 70,
+        "left" : 349,
+        "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+        "width" : 127,
+        "height" : 300
+      }, {
+        "top" : 70,
+        "left" : 1069,
+        "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+        "width" : 128,
+        "height" : 300
+      }, {
+        "top" : 541,
+        "left" : 359,
+        "xpath" : "//A[@id = 'product-1-3']",
+        "width" : 63,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 651,
+        "xpath" : "//A[@id = 'product-2-3']",
+        "width" : 79,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 943,
+        "xpath" : "//A[@id = 'product-3-3']",
+        "width" : 153,
+        "height" : 20
+      } ],
+      "fanIn" : 5,
+      "fanOut" : 3,
+      "id" : 11,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456191345,
+      "nearestState" : "state9"
+    },
+    "state17" : {
+      "name" : "state17",
+      "url" : "http://localhost:3000/shopping",
+      "candidateElements" : [ {
+        "top" : 118,
+        "left" : 985,
+        "xpath" : "//BUTTON[@id = 'remove-product-1-3']",
+        "width" : 96,
+        "height" : 34
+      }, {
+        "top" : 304,
+        "left" : 985,
+        "xpath" : "//BUTTON[@id = 'checkout']",
+        "width" : 103,
+        "height" : 34
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 17,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456199603,
+      "nearestState" : "state16"
+    },
+    "state39" : {
+      "name" : "state39",
+      "url" : "http://localhost:3000/shopping",
+      "candidateElements" : [ {
+        "top" : 44,
+        "left" : 1033,
+        "xpath" : "/HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-TITLE[1]/DIV[1]/BUTTON[1]",
+        "width" : 12,
+        "height" : 21
+      }, {
+        "top" : 262,
+        "left" : 999,
+        "xpath" : "/HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-FOOTER[1]/DIV[1]/BUTTON[1]",
+        "width" : 46,
+        "height" : 34
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 39,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456225274,
+      "nearestState" : "state38"
+    },
+    "state38" : {
+      "name" : "state38",
+      "url" : "http://localhost:3000/home/1",
+      "candidateElements" : [ ],
+      "fanIn" : 0,
+      "fanOut" : 1,
+      "id" : 38,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456221598,
+      "nearestState" : "state37"
+    },
+    "state16" : {
+      "name" : "state16",
+      "url" : "http://localhost:3000/home/3/product/1",
+      "candidateElements" : [ {
+        "top" : 546,
+        "left" : 359,
+        "xpath" : "//BUTTON[@id = 'go-to-cart']",
+        "width" : 87,
+        "height" : 34
+      }, {
+        "top" : 546,
+        "left" : 450,
+        "xpath" : "//BUTTON[@id = 'back']",
+        "width" : 57,
+        "height" : 34
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 16,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456197187,
+      "nearestState" : "state15"
+    },
+    "state37" : {
+      "name" : "state37",
+      "url" : "http://localhost:3000/home/3",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 37,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456219412,
+      "nearestState" : "state33"
+    },
+    "state15" : {
+      "name" : "state15",
+      "url" : "http://localhost:3000/home/3/product/1",
+      "candidateElements" : [ {
+        "top" : 546,
+        "left" : 1092,
+        "xpath" : "//BUTTON[@id = 'add']",
+        "width" : 94,
+        "height" : 34
+      }, {
+        "top" : 546,
+        "left" : 359,
+        "xpath" : "//BUTTON[@id = 'go-to-cart']",
+        "width" : 87,
+        "height" : 34
+      }, {
+        "top" : 546,
+        "left" : 450,
+        "xpath" : "//BUTTON[@id = 'back']",
+        "width" : 57,
+        "height" : 34
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 3,
+      "id" : 15,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456194673,
+      "nearestState" : "state11"
+    },
+    "state58" : {
+      "name" : "state58",
+      "url" : "http://localhost:3000/home/2/product/3",
+      "candidateElements" : [ ],
+      "fanIn" : 3,
+      "fanOut" : 0,
+      "id" : 58,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456257968,
+      "nearestState" : "state56"
+    },
+    "state41" : {
+      "name" : "state41",
+      "url" : "http://localhost:3000/home/1",
+      "candidateElements" : [ ],
+      "fanIn" : 0,
+      "fanOut" : 2,
+      "id" : 41,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456229190,
+      "nearestState" : "state40"
+    },
+    "state40" : {
+      "name" : "state40",
+      "url" : "http://localhost:3000/shopping",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 40,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456227343,
+      "nearestState" : "state39"
+    },
+    "index" : {
+      "name" : "index",
+      "url" : "http://localhost:3000",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//A[@id = 'home']",
+        "width" : 166,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 166,
+        "xpath" : "//A[@id = 'purchased']",
+        "width" : 155,
+        "height" : 50
+      }, {
+        "top" : 0,
+        "left" : 1120,
+        "xpath" : "//A[@id = 'shop-cart-icon']",
+        "width" : 102,
+        "height" : 50
+      }, {
+        "top" : 119,
+        "left" : 56,
+        "xpath" : "//A[@id = 'first-category']",
+        "width" : 263,
+        "height" : 42
+      }, {
+        "top" : 160,
+        "left" : 56,
+        "xpath" : "//A[@id = 'second-category']",
+        "width" : 263,
+        "height" : 42
+      }, {
+        "top" : 201,
+        "left" : 56,
+        "xpath" : "//A[@id = 'third-category']",
+        "width" : 263,
+        "height" : 42
+      }, {
+        "top" : 70,
+        "left" : 349,
+        "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+        "width" : 127,
+        "height" : 300
+      }, {
+        "top" : 70,
+        "left" : 1069,
+        "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+        "width" : 128,
+        "height" : 300
+      }, {
+        "top" : 541,
+        "left" : 359,
+        "xpath" : "//A[@id = 'product-1-1']",
+        "width" : 54,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 651,
+        "xpath" : "//A[@id = 'product-2-1']",
+        "width" : 50,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 943,
+        "xpath" : "//A[@id = 'product-3-1']",
+        "width" : 57,
+        "height" : 20
+      } ],
+      "fanIn" : 4,
+      "fanOut" : 7,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456180834,
+      "nearestState" : "null"
+    },
+    "state46" : {
+      "name" : "state46",
+      "url" : "http://localhost:3000/home/3",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 46,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456238877,
+      "nearestState" : "state44"
+    },
+    "state23" : {
+      "name" : "state23",
+      "url" : "http://localhost:3000/home/1/product/1",
+      "candidateElements" : [ {
+        "top" : 506,
+        "left" : 450,
+        "xpath" : "//BUTTON[@id = 'back']",
+        "width" : 57,
+        "height" : 34
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 23,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456203373,
+      "nearestState" : "state17"
+    },
+    "state44" : {
+      "name" : "state44",
+      "url" : "http://localhost:3000/home/2/product/1",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 44,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456236213,
+      "nearestState" : "state43"
+    },
+    "state43" : {
+      "name" : "state43",
+      "url" : "http://localhost:3000/home/2",
+      "candidateElements" : [ {
+        "top" : 541,
+        "left" : 359,
+        "xpath" : "//A[@id = 'product-1-2']",
+        "width" : 33,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 651,
+        "xpath" : "//A[@id = 'product-2-2']",
+        "width" : 36,
+        "height" : 20
+      }, {
+        "top" : 541,
+        "left" : 943,
+        "xpath" : "//A[@id = 'product-3-2']",
+        "width" : 44,
+        "height" : 20
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 3,
+      "id" : 43,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456233947,
+      "nearestState" : "state41"
+    },
+    "state27" : {
+      "name" : "state27",
+      "url" : "http://localhost:3000/home/1/product/3",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 27,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456208478,
+      "nearestState" : "state25"
+    },
+    "state49" : {
+      "name" : "state49",
+      "url" : "http://localhost:3000/home/1",
+      "candidateElements" : [ ],
+      "fanIn" : 0,
+      "fanOut" : 2,
+      "id" : 49,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456244511,
+      "nearestState" : "state48"
+    },
+    "state48" : {
+      "name" : "state48",
+      "url" : "http://localhost:3000/shopping",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 48,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456243062,
+      "nearestState" : "state46"
+    },
+    "state25" : {
+      "name" : "state25",
+      "url" : "http://localhost:3000/home/1/product/2",
+      "candidateElements" : [ ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 25,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1605456206167,
+      "nearestState" : "state23"
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state3",
+    "text" : "Products purchased",
+    "id" : "xpath //A[@id = 'purchased']",
+    "element" : "Element{node=[A: null], tag=A, text=Products purchased, attributes={href=/purchased, id=purchased, ng-reflect-href=/purchased, ng-reflect-router-link=/purchased}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state3",
+    "to" : "state4",
+    "text" : "0 - Items",
+    "id" : "xpath //A[@id = 'shop-cart-icon']",
+    "element" : "Element{node=[A: null], tag=A, text=0 - Items, attributes={aria-expanded=false, href=/shopping, id=shop-cart-icon, ng-reflect-href=/shopping, ng-reflect-router-link=/shopping, role=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state4",
+    "to" : "index",
+    "text" : "Continue Shopping",
+    "id" : "xpath //BUTTON[@id = 'back']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Continue Shopping, attributes={class=btn btn-default, id=back, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "index",
+    "to" : "state4",
+    "text" : "0 - Items",
+    "id" : "xpath //A[@id = 'shop-cart-icon']",
+    "element" : "Element{node=[A: null], tag=A, text=0 - Items, attributes={aria-expanded=false, href=/shopping, id=shop-cart-icon, ng-reflect-href=/shopping, ng-reflect-router-link=/shopping, role=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "index",
+    "to" : "state9",
+    "text" : "Category 2",
+    "id" : "xpath //A[@id = 'second-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state9",
+    "to" : "index",
+    "text" : "Category 1",
+    "id" : "xpath //A[@id = 'first-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 1, attributes={class=list-group-item, href=/home/1, id=first-category, ng-reflect-href=/home/1, ng-reflect-router-link=/home,1, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "index",
+    "to" : "state11",
+    "text" : "Category 3",
+    "id" : "xpath //A[@id = 'third-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state11",
+    "to" : "state15",
+    "text" : "nps.gov",
+    "id" : "xpath //A[@id = 'product-1-3']",
+    "element" : "Element{node=[A: null], tag=A, text=nps.gov, attributes={id=product-1-3}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state15",
+    "to" : "state16",
+    "text" : "Add to cart",
+    "id" : "xpath //BUTTON[@id = 'add']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add to cart, attributes={class=btn btn-success pull-right, id=add, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state16",
+    "to" : "state17",
+    "text" : "Go to cart",
+    "id" : "xpath //BUTTON[@id = 'go-to-cart']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Go to cart, attributes={class=btn btn-primary text-center, id=go-to-cart, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state17",
+    "to" : "state4",
+    "text" : "Remove",
+    "id" : "xpath //BUTTON[@id = 'remove-product-1-3']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Remove, attributes={class=btn btn-danger, id=remove-product-1-3, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state3",
+    "to" : "index",
+    "text" : "Continue Shopping",
+    "id" : "xpath //BUTTON[@id = 'back']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Continue Shopping, attributes={class=btn btn-default, id=back, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "index",
+    "to" : "state23",
+    "text" : "Bitchip",
+    "id" : "xpath //A[@id = 'product-1-1']",
+    "element" : "Element{node=[A: null], tag=A, text=Bitchip, attributes={id=product-1-1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state23",
+    "to" : "index",
+    "text" : "Back",
+    "id" : "xpath //BUTTON[@id = 'back']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "index",
+    "to" : "state25",
+    "text" : "Zathin",
+    "id" : "xpath //A[@id = 'product-2-1']",
+    "element" : "Element{node=[A: null], tag=A, text=Zathin, attributes={id=product-2-1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "index",
+    "to" : "state27",
+    "text" : "Flexidy",
+    "id" : "xpath //A[@id = 'product-3-1']",
+    "element" : "Element{node=[A: null], tag=A, text=Flexidy, attributes={id=product-3-1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state9",
+    "to" : "state11",
+    "text" : "Category 3",
+    "id" : "xpath //A[@id = 'third-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state11",
+    "to" : "state31",
+    "text" : "google.de",
+    "id" : "xpath //A[@id = 'product-2-3']",
+    "element" : "Element{node=[A: null], tag=A, text=google.de, attributes={id=product-2-3}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state11",
+    "to" : "state33",
+    "text" : "howstuffworks.com",
+    "id" : "xpath //A[@id = 'product-3-3']",
+    "element" : "Element{node=[A: null], tag=A, text=howstuffworks.com, attributes={id=product-3-3}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state15",
+    "to" : "state4",
+    "text" : "Go to cart",
+    "id" : "xpath //BUTTON[@id = 'go-to-cart']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Go to cart, attributes={class=btn btn-primary text-center, id=go-to-cart, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state16",
+    "to" : "state37",
+    "text" : "Back",
+    "id" : "xpath //BUTTON[@id = 'back']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state38",
+    "to" : "state11",
+    "text" : "Category 3",
+    "id" : "xpath //A[@id = 'third-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state17",
+    "to" : "state39",
+    "text" : "Checkout",
+    "id" : "xpath //BUTTON[@id = 'checkout']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Checkout, attributes={class=btn btn-success, id=checkout, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state39",
+    "to" : "state40",
+    "text" : "×",
+    "id" : "xpath /HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-TITLE[1]/DIV[1]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=×, attributes={aria-label=Close, class=close, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state41",
+    "to" : "state9",
+    "text" : "Category 2",
+    "id" : "xpath //A[@id = 'second-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state41",
+    "to" : "state11",
+    "text" : "Category 3",
+    "id" : "xpath //A[@id = 'third-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state9",
+    "to" : "state43",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'carousel-example-generic']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=left carousel-control, data-slide=prev, href=#carousel-example-generic}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state43",
+    "to" : "state44",
+    "text" : "Teal",
+    "id" : "xpath //A[@id = 'product-1-2']",
+    "element" : "Element{node=[A: null], tag=A, text=Teal, attributes={id=product-1-2}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state15",
+    "to" : "state46",
+    "text" : "Back",
+    "id" : "xpath //BUTTON[@id = 'back']",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state39",
+    "to" : "state48",
+    "text" : "OK",
+    "id" : "xpath /HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-FOOTER[1]/DIV[1]/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=OK, attributes={class=btn btn-primary, ng-reflect-ng-class=btn btn-primary}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state49",
+    "to" : "state9",
+    "text" : "Category 2",
+    "id" : "xpath //A[@id = 'second-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state49",
+    "to" : "state11",
+    "text" : "Category 3",
+    "id" : "xpath //A[@id = 'third-category']",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state9",
+    "to" : "state51",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'carousel-example-generic']/A[2]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=right carousel-control, data-slide=next, href=#carousel-example-generic}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state51",
+    "to" : "state52",
+    "text" : "Blue",
+    "id" : "xpath //A[@id = 'product-2-2']",
+    "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state43",
+    "to" : "state52",
+    "text" : "Blue",
+    "id" : "xpath //A[@id = 'product-2-2']",
+    "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state9",
+    "to" : "state56",
+    "text" : "Teal",
+    "id" : "xpath //A[@id = 'product-1-2']",
+    "element" : "Element{node=[A: null], tag=A, text=Teal, attributes={id=product-1-2}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state51",
+    "to" : "state58",
+    "text" : "Mauv",
+    "id" : "xpath //A[@id = 'product-3-2']",
+    "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state43",
+    "to" : "state58",
+    "text" : "Mauv",
+    "id" : "xpath //A[@id = 'product-3-2']",
+    "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state9",
+    "to" : "state52",
+    "text" : "Blue",
+    "id" : "xpath //A[@id = 'product-2-2']",
+    "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state9",
+    "to" : "state58",
+    "text" : "Mauv",
+    "id" : "xpath //A[@id = 'product-3-2']",
+    "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  } ],
+  "statistics" : {
+    "duration" : "1 minute 22 seconds",
+    "crawlPaths" : 18,
+    "averageDomSize" : "5.418 kB",
+    "edges" : 40,
+    "startDate" : "2020-11-15 11:02:51 EST",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state31",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "state38",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "state9",
+        "count" : 7
+      },
+      "mostFanIn" : {
+        "id" : "state11",
+        "count" : 5
+      },
+      "totalNumberOfStates" : 27,
+      "urls" : {
+        "http://localhost:3000/home/3/product/2" : [ "state31" ],
+        "http://localhost:3000/home/2" : [ "state9", "state51", "state43" ],
+        "http://localhost:3000/home/2/product/2" : [ "state52" ],
+        "http://localhost:3000/shopping" : [ "state4", "state17", "state39", "state40", "state48" ],
+        "http://localhost:3000/purchased" : [ "state3" ],
+        "http://localhost:3000/home/2/product/1" : [ "state56", "state44" ],
+        "http://localhost:3000/home/3/product/3" : [ "state33" ],
+        "http://localhost:3000/home/3" : [ "state11", "state37", "state46" ],
+        "http://localhost:3000/home/1" : [ "state38", "state41", "state49" ],
+        "http://localhost:3000/home/3/product/1" : [ "state16", "state15" ],
+        "http://localhost:3000/home/2/product/3" : [ "state58" ],
+        "http://localhost:3000" : [ "index" ],
+        "http://localhost:3000/home/1/product/1" : [ "state23" ],
+        "http://localhost:3000/home/1/product/3" : [ "state27" ],
+        "http://localhost:3000/home/1/product/2" : [ "state25" ]
+      }
+    },
+    "failedEvents" : 0
+  },
+  "exitStatus" : "EXHAUSTED"
+}

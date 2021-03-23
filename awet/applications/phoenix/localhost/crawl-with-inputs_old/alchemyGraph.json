@@ -1,0 +1,290 @@
+{
+  "nodes" : [ {
+    "name" : "state18",
+    "url" : "http://localhost:4000/",
+    "candidateElements" : [ {
+      "top" : 9,
+      "left" : 24,
+      "xpath" : "//NAV[@id = 'boards_nav']/UL[1]/LI[1]/A[1]",
+      "width" : 86,
+      "height" : 26
+    }, {
+      "top" : 0,
+      "left" : 110,
+      "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+      "width" : 0,
+      "height" : 0
+    }, {
+      "top" : 8,
+      "left" : 541,
+      "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/NAV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 132,
+      "height" : 27
+    }, {
+      "top" : 8,
+      "left" : 681,
+      "xpath" : "//A[@id = 'crawler-sign-out']",
+      "width" : 94,
+      "height" : 27
+    }, {
+      "top" : 101,
+      "left" : 67,
+      "xpath" : "//A[@id = 'add_new_board']",
+      "width" : 86,
+      "height" : 56
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'authentication_container']",
+      "width" : 800,
+      "height" : 600
+    }, {
+      "top" : 43,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]",
+      "width" : 800,
+      "height" : 535
+    }, {
+      "top" : 43,
+      "left" : 0,
+      "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]",
+      "width" : 800,
+      "height" : 487
+    }, {
+      "top" : 89,
+      "left" : 16,
+      "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]",
+      "width" : 753,
+      "height" : 96
+    }, {
+      "top" : 89,
+      "left" : 16,
+      "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]",
+      "width" : 188,
+      "height" : 96
+    }, {
+      "top" : 89,
+      "left" : 24,
+      "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]/DIV[1]",
+      "width" : 172,
+      "height" : 80
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 18,
+    "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]", "xpath //A[@id = 'add_new_board']", "xpath //DIV[@id = 'authentication_container']", "xpath //DIV[@id = 'authentication_container']/DIV[1]", "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]", "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]", "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]", "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]/DIV[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1607248496727,
+    "nearestState" : "state4"
+  }, {
+    "name" : "index",
+    "url" : "http://localhost:4000",
+    "candidateElements" : [ {
+      "top" : 367,
+      "left" : 328,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]",
+      "width" : 142,
+      "height" : 17
+    }, {
+      "top" : 282,
+      "left" : 225,
+      "xpath" : "//FORM[@id = 'sign_in_form']/BUTTON[1]",
+      "width" : 350,
+      "height" : 58
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]",
+      "width" : 800,
+      "height" : 560
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]",
+      "width" : 800,
+      "height" : 560
+    }, {
+      "top" : 59,
+      "left" : 301,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/HEADER[1]/DIV[1]",
+      "width" : 198,
+      "height" : 62
+    }, {
+      "top" : 153,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_in_form']/DIV[1]",
+      "width" : 450,
+      "height" : 56
+    }, {
+      "top" : 217,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_in_form']/DIV[2]",
+      "width" : 450,
+      "height" : 56
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1607248460219,
+    "nearestState" : "null"
+  }, {
+    "name" : "state2",
+    "url" : "http://localhost:4000/sign_up",
+    "candidateElements" : [ {
+      "top" : 463,
+      "left" : 375,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]",
+      "width" : 48,
+      "height" : 17
+    }, {
+      "top" : 378,
+      "left" : 225,
+      "xpath" : "//FORM[@id = 'sign_up_form']/BUTTON[1]",
+      "width" : 350,
+      "height" : 58
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]",
+      "width" : 800,
+      "height" : 560
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]",
+      "width" : 800,
+      "height" : 560
+    }, {
+      "top" : -36,
+      "left" : 301,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/HEADER[1]/DIV[1]",
+      "width" : 198,
+      "height" : 62
+    }, {
+      "top" : 57,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_up_form']/DIV[1]",
+      "width" : 450,
+      "height" : 56
+    }, {
+      "top" : 121,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_up_form']/DIV[2]",
+      "width" : 450,
+      "height" : 56
+    }, {
+      "top" : 185,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_up_form']/DIV[3]",
+      "width" : 450,
+      "height" : 57
+    }, {
+      "top" : 250,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_up_form']/DIV[4]",
+      "width" : 450,
+      "height" : 56
+    }, {
+      "top" : 314,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_up_form']/DIV[5]",
+      "width" : 450,
+      "height" : 56
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 2,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1607248464331,
+    "nearestState" : "index"
+  }, {
+    "name" : "state4",
+    "url" : "http://localhost:4000/sign_in",
+    "candidateElements" : [ {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]",
+      "width" : 800,
+      "height" : 560
+    }, {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]",
+      "width" : 800,
+      "height" : 560
+    }, {
+      "top" : 43,
+      "left" : 301,
+      "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/HEADER[1]/DIV[1]",
+      "width" : 198,
+      "height" : 62
+    }, {
+      "top" : 137,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_in_form']/DIV[1]",
+      "width" : 450,
+      "height" : 24
+    }, {
+      "top" : 169,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_in_form']/DIV[2]",
+      "width" : 450,
+      "height" : 56
+    }, {
+      "top" : 233,
+      "left" : 175,
+      "xpath" : "//FORM[@id = 'sign_in_form']/DIV[3]",
+      "width" : 450,
+      "height" : 56
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 4,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1607248469904,
+    "nearestState" : "state2"
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 2,
+    "text" : "Create new account",
+    "element" : "Element{node=[A: null], tag=A, text=Create new account, attributes={data-reactid=.0.0.0.2, href=/sign_up}}",
+    "eventType" : "click"
+  }, {
+    "source" : 2,
+    "target" : 0,
+    "text" : "Sign in",
+    "element" : "Element{node=[A: null], tag=A, text=Sign in, attributes={data-reactid=.0.0.0.2, href=/sign_in}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 4,
+    "text" : "Sign in",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Sign in, attributes={data-reactid=.0.0.0.1.3, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 2,
+    "target" : 18,
+    "text" : "Sign up",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Sign up, attributes={data-reactid=.0.0.0.1.5, type=submit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 18,
+    "target" : 0,
+    "text" : "Sign out",
+    "element" : "Element{node=[A: null], tag=A, text=Sign out, attributes={data-reactid=.0.0.0.2.0.1.0, href=#, id=crawler-sign-out}}",
+    "eventType" : "click"
+  } ]
+}

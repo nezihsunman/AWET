@@ -1,0 +1,116 @@
+<html><head>
+    <base href="/">
+    <title>Angular2 and NodeJS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/public/build/stylesheets/all-a10dc8bc08.css">
+    <!-- endinject -->
+
+    <!-- online work -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zone.js/0.6.17/zone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reflect-metadata/0.1.8/Reflect.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script> -->
+
+    <!-- offline work -->
+    <script src="/public/javascripts/shim.min.js"></script>
+    <script src="/public/javascripts/zone.min.js"></script>
+    <script src="/public/javascripts/Reflect.min.js"></script>
+    <script src="/public/javascripts/jquery.js"></script>
+    <script src="/public/javascripts/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script> -->
+    <script src="/public/javascripts/polyfill-phantom.min.js"></script>
+    <script src="/public/javascripts/Intl.min.js"></script>
+
+  </head>
+  <!-- 3. Display the application -->
+  <body>
+    <my-app><div class="container">
+    <navbar><nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="home" ng-reflect-router-link="/" ng-reflect-href="/" href="/">Your Shop Name</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li>
+            <a id="purchased" ng-reflect-router-link="/purchased" ng-reflect-href="/purchased" href="/purchased">Products purchased</a>
+        </li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a aria-expanded="false" id="shop-cart-icon" role="button" ng-reflect-router-link="/shopping" ng-reflect-href="/shopping" href="/shopping"> <shop-cart-icon>
+<span class="glyphicon glyphicon-shopping-cart"></span> 0 - Items</shop-cart-icon> </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></navbar>
+    <div class="container">
+        <div class="row">
+            <router-outlet></router-outlet><product-detail>
+<sidebar><div class="col-md-3">
+    <p class="lead">Shop Name</p>
+    <div class="list-group" id="categories">
+        <a class="list-group-item active" id="first-category" routerlinkactive="active" ng-reflect-router-link="/home,1" ng-reflect-router-link-active="active" ng-reflect-href="/home/1" href="/home/1">Category 1</a>
+        <a class="list-group-item" id="second-category" routerlinkactive="active" ng-reflect-router-link="/home,2" ng-reflect-router-link-active="active" ng-reflect-href="/home/2" href="/home/2">Category 2</a>
+        <a class="list-group-item" id="third-category" routerlinkactive="active" ng-reflect-router-link="/home,3" ng-reflect-router-link-active="active" ng-reflect-href="/home/3" href="/home/3">Category 3</a>
+    </div>
+</div></sidebar>
+<div class="col-md-9">
+    <!--template bindings={
+  "ng-reflect-ng-if": "[object Object]"
+}--><div class="thumbnail">
+        
+        <img alt="" class="img-responsive" src="img/placehold800x300.png">
+        <div class="caption-full">
+            <h4 class="pull-right" id="price">$35.43</h4>
+            <h4 id="name">Flexidy</h4>
+            <p id="description">Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.</p>
+            <button class="btn btn-success pull-right" type="button" id="add">Add to cart</button>
+            <button class="btn btn-primary text-center" type="button" id="go-to-cart">Go to cart</button>
+            <button class="btn btn-primary" type="button" id="back">Back</button>
+        </div>
+    </div>
+</div>
+</product-detail>
+        </div>
+    </div>
+    <my-footer><div class="container">
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright © Your Website 2016</p>
+            </div>
+        </div>
+    </footer> 
+</div></my-footer>
+</div></my-app>
+
+    <!-- inject:js -->
+    <script src="/public/build/javascripts/bundle-0fda149fe4.js"></script>
+    <!-- endinject -->
+  
+
+
+
+</body></html>

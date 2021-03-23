@@ -1,0 +1,95 @@
+@Test
+public void dimeShiftNumber4() {
+    driver.get("http://localhost:3000/wallets");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(1853, 902));
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[3]/a/span[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[2]/a/span[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[8]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("current_password_input")).sendKeys("123456");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_input")).sendKeys("789");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_repeat_input")).sendKeys("789");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//form/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_input")).sendKeys("789456");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_repeat_input")).sendKeys("789456");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//form/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[2]/a/span[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/form/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[4]/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/form/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[9]/a")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//li[7]/a"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+};
+Thread.sleep(3000);

@@ -1,0 +1,248 @@
+@Test
+public void dimeshifttest2() {
+    driver.get("http://localhost:4000/");
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Register")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_login")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_login")).sendKeys("nad\'r");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).sendKeys("nadır.yuceer@gmaıl.com");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_password")).sendKeys("asdasd");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("registration_modal_form_submit")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).sendKeys("nadir.yuceer@gmail.com");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("registration_modal_form_submit")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Goals")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("#button_create_new > span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).sendKeys("new plan");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".col-sm-6:nth-child(1)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).sendKeys("newplan");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Settings")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(2) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("remove_account_step_1_submit")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("remove_account_code")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Log Out")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Sign In")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_username")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_username")).sendKeys("nad");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".close")).click();
+Thread.sleep(3000);
+
+    driver.close();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);
+@Test
+public void dimeshifttest2() {
+    driver.get("http://localhost:4000/");
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Register")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_login")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_login")).sendKeys("nad\'r");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).sendKeys("nadır.yuceer@gmaıl.com");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_password")).sendKeys("asdasd");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("registration_modal_form_submit")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).sendKeys("nadir.yuceer@gmail.com");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("registration_modal_form_submit")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Goals")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("#button_create_new > span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).sendKeys("new plan");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".col-sm-6:nth-child(1)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).sendKeys("newplan");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row:nth-child(3) .panel-body")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Settings")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("li:nth-child(2) span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("remove_account_step_1_submit")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("remove_account_code")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Log Out")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Sign In")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_username")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_username")).sendKeys("nad");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".close")).click();
+Thread.sleep(3000);
+
+    driver.close();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

@@ -1,0 +1,161 @@
+<html><head>
+    <base href="/">
+    <title>Angular2 and NodeJS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/public/build/stylesheets/all-a10dc8bc08.css">
+    <!-- endinject -->
+
+    <!-- online work -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> -->
+
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/shim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zone.js/0.6.17/zone.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reflect-metadata/0.1.8/Reflect.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script> -->
+
+    <!-- offline work -->
+    <script src="/public/javascripts/shim.min.js"></script>
+    <script src="/public/javascripts/zone.min.js"></script>
+    <script src="/public/javascripts/Reflect.min.js"></script>
+    <script src="/public/javascripts/jquery.js"></script>
+    <script src="/public/javascripts/bootstrap.min.js"></script>
+    <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script> -->
+    <script src="/public/javascripts/polyfill-phantom.min.js"></script>
+    <script src="/public/javascripts/Intl.min.js"></script>
+
+  </head>
+  <!-- 3. Display the application -->
+  <body>
+    <my-app><div class="container">
+    <navbar><nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="home" ng-reflect-router-link="/" ng-reflect-href="/" href="/">Your Shop Name</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li>
+            <a id="purchased" ng-reflect-router-link="/purchased" ng-reflect-href="/purchased" href="/purchased">Products purchased</a>
+        </li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a aria-expanded="false" id="shop-cart-icon" role="button" ng-reflect-router-link="/shopping" ng-reflect-href="/shopping" href="/shopping"> <shop-cart-icon>
+<span class="glyphicon glyphicon-shopping-cart"></span> 1 - Items</shop-cart-icon> </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav></navbar>
+    <div class="container">
+        <div class="row">
+            <router-outlet></router-outlet><shopping-cart><div class="container">
+    <div class="row">
+        <!--template bindings={
+  "ng-reflect-ng-if": "false"
+}-->
+        <!--template bindings={
+  "ng-reflect-ng-if": "true"
+}--><div class="col-sm-12 col-md-10 col-md-offset-1">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th class="text-center">Price</th>
+                        <th class="text-center">Total</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody id="shopping-product-list">
+                    <!--template bindings={
+  "ng-reflect-ng-for-of": "[object Object]"
+}--><tr>
+                        <td class="col-sm-8 col-md-6">
+                        <div class="media">
+                            <img class="media-object" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-2/72/product-icon.png" style="width: 72px; height: 72px;">
+                            <div class="media-body">
+                                <h4 class="media-heading" id="name-1-3">nps.gov</h4>
+                            </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                        <select class="form-control ng-untouched ng-pristine ng-valid" ng-reflect-model="1" id="select-1-3">
+                            <option selected="" value="1" ng-reflect-value="1" id="option1-1-3">1</option>
+                            <option value="2" ng-reflect-value="2" id="option2-1-3">2</option>
+                            <option value="3" ng-reflect-value="3" id="option3-1-3">3</option>
+                            <option value="4" ng-reflect-value="4" id="option4-1-3">4</option>
+                        </select>
+                        
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center" id="price-product-1-3"><strong>$34.22</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center" id="price-quantity-product-1-3"><strong>$34.22</strong></td>
+                        <td class="col-sm-1 col-md-1">
+                        <button class="btn btn-danger" type="button" id="remove-product-1-3">
+                            <span class="glyphicon glyphicon-remove"></span> Remove
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td> &nbsp; </td>
+                        <td> &nbsp; </td>
+                        <td> &nbsp; </td>
+                        <td><h3>Total</h3></td>
+                        <td class="text-right" id="total-price"><h3><strong>$34.22</strong></h3></td>
+                    </tr>
+                    <tr>
+                        <td> &nbsp; </td>
+                        <td> &nbsp; </td>
+                        <td> &nbsp; </td>
+                        <td>
+                        <button class="btn btn-default" id="back" type="button">
+                            <span class="glyphicon glyphicon-shopping-cart"></span> Continue Shopping
+                        </button></td>
+                        <td>
+                        <button class="btn btn-success" id="checkout" type="button">
+                            Checkout <span class="glyphicon glyphicon-play"></span>
+                        </button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</shopping-cart>
+        </div>
+    </div>
+    <my-footer><div class="container">
+    <hr>
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright © Your Website 2016</p>
+            </div>
+        </div>
+    </footer> 
+</div></my-footer>
+</div></my-app>
+
+    <!-- inject:js -->
+    <script src="/public/build/javascripts/bundle-0fda149fe4.js"></script>
+    <!-- endinject -->
+  
+
+
+
+</body></html>

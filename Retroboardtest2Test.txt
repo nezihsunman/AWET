@@ -1,0 +1,198 @@
+@Test
+public void retroboardtest2() {
+    driver.get("http://localhost:4000/");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(2560, 1440));
+Thread.sleep(3000);
+
+    driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__templateValue___3if5o small")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__templateValue___3if5o div:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__tab___2YMGw")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("0")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__primary___22ZvQ")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.id("crawljax-menu"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("crawljax-menu")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo:nth-child(5)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__backdrop___WbaQn")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__itemContentRoot___3ofPf")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".Post__well___1WcRv .theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".Post__notWell___37RjH .theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("crawljax-menu")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo:nth-child(5)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__backdrop___WbaQn")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".index__user___1gwdA")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("crawljax-logout")).click();
+Thread.sleep(3000);
+
+    driver.close();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);
+@Test
+public void retroboardtest2() {
+    driver.get("http://localhost:4000/");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(2560, 1440));
+Thread.sleep(3000);
+
+    driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__templateValue___3if5o small")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__templateValue___3if5o div:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__tab___2YMGw")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("0")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__primary___22ZvQ")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.id("crawljax-menu"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("crawljax-menu")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo:nth-child(5)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__backdrop___WbaQn")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__itemContentRoot___3ofPf")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".Post__well___1WcRv .theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".Post__notWell___37RjH .theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("crawljax-menu")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__button___1iKuo:nth-child(5)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".theme__backdrop___WbaQn")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("1")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".index__user___1gwdA")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("2")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("crawljax-logout")).click();
+Thread.sleep(3000);
+
+    driver.close();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

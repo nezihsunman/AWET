@@ -1,0 +1,489 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Wallets | DimeShift</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+	<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+		var site_path = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port : '');
+	</script>
+
+	<script src="//localhost:35729/livereload.js"></script>
+
+	<link href="/resources/css.css" media="screen" rel="stylesheet" type="text/css">
+	<meta name="google-site-verification" content="MyNePgPoKL2FkR070Lj1pIT8Or7gERZiobVzjG0PtOk">
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-400436-21', 'auto');
+		ga('send', 'pageview');
+	</script>
+<script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/loader.js"></script><link id="load-css-0" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/core/tooltip.css"><link id="load-css-1" rel="stylesheet" type="text/css" href="https://www.gstatic.com/charts/49/css/util/util.css"><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_default_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_graphics_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_ui_module.js"></script><script type="text/javascript" charset="UTF-8" src="https://www.gstatic.com/charts/49/js/jsapi_compiled_corechart_module.js"></script></head>
+<body style="" class="">
+<div id="wrap">
+		<!-- Fixed navbar -->
+	<div class="navbar navbar-inverse navbar-fixed-top headroom disable-selection" id="header">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- Button for smallest screens -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+				
+
+				<a href="/" class="btn btn-info btn-lg btn-logo">$ dimeshift</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav pull-right">
+					<li class="header_is_not_signed_in" style="display: none;">
+						<a href="/" class="menu_category menu_category_home" data-i18n="Home">Головна</a>
+					</li>
+					<li class="header_is_signed_in active" style="">
+						<a href="/wallets" class="menu_category menu_category_wallets" data-i18n="Wallets">Гаманці</a>
+					</li>
+					<li class="header_is_signed_in active" style="">
+						<a href="/plans" class="menu_category menu_category_wallets" data-i18n="Goals">Цілі</a>
+					</li>
+					<li><a href="mailto:jeka911@gmail.com?subject=Wallet" class="menu_category" data-i18n="Contact">Зв’язатися з нами</a></li>
+					<li><a href="http://docs.dimeshift.apiary.io/" class="menu_category">API</a></li>
+					<li class="header_is_not_signed_in" style="display: none;">
+						<a href="/user/registration" data-i18n="Register">Зареєструватися</a>
+					</li>
+					<li class="header_is_not_signed_in" style="display: none;">
+						<a href="/user/signin" class="signin_caller" data-i18n="Sign In">Увійти</a>
+					</li>
+					<li class="header_is_signed_in" style="">
+						<a href="/profile" data-i18n="Settings">Налаштування</a>
+					</li>
+					<li class="header_is_signed_in" style="">
+						<a href="/user/logout" class="signout_caller" data-i18n="Log Out">Вийти</a>
+					</li>
+					<li>
+						<a href="/user/change_language" class="icon_holder"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a>
+					</li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</div> 
+	<!-- /.navbar -->
+
+
+
+	<div class="container" id="container">
+
+		<div id="fill_profile_invitation" style="">
+			<div class="alert alert-info">
+			<span data-i18n="Please don't forget to let us know your email address, so you can sign in to DimeShift on your next visit">Будь ласка, заповніть ваш профіль, щоб ви змогли увійти в ваш обліковий запис наступного разу</span>. <a href="/user/fillprofile" class="btn btn-primary btn-xs" data-i18n="Do it">Заповнити</a>
+			</div>
+		</div>
+
+		<div class="page_holder" id="page_holder_1" style="display: block;"><div class="page"><ul class="breadcrumb">
+  <li><a href="http://localhost:3000"><span data-i18n="Home">Головна</span></a></li>
+  <li><a href="http://localhost:3000/wallets"><span data-i18n="Wallets">Гаманці</span></a></li>
+  <li class="active">Sample Bank Account Wallet</li>
+</ul>
+
+
+<div class="row">
+
+	<div class="col-xs-12 col-sm-12 col-md-4 pull-right">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Sample Bank Account Wallet</h3>
+			</div>
+			<div class="panel-body">
+			
+				<p class="text-center text-success wallet_total"><strong>$3199.<sup>03</sup></strong></p>
+				
+				<button type="button" id="add_profit_button" class="btn btn-success btn-block"><span data-i18n="Add Income">Додати прибуток</span></button>
+				<div class="pull-right"><span data-i18n="or">чи</span> <a href="#" class="action" id="set_total_to_button"><span data-i18n="set total to">встановити загальну суму у</span></a></div>
+			</div>
+		</div>
+
+
+	</div>
+
+	<div class="col-xs-12 col-sm-12 col-md-8 pull-left">
+
+		<div class="list-group">
+			<div class="list-group-item ">
+				<h3 class="panel-title"><span data-i18n="Transactions">Транзакції</span>
+					<span class="pull-right"><a href="http://localhost:3000/wallets/3/import/" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-import" aria-hidden="true"></span> <span data-i18n="Import">Імпорт</span></a></span>
+				</h3>
+
+				<div class="form-group">
+					<form method="post" id="add_transaction_form">
+						<input type="text" class="form-control" id="add_transaction_text" placeholder="Опишіть витрату і натисніть Enter" data-i18nplaceholder="Describe expense and press Enter to add">
+						<input type="number" min="0" step="0.01" class="form-control hideme" id="add_transaction_amount" placeholder="Сума транзакції" data-i18nplaceholder="Transaction amount">
+						<button type="submit" class="hideme">
+					
+				</button></form></div>
+			</div>
+
+			<div id="transactions_container"><div id="transactions_container">
+	
+
+
+
+					<div class="list-group-item item" data-id="69">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">19 січня 2021</div>
+				<div class="transaction_time_time">12:30</div>
+							</div>
+
+			<div class="pull-right text-success transaction_amount">&nbsp; <strong>$1500.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">nezih</h6>
+		</div>
+				<div class="list-group-item item" data-id="52">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">18 січня 2021</div>
+				<div class="transaction_time_time">16:15</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$152.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Gettyimages</h6>
+		</div>
+				<div class="list-group-item item" data-id="51">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">&nbsp;</div>
+				<div class="transaction_time_time">05:12</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$82.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">iStock</h6>
+		</div>
+				<div class="list-group-item item" data-id="50">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">16 січня 2021</div>
+				<div class="transaction_time_time">20:34</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$165.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Translations</h6>
+		</div>
+				<div class="list-group-item item" data-id="49">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">15 січня 2021</div>
+				<div class="transaction_time_time">12:53</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$17.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Photobank</h6>
+		</div>
+				<div class="list-group-item item" data-id="48">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">14 січня 2021</div>
+				<div class="transaction_time_time">12:39</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$47.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">CSS work</h6>
+		</div>
+				<div class="list-group-item item" data-id="47">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">13 січня 2021</div>
+				<div class="transaction_time_time">16:15</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$52.<sup>99</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Wordpress template</h6>
+		</div>
+				<div class="list-group-item item" data-id="46">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">12 січня 2021</div>
+				<div class="transaction_time_time">17:41</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$178.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Content writing</h6>
+		</div>
+				<div class="list-group-item item" data-id="45">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">11 січня 2021</div>
+				<div class="transaction_time_time">20:05</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$45.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Amazon AWS</h6>
+		</div>
+				<div class="list-group-item item" data-id="44">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">10 січня 2021</div>
+				<div class="transaction_time_time">23:27</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$101.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Shutterstock</h6>
+		</div>
+				<div class="list-group-item item" data-id="43">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">&nbsp;</div>
+				<div class="transaction_time_time">02:05</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$116.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Hosting</h6>
+		</div>
+				<div class="list-group-item item" data-id="41">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">8 січня 2021</div>
+				<div class="transaction_time_time">18:24</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$147.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">iStock</h6>
+		</div>
+				<div class="list-group-item item" data-id="40">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">7 січня 2021</div>
+				<div class="transaction_time_time">21:03</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$36.<sup>99</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Adwords</h6>
+		</div>
+				<div class="list-group-item item" data-id="42">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">6 січня 2021</div>
+				<div class="transaction_time_time">22:00</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$172.<sup>99</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Wordpress template</h6>
+		</div>
+				<div class="list-group-item item" data-id="39">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">&nbsp;</div>
+				<div class="transaction_time_time">01:51</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$98.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Wordpress template</h6>
+		</div>
+				<div class="list-group-item item" data-id="38">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">5 січня 2021</div>
+				<div class="transaction_time_time">03:46</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$55.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Adwords</h6>
+		</div>
+				<div class="list-group-item item" data-id="37">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">4 січня 2021</div>
+				<div class="transaction_time_time">05:27</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$101.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Hosting</h6>
+		</div>
+				<div class="list-group-item item" data-id="36">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">3 січня 2021</div>
+				<div class="transaction_time_time">04:15</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$19.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Shutterstock</h6>
+		</div>
+				<div class="list-group-item item" data-id="35">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">2 січня 2021</div>
+				<div class="transaction_time_time">01:36</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$132.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">Adwords</h6>
+		</div>
+				<div class="list-group-item item" data-id="34">
+			<div class="pull-left transaction_time">
+								<div class="transaction_time_date">1 січня 2021</div>
+				<div class="transaction_time_time">06:53</div>
+							</div>
+
+			<div class="pull-right text-danger transaction_amount">&nbsp; <strong>$83.<sup>00</sup></strong></div>
+			
+			<h6 class="list-group-item-heading transaction_description">PPM Campaign</h6>
+		</div>
+			
+		<div class="list-group-item">
+		<button type="button" class="btn btn-default btn-sm btn-info btn-block" id="goto_prev">
+		<span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span> Грудень 2020</button>
+	</div>
+	
+
+
+</div>
+</div>
+
+		</div>	
+
+
+	</div>
+
+	<div class="col-xs-12 col-sm-12 col-md-4 pull-right">
+
+		<div id="plans_container">
+
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title"><span data-i18n="Goals">Цілі</span></h3>
+	</div>
+	
+			<div class="panel-body">
+			<span data-i18n="There're no goals defined for this wallet">Для цього гаманця не визначені цілі</span>
+			<a href="http://localhost:3000/plans" class="btn btn-default btn-block"><span data-i18n="Set Goal">Встановити ціль</span></a>
+		</div>
+	</div></div>
+
+		<div class="panel panel-default" id="balance_canvas_container">
+			<div class="panel-heading">
+				<h3 class="panel-title"><span data-i18n="Expenses per day trends">Тенденції витрат за день</span></h3>
+			</div>
+			<div class="panel-body">
+				<div id="balance_canvas" class="ct-chart" style="display: block;"><div style="position: relative;"><div dir="ltr" style="position: relative; width: 688px; height: 200px;"><div aria-label="A chart." style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%;"><svg width="688" height="200" aria-label="A chart." style="overflow: hidden;"><defs id="_ABSTRACT_RENDERER_ID_6"><clipPath id="_ABSTRACT_RENDERER_ID_7"><rect x="0" y="0" width="688" height="170"></rect></clipPath></defs><rect x="0" y="0" width="688" height="200" stroke="none" stroke-width="0" fill="#ffffff"></rect><g><rect x="0" y="0" width="688" height="170" stroke="none" stroke-width="0" fill-opacity="0" fill="#ffffff"></rect><g clip-path="url(http://localhost:3000/wallets#_ABSTRACT_RENDERER_ID_7)"><g><rect x="0" y="169" width="688" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="0" y="113" width="688" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="0" y="56" width="688" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="0" y="0" width="688" height="1" stroke="none" stroke-width="0" fill="#cccccc"></rect><rect x="0" y="141" width="688" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="0" y="85" width="688" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect><rect x="0" y="28" width="688" height="1" stroke="none" stroke-width="0" fill="#ebebeb"></rect></g><g><rect x="0" y="169" width="688" height="1" stroke="none" stroke-width="0" fill="#333333"></rect></g><g><path d="M18.57894736842105,122.74333333333334C18.57894736842105,122.74333333333334,42.68421052631579,89.13111111109234,54.73684210526315,95.14C66.78947368421052,101.14888888890766,78.8421052631579,155.88611111110924,90.89473684210526,158.79666666666668C102.94736842105263,161.7072222222241,114.99999999999999,115.98333333333333,127.05263157894736,112.60333333333332C139.10526315789474,109.22333333333333,151.15789473684208,154.47683888889077,163.21052631578945,138.51666666666665C175.26315789473682,122.55649444444256,187.31578947368422,15.151361111092342,199.36842105263156,16.842299999999994C211.42105263157893,18.533238888907675,223.4736842105263,137.02101666666667,235.52631578947367,148.6623C247.578947368421,160.30358333333334,259.63157894736844,93.40399444442568,271.6842105263158,86.69C283.7368421052631,79.97600555557432,295.7894736842105,104.76361111109233,307.84210526315786,108.37833333333333C319.89473684210526,111.99305555557433,331.9473684210526,102.41638888890766,344,108.37833333333333C356.05263157894734,114.3402777777759,368.1052631578947,150.6752777777759,380.1578947368421,144.15C392.2105263157895,137.6247222222241,404.26315789473676,69.97683888890765,416.31578947368416,69.22666666666666C428.36842105263156,68.47649444442567,440.4210526315789,127.3495222222241,452.4736842105263,139.64896666666667C464.5263157894737,151.94841111110924,476.578947368421,139.6442722222241,488.6315789473684,143.02333333333334C500.6842105263158,146.40239444444256,512.7368421052631,171.0022222222224,524.7894736842105,159.92333333333335C536.8421052631579,148.84444444444256,548.8947368421052,85.93888888890766,560.9473684210526,76.55C573,67.16111111109234,585.0526315789473,99.08333333333333,597.1052631578947,103.59C609.157894736842,108.09666666666666,621.2105263157895,92.605,633.2631578947368,103.59C645.3157894736842,114.57499999999999,669.4210526315788,169.5,669.4210526315788,169.5" stroke="#a94442" stroke-width="2" fill-opacity="1" fill="none"></path></g></g><g></g></g><g></g></svg><div aria-label="A tabular representation of the data in the chart." style="position: absolute; left: -10000px; top: auto; width: 1px; height: 1px; overflow: hidden;"><table><thead><tr><th>Date</th><th>Amount</th></tr></thead><tbody><tr><td>1/1</td><td>83</td></tr><tr><td>2/1</td><td>132</td></tr><tr><td>3/1</td><td>19</td></tr><tr><td>4/1</td><td>101</td></tr><tr><td>5/1</td><td>55</td></tr><tr><td>6/1</td><td>270.99</td></tr><tr><td>7/1</td><td>36.99</td></tr><tr><td>8/1</td><td>147</td></tr><tr><td>9/1</td><td>108.5</td></tr><tr><td>10/1</td><td>108.5</td></tr><tr><td>11/1</td><td>45</td></tr><tr><td>12/1</td><td>178</td></tr><tr><td>13/1</td><td>52.99</td></tr><tr><td>14/1</td><td>47</td></tr><tr><td>15/1</td><td>17</td></tr><tr><td>16/1</td><td>165</td></tr><tr><td>17/1</td><td>117</td></tr><tr><td>18/1</td><td>117</td></tr><tr><td>19/1</td><td>0</td></tr></tbody></table></div></div></div><div aria-hidden="true" style="display: none; position: absolute; top: 210px; left: 698px; white-space: nowrap; font-family: Arial; font-size: 12px; font-weight: bold;">Expenses</div><div></div></div></div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+<div class="hidden">
+	<span id="tour_step_0">Для початку додамо в гаманець трохи грошей :)<br><br>Натисніть на цю кнопку і заповніть невелику форму у спливаючому віконці. Це просто.</span>
+	<span id="tour_step_1">На відміну від інших подібних систем, DimeShift розробляли реалісти. Ми не просимо вас вводити дані про кожну транзакцію, іноді буває простіше в якийсь момент встановити поточну суму.<br><br>Це можна робити щовечора або навіть раз на кілька днів.<br><br>Якщо раптом ви забули про своє рішення вести облік, а через час повернулися до цієї ідеї - все окей, повертайтеся до своїх гаманців в будь-який час.</span>
+	<span id="tour_step_2">Настав час вказати витрати.<br><br>Можна описати транзакцію в один рядок, наприклад '99.99, краща трата в моєму житті'<br><br>Натисніть Enter, коли опис буде готовим</span>
+	<span id="tour_step_3">Список транзакцій оновився</span>
+	<span id="tour_step_4">Кожна транзакція відображається на графіку, наочно демонструючі ваші витрати</span>
+	<span id="tour_step_5">Заповніть ваш профіль, щоб мати можливість увійти до нього наступного разу</span>
+</div></div></div>
+		<div class="page_holder" id="page_holder_2" style="display: none;"><div class="page"><ul class="breadcrumb">
+  <li><a href="http://localhost:3000"><span data-i18n="Home">Головна</span></a></li>
+  <li class="active"><span data-i18n="Your Wallets">Ваші гаманці</span></li>
+</ul>
+
+
+<div class="row">
+<div class="col-xs-12 col-md-9">
+
+			<div class="list-group wallet_item" id="wallet_items">
+					<a href="http://localhost:3000/wallets/3" class="list-group-item item" data-id="3">
+			    
+				
+				<div class="pull-right text-success 
+				transaction_amount"><strong>$3199.<sup>03</sup></strong></div>
+
+				<div class="item_buttons wallet_buttons">
+									<button class="btn btn-default btn-xs item_button_remove"><span class="glyphicon glyphicon-trash"></span> <span data-i18n="Hide">Приховати</span></button>
+										<button class="btn btn-default btn-xs item_button_edit"><span class="glyphicon glyphicon-pencil"></span> <span data-i18n="Edit">Редагувати</span></button>
+					<button class="btn btn-default btn-xs item_button_accesses"><span class="glyphicon glyphicon-user"></span> <span data-i18n="Manage Accesses">Доступ</span></button>
+																		</div>
+				<h4 class="list-group-item-heading">
+								Sample Bank Account Wallet</h4>
+
+			</a>
+					<a href="http://localhost:3000/wallets/4" class="list-group-item item" data-id="4">
+			    
+				
+				<div class="pull-right text-success 
+				transaction_amount"><strong>$0.<sup>00</sup></strong></div>
+
+				<div class="item_buttons wallet_buttons">
+									<button class="btn btn-default btn-xs item_button_remove"><span class="glyphicon glyphicon-trash"></span> <span data-i18n="Hide">Приховати</span></button>
+										<button class="btn btn-default btn-xs item_button_edit"><span class="glyphicon glyphicon-pencil"></span> <span data-i18n="Edit">Редагувати</span></button>
+					<button class="btn btn-default btn-xs item_button_accesses"><span class="glyphicon glyphicon-user"></span> <span data-i18n="Manage Accesses">Доступ</span></button>
+																		</div>
+				<h4 class="list-group-item-heading">
+								BigPlan</h4>
+
+			</a>
+		
+					<div class="list-group-item list-group-item-info"><a href="http://localhost:3000/wallets/add" class="btn btn-primary" id="add_wallet_button"><span data-i18n="Add">Додати</span></a></div>
+				</div>	
+	
+</div>
+<div class="col-xs-12 col-md-3">
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title"><span data-i18n="Filter">Фільтр</span></h3>
+		</div>
+		<div class="panel-body">
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#" class="filter_menu" data-status="active"><span class="glyphicon glyphicon-ok"></span> <span data-i18n="Active">Активні</span></a></li>
+				<li><a href="#" class="filter_menu" data-status="hidden"><span class="glyphicon glyphicon-trash"></span> <span data-i18n="Trash">Приховані</span></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="panel panel-default">
+		<div class="panel-heading">
+			<h3 class="panel-title"><span data-i18n="Access">Доступ</span></h3>
+		</div>
+		<div class="panel-body">
+			<ul class="nav nav-pills nav-stacked">
+				<li class="active"><a href="#" class="origin_menu" data-origin="both"><span class="glyphicon glyphicon-ok"></span> <span data-i18n="Both">Будь-які</span></a></li>
+				<li><a href="#" class="origin_menu" data-origin="mine"><span class="glyphicon glyphicon-user"></span> <span data-i18n="Yours">Ваші</span></a></li>
+				<li><a href="#" class="origin_menu" data-origin="shared"><span class="glyphicon glyphicon-share-alt"></span> <span data-i18n="Shared with you">Інших користувачів</span></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+</div>
+</div>
+
+
+<div class="hidden">
+	<span id="tour_step_0">Дозвольте нам провести невеликий тур по основним функціям DimeShift.<br><br> Наш робот створив пару тестових гаманців для тестування.</span>
+	<span id="tour_step_1">Але ви можете створити їх стільки, скільки забажаєте.<br><br>У будь-якій валюті, з будь-якою назвою.</span>
+	<span id="tour_step_2">Наведіть курсор на рядок з назвою гаманця і з'являться кнопки з додатковими функціями.<br><br>Але спочатку перейдімо на сторінку гаманця. Натисніть на будь-який гаманець, щоб продовжити.</span>
+</div></div></div>
+	</div>
+
+	<div id="push"></div>
+</div>
+
+	<div id="preloader" style="opacity: 1; display: none;"></div>
+	<footer id="footer" role="contentinfo">
+		<div class="container">
+			<div class="pull-right">
+				<a href="https://github.com/jeka-kiselyov/dimeshift" data-i18n="View Source on GitHub">Код на GitHub</a>
+			</div>
+			<p class="muted credit"><span data-i18n="Copyright" class="hidden-xs hidden-sm">Розроблено у</span><span class="visible-xs-inline visible-sm-inline">©</span> 2017 <a href="http://dimeshift.com">DimeShift</a><span class="hidden-xs hidden-sm">.</span> <span data-i18n="GNU Affero GPL License" class="hidden-xs hidden-sm">ліцензія GNU Affero GPL</span> </p>
+		</div>
+	</footer>
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+	<script src="/resources/js.js" type="text/javascript"></script><script type="text/javascript" src="/vendors/jquery/jquery.min.js"></script><script type="text/javascript" src="/vendors/bootstrap/js/modal.js"></script><script type="text/javascript" src="/vendors/bootstrap/js/button.js"></script><script type="text/javascript" src="/vendors/bootstrap/js/dropdown.js"></script><script type="text/javascript" src="/vendors/bootstrap/js/collapse.js"></script><script type="text/javascript" src="/vendors/bootstrap/js/tooltip.js"></script><script type="text/javascript" src="/vendors/bootstrap/js/popover.js"></script><script type="text/javascript" src="/vendors/bootstrap-tour/build/js/bootstrap-tour.js"></script><script type="text/javascript" src="/vendors/underscore/underscore-min.js"></script><script type="text/javascript" src="/vendors/backbone/backbone.js"></script><script type="text/javascript" src="/vendors/backbone.paginator/lib/backbone.paginator.min.js"></script><script type="text/javascript" src="/vendors/bootstrap-clickonmouseover/bootstrap.clickonmouseover.js"></script><script type="text/javascript" src="/vendors/magnific-popup/dist/jquery.magnific-popup.min.js"></script><script type="text/javascript" src="/vendors/mprogress/build/js/mprogress.min.js"></script><script type="text/javascript" src="/vendors/jsmart/jsmart.js"></script><script type="text/javascript" src="/scripts/functions.js"></script><script type="text/javascript" src="/scripts/app.js"></script><script type="text/javascript" src="/scripts/app/helper.js"></script><script type="text/javascript" src="/scripts/app/view_stack.js"></script><script type="text/javascript" src="/scripts/app/settings.js"></script><script type="text/javascript" src="/scripts/app/local_storage.js"></script><script type="text/javascript" src="/scripts/app/template_manager.js"></script><script type="text/javascript" src="/scripts/app/i18n.js"></script><script type="text/javascript" src="/scripts/app/exchange.js"></script><script type="text/javascript" src="/scripts/app/abstract/dialog.js"></script><script type="text/javascript" src="/scripts/app/abstract/page.js"></script><script type="text/javascript" src="/scripts/app/models/plan.js"></script><script type="text/javascript" src="/scripts/app/models/transaction.js"></script><script type="text/javascript" src="/scripts/app/models/user.js"></script><script type="text/javascript" src="/scripts/app/models/wallet.js"></script><script type="text/javascript" src="/scripts/app/models/wallets_access.js"></script><script type="text/javascript" src="/scripts/app/collections/plans.js"></script><script type="text/javascript" src="/scripts/app/collections/transactions.js"></script><script type="text/javascript" src="/scripts/app/collections/users.js"></script><script type="text/javascript" src="/scripts/app/collections/wallets.js"></script><script type="text/javascript" src="/scripts/app/collections/wallets_accesses.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/add_profit.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/add_wallet.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/change_language.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/edit_wallet.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/fill_profile.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/hide_wallet.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/logout.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/registration.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/remove_access.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/remove_plan.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/remove_transaction.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/restore.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/set_total_to.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/signin.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/transaction_details.js"></script><script type="text/javascript" src="/scripts/app/views/dialogs/wallet_accesses.js"></script><script type="text/javascript" src="/scripts/app/views/widgets/index.js"></script><script type="text/javascript" src="/scripts/app/views/parts/profile_change_password.js"></script><script type="text/javascript" src="/scripts/app/views/parts/profile_remove_account.js"></script><script type="text/javascript" src="/scripts/app/views/parts/transactions.js"></script><script type="text/javascript" src="/scripts/app/views/parts/wallet_plans.js"></script><script type="text/javascript" src="/scripts/app/views/pages/404.js"></script><script type="text/javascript" src="/scripts/app/views/pages/import_xls.js"></script><script type="text/javascript" src="/scripts/app/views/pages/index.js"></script><script type="text/javascript" src="/scripts/app/views/pages/plan.js"></script><script type="text/javascript" src="/scripts/app/views/pages/plans.js"></script><script type="text/javascript" src="/scripts/app/views/pages/profile.js"></script><script type="text/javascript" src="/scripts/app/views/pages/update_password.js"></script><script type="text/javascript" src="/scripts/app/views/pages/wallet.js"></script><script type="text/javascript" src="/scripts/app/views/pages/wallets.js"></script><script type="text/javascript" src="/scripts/app/views/tours/wallet.js"></script><script type="text/javascript" src="/scripts/app/views/tours/wallets.js"></script><script type="text/javascript" src="/scripts/app/views/charts/balance.js"></script><script type="text/javascript" src="/scripts/app/views/header.js"></script><script type="text/javascript" src="/scripts/app/log.js"></script><script type="text/javascript" src="/scripts/app/router.js"></script><script type="text/javascript" src="/scripts/setup.js"></script>
+
+<div id="dialog_wrapper"></div></body></html>

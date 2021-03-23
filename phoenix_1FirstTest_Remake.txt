@@ -1,0 +1,218 @@
+@Test
+public void phoenixFirstTest() {
+    driver.get("http://localhost:3000/sign_in");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(1533, 884));
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\'Create new account\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_first_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_first_name")).sendKeys("Yigit");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_last_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_last_name")).sendKeys("Soydan");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_email")).sendKeys("yigitsoydan98@gmail.com");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_password")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_password")).sendKeys("123456");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_password_confirmation")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("user_password_confirmation")).sendKeys("123456");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Sign up\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span[contains(.,\' Boards\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span[contains(.,\' Boards\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'authentication_container\']/header/a/span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span[contains(.,\'Yigit Soydan\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'authentication_container\']/header/nav[2]/ul/li/a/img")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("add_new_board")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("board_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("board_name")).sendKeys("my_board");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Create board\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'authentication_container\']/div/div/div/div/div/div/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("list_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("list_name")).sendKeys("my_list");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Save list\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'authentication_container\']/div/div/div/div/div/div[2]/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("list_name")).sendKeys("my_second_list");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Save list\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'list_86\']/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'authentication_container\']/div/div/div/div/div/div[3]/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("list_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("list_name")).sendKeys("my_second_list");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\'cancel\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("(//a[contains(text(),\'Add a new card...\')])[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("card_name")).sendKeys("hey");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Add\')]")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//button[contains(.,\'Add\')]"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("(//a[contains(text(),\'Add a new card...\')])[2]")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("(//a[contains(text(),\'Add a new card...\')])[2]"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("card_name")).sendKeys("hello");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\'cancel\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\'Add a new card...\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("card_name")).sendKeys("first");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Add\')]")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//button[contains(.,\'Add\')]"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[@id=\'authentication_container\']/div/div/div/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[@id=\'authentication_container\']/div/div/header/ul/span/li[2]/a/i")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[@id=\'authentication_container\']/div/div/header/ul/span/li[2]/a/i"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("crawljax_member_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("crawljax_member_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("crawljax_member_email")).sendKeys("nezih123456789@gmail.com");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Add member\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\'cancel\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\' Sign out\')]")).click();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

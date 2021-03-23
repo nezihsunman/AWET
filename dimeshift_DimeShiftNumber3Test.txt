@@ -1,0 +1,128 @@
+@Test
+public void dimeShiftNumber3() {
+    driver.get("http://localhost:3000/wallets");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(1853, 902));
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[3]/a")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//li[4]/a"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//li[8]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[2]/a/span[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div[2]/ul/li/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div/a/span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).sendKeys("MyYigitWallet");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//select")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement dropdown = driver.findElement(By.id("input_currency"));
+Thread.sleep(3000);
+
+        dropdown.findElement(By.xpath("//option[. = 'Turkish Lira']")).click();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//option[145]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[4]/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[2]/span[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[4]/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[3]/span[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).sendKeys("deneme");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/div/div/div/div/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div[2]/ul/li[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div/div/div/a")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/div/div/div/div/a"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("input_name")).sendKeys("Personal");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//select")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement dropdown = driver.findElement(By.id("input_currency"));
+Thread.sleep(3000);
+
+        dropdown.findElement(By.xpath("//option[. = 'Thai Baht']")).click();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//option[140]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[4]/input")).click();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

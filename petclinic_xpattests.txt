@@ -1,0 +1,28 @@
+@Test
+public void clicktest() {
+    driver.get("http://localhost:3000/petclinic/");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(1245, 902));
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(text(),\'Owners\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(@href, \'/petclinic/owners\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(text(),\'Veterinarians\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(@href, \'/petclinic/vets\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(@href, \'/petclinic/pettypes\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Add\')]")).click();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

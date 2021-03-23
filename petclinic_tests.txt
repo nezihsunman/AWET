@@ -1,0 +1,47 @@
+@Test
+public void pet() {
+    driver.get("http://localhost:3000/petclinic/");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(1375, 930));
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(@href, \'/petclinic/pettypes\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Add\')]")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//button[contains(.,\'Add\')]"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div/div/input")).sendKeys("cat");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Save\')]")).click();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

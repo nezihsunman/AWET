@@ -1,0 +1,660 @@
+@Test
+public void test2() {
+    driver.get("http://localhost:3000/-MMv0GKTQP3FYB-nIOYw");
+Thread.sleep(3000);
+
+    driver.manage().window().setSize(new Dimension(1554, 884));
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("#ember760 g:nth-child(1) > path")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.cssSelector("#ember760 g:nth-child(1) > path"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.cssSelector("a:nth-child(1) > .icon-md")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("a:nth-child(2) > .icon")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("a:nth-child(3) > .icon")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("a:nth-child(4) > .icon")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/p/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a/strong")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//li/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//main/div/ul/li[2]/a")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//main/div/ul/li[2]/a"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("ember1072")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[3]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("ember1392")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember1392")).sendKeys("Onur");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[3]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//li[5]/div/div/span/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[4]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/div/div/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[4]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div[2]/div/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember1693")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember1693")).sendKeys("4 tickets");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/button[2]")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[3]/button[2]"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//li/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//li/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//li/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//li/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.xpath("//div[3]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).clickAndHold().perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.xpath("//div[4]/div"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.xpath("//div[4]/div"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).release().perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[3]/button[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//li/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[4]/div/div/div/div/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//li/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div/div[2]/div/div/ul/li[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[4]/div/div/span/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[3]/div/div/span/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.id("dropDownEvents")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2060")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2121")).sendKeys("Istanbul");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2126")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2126")).sendKeys("Jack");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2129")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2129")).sendKeys("Ben");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[3]/div/div/span/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.cssSelector("#ember760 > .brand")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.cssSelector("#ember760 > .brand"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[2]/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//button[3]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//button[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2263")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2292")).sendKeys("a");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2297")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2297")).sendKeys("b");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2300")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("ember2300")).sendKeys("c");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[3]/div/div/span/button")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.cssSelector("#ember760 g:nth-child(1) > path")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.cssSelector("#ember760 g:nth-child(1) > path"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[2]/button")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//div[2]/button"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    {
+        WebElement element = driver.findElement(By.tagName("body"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element, 0, 0).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//div[3]/button")).click();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

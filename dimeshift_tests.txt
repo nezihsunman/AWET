@@ -1,0 +1,116 @@
+@Test
+public void dimeshift() {
+    driver.manage().window().setSize(new Dimension(1245, 906));
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\'$ dimeshift\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("demo_signup")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Next »\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Next »\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[3]/div[3]/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'End tour\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div/div/div/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'End tour\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Add Income\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_amount")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_amount")).sendKeys("1500");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_description")).sendKeys("nezih");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[4]/input")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.xpath("//button[contains(.,\' October 2020\')]"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.moveToElement(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//a[contains(.,\'Goals\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\'Contact\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\'Contact\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span[contains(.,\'Create new\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).sendKeys("nezih");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div[2]/div/div/div[2]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\' Sample Cash Wallet \')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//a[contains(.,\' Sample Bank Account Wallet \')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span[contains(.,\'Next\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//td[contains(.,\'17\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//td[contains(.,\'19\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_start_currency")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement dropdown = driver.findElement(By.id("input_start_currency"));
+Thread.sleep(3000);
+
+        dropdown.findElement(By.xpath("//option[. = 'Afghan Afghani']")).click();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.xpath("//option[contains(.,\'Afghan Afghani\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//button[contains(.,\'Confirm and save\')]")).click();
+Thread.sleep(3000);
+
+};
+Thread.sleep(3000);

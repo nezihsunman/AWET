@@ -1,0 +1,3018 @@
+{
+  "nodes" : [ {
+    "name" : "state93",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 65,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 16
+    }, {
+      "top" : 237,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 279,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 409,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 451,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 493,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 688,
+      "height" : 40
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 93,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 1.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932392677,
+    "nearestState" : "state92"
+  }, {
+    "name" : "state92",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 65,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 16
+    }, {
+      "top" : 409,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 451,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 493,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 688,
+      "height" : 40
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 1,
+    "id" : 92,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 8.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932383511,
+    "nearestState" : "state12"
+  }, {
+    "name" : "state97",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 587,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 4,
+    "id" : 97,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 9.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932419688,
+    "nearestState" : "state51"
+  }, {
+    "name" : "state51",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 65,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 16
+    }, {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 212,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 34
+    }, {
+      "top" : 331,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 373,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 503,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 545,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 587,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 7,
+    "id" : 51,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 9.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931988259,
+    "nearestState" : "state45"
+  }, {
+    "name" : "state50",
+    "url" : "http://localhost:3000/wallets/2",
+    "candidateElements" : [ {
+      "top" : 615,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]",
+      "width" : 688,
+      "height" : 34
+    }, {
+      "top" : 480,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]",
+      "width" : 688,
+      "height" : 30
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 50,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 2.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931975498,
+    "nearestState" : "state48"
+  }, {
+    "name" : "state6",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 636,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]",
+      "width" : 74,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 343,
+      "left" : 455,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[3]/A[1]",
+      "width" : 67,
+      "height" : 30
+    }, {
+      "top" : 343,
+      "left" : 531,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[3]/A[2]",
+      "width" : 145,
+      "height" : 30
+    }, {
+      "top" : 138,
+      "left" : 664,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 12,
+      "height" : 21
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    }, {
+      "top" : 294,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/FIELDSET[1]/DIV[4]/INPUT[1]",
+      "width" : 70,
+      "height" : 34
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 3,
+    "id" : 6,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 11.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931528640,
+    "nearestState" : "state5"
+  }, {
+    "name" : "state5",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 636,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]",
+      "width" : 74,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 392,
+      "left" : 617,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/A[1]",
+      "width" : 59,
+      "height" : 30
+    }, {
+      "top" : 138,
+      "left" : 664,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 12,
+      "height" : 21
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    }, {
+      "top" : 343,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/FIELDSET[1]/DIV[5]/INPUT[1]",
+      "width" : 76,
+      "height" : 34
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 3,
+    "id" : 5,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 17.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931510906,
+    "nearestState" : "index"
+  }, {
+    "name" : "state2",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 348,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 67,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 546,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]",
+      "width" : 82,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]",
+      "width" : 74,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 702,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 2,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 3.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931489706,
+    "nearestState" : "index"
+  }, {
+    "name" : "state110",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 201,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 257,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 34
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 330,
+      "left" : 235,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[2]/DIV[1]/INPUT[2]",
+      "width" : 94,
+      "height" : 34
+    }, {
+      "top" : 330,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[2]/DIV[1]/INPUT[1]",
+      "width" : 122,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 110,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 13.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932679582,
+    "nearestState" : "state10"
+  }, {
+    "name" : "state132",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 224,
+      "left" : 530,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/FIELDSET[1]/DIV[1]/DIV[1]/TABLE[1]/TBODY[1]/TR[1]/TD[4]/DIV[1]/A[1]",
+      "width" : 123,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 132,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 5.0,
+    "cluster" : -1,
+    "timeAdded" : 1606933172356,
+    "nearestState" : "state131"
+  }, {
+    "name" : "state131",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 380,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/FIELDSET[1]/DIV[2]/DIV[1]/INPUT[1]",
+      "width" : 143,
+      "height" : 34
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 1,
+    "id" : 131,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 14.0,
+    "cluster" : -1,
+    "timeAdded" : 1606933151507,
+    "nearestState" : "state118"
+  }, {
+    "name" : "state123",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 123,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 2.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932954011,
+    "nearestState" : "state97"
+  }, {
+    "name" : "state19",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 40,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 121,
+      "height" : 46
+    }, {
+      "top" : 94,
+      "left" : 356,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 67,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 554,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]",
+      "width" : 82,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 636,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]",
+      "width" : 74,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 101,
+      "left" : 12,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/BUTTON[1]",
+      "width" : 788,
+      "height" : 44
+    }, {
+      "top" : 352,
+      "left" : 0,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/BUTTON[1]",
+      "width" : 90,
+      "height" : 110
+    }, {
+      "top" : 352,
+      "left" : 732,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/BUTTON[2]",
+      "width" : 90,
+      "height" : 110
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    } ],
+    "fanIn" : 3,
+    "fanOut" : 3,
+    "id" : 19,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 24.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931641589,
+    "nearestState" : "state14"
+  }, {
+    "name" : "state125",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 1,
+    "id" : 125,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 2.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932991210,
+    "nearestState" : "state51"
+  }, {
+    "name" : "state127",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 127,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 4.0,
+    "cluster" : -1,
+    "timeAdded" : 1606933042558,
+    "nearestState" : "state118"
+  }, {
+    "name" : "state107",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 493,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 688,
+      "height" : 40
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 107,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 5.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932628337,
+    "nearestState" : "state92"
+  }, {
+    "name" : "state35",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 35,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 7.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931809363,
+    "nearestState" : "state10"
+  }, {
+    "name" : "state12",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 21,
+      "left" : 269,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 75,
+      "height" : 45
+    }, {
+      "top" : 21,
+      "left" : 344,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 67,
+      "height" : 45
+    }, {
+      "top" : 21,
+      "left" : 542,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[8]/A[1]",
+      "width" : 81,
+      "height" : 45
+    }, {
+      "top" : 21,
+      "left" : 622,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[9]/A[1]",
+      "width" : 80,
+      "height" : 45
+    }, {
+      "top" : 21,
+      "left" : 702,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 65,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 37,
+      "height" : 16
+    }, {
+      "top" : 127,
+      "left" : 176,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 33,
+      "height" : 22
+    }, {
+      "top" : 239,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 281,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 411,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 453,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 495,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 688,
+      "height" : 40
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 12,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[8]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[9]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 28.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931587146,
+    "nearestState" : "state5"
+  }, {
+    "name" : "state108",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ ],
+    "fanIn" : 2,
+    "fanOut" : 0,
+    "id" : 108,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 4.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932637184,
+    "nearestState" : "state98"
+  }, {
+    "name" : "state99",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 201,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 2,
+    "id" : 99,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 14.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932461446,
+    "nearestState" : "state92"
+  }, {
+    "name" : "state10",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 294,
+      "left" : 609,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[4]/DIV[1]/A[1]",
+      "width" : 66,
+      "height" : 30
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    }, {
+      "top" : 245,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/FIELDSET[1]/DIV[3]/INPUT[1]",
+      "width" : 75,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 10,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 9.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931564096,
+    "nearestState" : "state6"
+  }, {
+    "name" : "state98",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 98,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 14.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932431360,
+    "nearestState" : "state12"
+  }, {
+    "name" : "state17",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 196,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/DIV[2]/BUTTON[1]",
+      "width" : 568,
+      "height" : 34
+    }, {
+      "top" : 229,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/DIV[2]/BUTTON[2]",
+      "width" : 568,
+      "height" : 34
+    }, {
+      "top" : 262,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/DIV[2]/BUTTON[3]",
+      "width" : 568,
+      "height" : 34
+    }, {
+      "top" : 295,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[1]/DIV[2]/BUTTON[4]",
+      "width" : 568,
+      "height" : 34
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    }, {
+      "top" : 344,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[2]/DIV[1]/INPUT[1]",
+      "width" : 70,
+      "height" : 34
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 17,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 5.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931620646,
+    "nearestState" : "state6"
+  }, {
+    "name" : "state15",
+    "url" : "http://localhost:3000/profile",
+    "candidateElements" : [ {
+      "top" : 0,
+      "left" : 630,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[9]/A[1]",
+      "width" : 80,
+      "height" : 45
+    }, {
+      "top" : 0,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 65,
+      "left" : 55,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 37,
+      "height" : 16
+    }, {
+      "top" : 421,
+      "left" : 56,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 463,
+      "left" : 56,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 333,
+      "left" : 40,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/INPUT[1]",
+      "width" : 140,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 15,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 21.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931605848,
+    "nearestState" : "state12"
+  }, {
+    "name" : "state14",
+    "url" : "http://localhost:3000/plans",
+    "candidateElements" : [ {
+      "top" : 0,
+      "left" : 549,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[8]/A[1]",
+      "width" : 81,
+      "height" : 45
+    }, {
+      "top" : 0,
+      "left" : 630,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[9]/A[1]",
+      "width" : 80,
+      "height" : 45
+    }, {
+      "top" : 0,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 65,
+      "left" : 55,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 37,
+      "height" : 16
+    }, {
+      "top" : 185,
+      "left" : 56,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[1]",
+      "width" : 98,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 14,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[3]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 23.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931599140,
+    "nearestState" : "state12"
+  }, {
+    "name" : "state85",
+    "url" : "http://localhost:3000/wallets/2",
+    "candidateElements" : [ ],
+    "fanIn" : 5,
+    "fanOut" : 0,
+    "id" : 85,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 16.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932281121,
+    "nearestState" : "state12"
+  }, {
+    "name" : "index",
+    "url" : "http://localhost:3000",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 121,
+      "height" : 46
+    }, {
+      "top" : 94,
+      "left" : 348,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 67,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 546,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]",
+      "width" : 82,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]",
+      "width" : 74,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 702,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    } ],
+    "fanIn" : 6,
+    "fanOut" : 8,
+    "id" : 0,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931476069,
+    "nearestState" : "null"
+  }, {
+    "name" : "state121",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 0,
+    "fanOut" : 1,
+    "id" : 121,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 2.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932903091,
+    "nearestState" : "state99"
+  }, {
+    "name" : "state120",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 120,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 2.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932859868,
+    "nearestState" : "state118"
+  }, {
+    "name" : "state111",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 201,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 257,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 34
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 111,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 7.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932703910,
+    "nearestState" : "state99"
+  }, {
+    "name" : "state133",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 255,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/FORM[1]/DIV[2]/DIV[1]/INPUT[1]",
+      "width" : 117,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 133,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 10.0,
+    "cluster" : -1,
+    "timeAdded" : 1606933186445,
+    "nearestState" : "state110"
+  }, {
+    "name" : "state136",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 136,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 6.0,
+    "cluster" : -1,
+    "timeAdded" : 1606933249686,
+    "nearestState" : "state133"
+  }, {
+    "name" : "state118",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 257,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 34
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 358,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/FIELDSET[1]/DIV[4]/INPUT[1]",
+      "width" : 85,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 118,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 3.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932821116,
+    "nearestState" : "state89"
+  }, {
+    "name" : "state46",
+    "url" : "http://localhost:3000/wallets/2",
+    "candidateElements" : [ {
+      "top" : 65,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 16
+    }, {
+      "top" : 65,
+      "left" : 122,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 51,
+      "height" : 16
+    }, {
+      "top" : 245,
+      "left" : 556,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 180,
+      "height" : 17
+    }, {
+      "top" : 310,
+      "left" : 672,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/H3[1]/SPAN[2]/A[1]",
+      "width" : 64,
+      "height" : 22
+    }, {
+      "top" : 615,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]",
+      "width" : 688,
+      "height" : 34
+    }, {
+      "top" : 209,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[1]",
+      "width" : 688,
+      "height" : 34
+    }, {
+      "top" : 480,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]",
+      "width" : 688,
+      "height" : 30
+    }, {
+      "top" : 434,
+      "left" : 270,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[1]",
+      "width" : 57,
+      "height" : 30
+    }, {
+      "top" : 434,
+      "left" : 326,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[2]",
+      "width" : 56,
+      "height" : 30
+    }, {
+      "top" : 434,
+      "left" : 447,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/BUTTON[1]",
+      "width" : 67,
+      "height" : 30
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 46,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[2]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 27.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931925037,
+    "nearestState" : "index"
+  }, {
+    "name" : "state23",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 40,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 121,
+      "height" : 46
+    }, {
+      "top" : 94,
+      "left" : 356,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 67,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 554,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]",
+      "width" : 82,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 636,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]",
+      "width" : 74,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 352,
+      "left" : 732,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/BUTTON[2]",
+      "width" : 90,
+      "height" : 110
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 1,
+    "id" : 23,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 18.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931694038,
+    "nearestState" : "state2"
+  }, {
+    "name" : "state45",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 65,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 16
+    }, {
+      "top" : 111,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 212,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 34
+    }, {
+      "top" : 331,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 373,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 503,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 545,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 587,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 428,
+      "left" : 270,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[1]",
+      "width" : 57,
+      "height" : 30
+    }, {
+      "top" : 428,
+      "left" : 326,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[2]",
+      "width" : 56,
+      "height" : 30
+    }, {
+      "top" : 428,
+      "left" : 447,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/BUTTON[1]",
+      "width" : 67,
+      "height" : 30
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 45,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 13.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931910397,
+    "nearestState" : "state12"
+  }, {
+    "name" : "state89",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 331,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 373,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 503,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 545,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[2]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 587,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]",
+      "width" : 688,
+      "height" : 40
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 313,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/FIELDSET[1]/DIV[4]/INPUT[1]",
+      "width" : 73,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 89,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/UL[1]/LI[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[2]/DIV[2]/UL[1]/LI[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 17.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932345275,
+    "nearestState" : "state48"
+  }, {
+    "name" : "state119",
+    "url" : "http://localhost:3000/wallets",
+    "candidateElements" : [ {
+      "top" : 156,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]",
+      "width" : 720,
+      "height" : 46
+    }, {
+      "top" : 257,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 73,
+      "height" : 34
+    }, {
+      "top" : 122,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 122,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[1]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 420,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 511,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 167,
+      "left" : 605,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 444,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[1]",
+      "width" : 87,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 534,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[2]",
+      "width" : 90,
+      "height" : 22
+    }, {
+      "top" : 212,
+      "left" : 628,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[3]/DIV[2]/BUTTON[3]",
+      "width" : 66,
+      "height" : 22
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 119,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[2]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/A[2]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 3.0,
+    "cluster" : -1,
+    "timeAdded" : 1606932845114,
+    "nearestState" : "state111"
+  }, {
+    "name" : "state44",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 193,
+      "left" : 225,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 59,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 44,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 4.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931902315,
+    "nearestState" : "index"
+  }, {
+    "name" : "state21",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 40,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 121,
+      "height" : 46
+    }, {
+      "top" : 94,
+      "left" : 356,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 67,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 554,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]",
+      "width" : 82,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 636,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]",
+      "width" : 74,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 352,
+      "left" : 0,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/BUTTON[1]",
+      "width" : 90,
+      "height" : 110
+    }, {
+      "top" : 352,
+      "left" : 732,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[2]/DIV[1]/BUTTON[2]",
+      "width" : 90,
+      "height" : 110
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 2,
+    "id" : 21,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 9.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931667763,
+    "nearestState" : "state19"
+  }, {
+    "name" : "state49",
+    "url" : "http://localhost:3000/wallets/2",
+    "candidateElements" : [ {
+      "top" : 65,
+      "left" : 47,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]",
+      "width" : 53,
+      "height" : 16
+    }, {
+      "top" : 65,
+      "left" : 122,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[2]/A[1]",
+      "width" : 51,
+      "height" : 16
+    }, {
+      "top" : 245,
+      "left" : 556,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 180,
+      "height" : 17
+    }, {
+      "top" : 310,
+      "left" : 672,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[1]/H3[1]/SPAN[2]/A[1]",
+      "width" : 64,
+      "height" : 22
+    }, {
+      "top" : 615,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]",
+      "width" : 688,
+      "height" : 34
+    }, {
+      "top" : 209,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/BUTTON[1]",
+      "width" : 688,
+      "height" : 34
+    }, {
+      "top" : 480,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]",
+      "width" : 688,
+      "height" : 30
+    }, {
+      "top" : 633,
+      "left" : 524,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[1]",
+      "width" : 57,
+      "height" : 30
+    }, {
+      "top" : 633,
+      "left" : 701,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/BUTTON[1]",
+      "width" : 67,
+      "height" : 30
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 49,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/UL[1]/LI[2]/A[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 18.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931963338,
+    "nearestState" : "state46"
+  }, {
+    "name" : "state26",
+    "url" : "http://localhost:3000/",
+    "candidateElements" : [ {
+      "top" : 94,
+      "left" : 40,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/A[1]",
+      "width" : 121,
+      "height" : 46
+    }, {
+      "top" : 94,
+      "left" : 356,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]",
+      "width" : 67,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 554,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]",
+      "width" : 82,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 636,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]",
+      "width" : 74,
+      "height" : 45
+    }, {
+      "top" : 94,
+      "left" : 710,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]",
+      "width" : 50,
+      "height" : 34
+    }, {
+      "top" : 292,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 292,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 32,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 468,
+      "left" : 407,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]",
+      "width" : 345,
+      "height" : 161
+    }, {
+      "top" : 193,
+      "left" : 255,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]",
+      "width" : 54,
+      "height" : 34
+    } ],
+    "fanIn" : 2,
+    "fanOut" : 0,
+    "id" : 26,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[6]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[7]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/UL[1]/LI[10]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[1]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[3]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[2]/DIV[4]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[3]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/P[1]/INPUT[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 11.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931725838,
+    "nearestState" : "state21"
+  }, {
+    "name" : "state48",
+    "url" : "http://localhost:3000/wallets/2",
+    "candidateElements" : [ {
+      "top" : 615,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]",
+      "width" : 688,
+      "height" : 34
+    }, {
+      "top" : 480,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]",
+      "width" : 688,
+      "height" : 30
+    }, {
+      "top" : 576,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/FIELDSET[1]/DIV[3]/INPUT[1]",
+      "width" : 101,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 48,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 9.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931951538,
+    "nearestState" : "state47"
+  }, {
+    "name" : "state47",
+    "url" : "http://localhost:3000/wallets/2",
+    "candidateElements" : [ {
+      "top" : 615,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]",
+      "width" : 688,
+      "height" : 34
+    }, {
+      "top" : 480,
+      "left" : 48,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]",
+      "width" : 688,
+      "height" : 30
+    }, {
+      "top" : 434,
+      "left" : 270,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[1]",
+      "width" : 57,
+      "height" : 30
+    }, {
+      "top" : 434,
+      "left" : 326,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[2]",
+      "width" : 56,
+      "height" : 30
+    }, {
+      "top" : 434,
+      "left" : 447,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[4]/DIV[3]/BUTTON[1]",
+      "width" : 67,
+      "height" : 30
+    }, {
+      "top" : 576,
+      "left" : 108,
+      "xpath" : "/HTML[1]/BODY[1]/DIV[3]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/FORM[1]/FIELDSET[1]/DIV[3]/INPUT[1]",
+      "width" : 101,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 47,
+    "failedEvents" : [ "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/A[1]", "xpath /HTML[1]/BODY[1]/DIV[1]/DIV[2]/DIV[3]/DIV[1]/DIV[1]/DIV[2]/DIV[1]/DIV[2]/DIV[1]/DIV[3]/BUTTON[1]", "xpath /HTML[1]/BODY[1]/DIV[4]/DIV[3]/DIV[1]/BUTTON[1]" ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : 22.0,
+    "cluster" : -1,
+    "timeAdded" : 1606931937605,
+    "nearestState" : "state17"
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 2,
+    "text" : "$ dimeshift",
+    "element" : "Element{node=[A: null], tag=A, text=$ dimeshift, attributes={class=btn btn-info btn-lg btn-logo, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 2,
+    "target" : 0,
+    "text" : "Home",
+    "element" : "Element{node=[A: null], tag=A, text=Home, attributes={class=menu_category menu_category_home, data-i18n=Home, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 5,
+    "text" : "Register",
+    "element" : "Element{node=[A: null], tag=A, text=Register, attributes={data-i18n=Register, href=/user/registration}}",
+    "eventType" : "click"
+  }, {
+    "source" : 5,
+    "target" : 6,
+    "text" : "Sign In",
+    "element" : "Element{node=[A: null], tag=A, text=Sign In, attributes={class=btn btn-default btn-sm, href=http://localhost:3000/user/signin}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 5,
+    "text" : "Register",
+    "element" : "Element{node=[A: null], tag=A, text=Register, attributes={class=btn btn-default btn-sm, href=http://localhost:3000/user/registration}}",
+    "eventType" : "click"
+  }, {
+    "source" : 5,
+    "target" : 0,
+    "text" : "×",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=×, attributes={aria-hidden=true, class=close, data-dismiss=modal, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 6,
+    "text" : "Sign In",
+    "element" : "Element{node=[A: null], tag=A, text=Sign In, attributes={class=signin_caller, data-i18n=Sign In, href=/user/signin}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 10,
+    "text" : "Restore your password",
+    "element" : "Element{node=[A: null], tag=A, text=Restore your password, attributes={class=btn btn-default btn-sm, href=http://localhost:3000/user/restore}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 5,
+    "text" : "Register",
+    "element" : "Element{node=[A: null], tag=A, text=Register, attributes={class=btn btn-default btn-sm, href=http://localhost:3000/user/registration}}",
+    "eventType" : "click"
+  }, {
+    "source" : 5,
+    "target" : 12,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary pull-left, data-loading-text=Registration..., id=registration_modal_form_submit, type=submit, value=Sign Up}}",
+    "eventType" : "click"
+  }, {
+    "source" : 12,
+    "target" : 14,
+    "text" : "Goals",
+    "element" : "Element{node=[A: null], tag=A, text=Goals, attributes={class=menu_category menu_category_wallets, data-i18n=Goals, href=/plans}}",
+    "eventType" : "click"
+  }, {
+    "source" : 14,
+    "target" : 15,
+    "text" : "Settings",
+    "element" : "Element{node=[A: null], tag=A, text=Settings, attributes={data-i18n=Settings, href=/profile}}",
+    "eventType" : "click"
+  }, {
+    "source" : 15,
+    "target" : 0,
+    "text" : "Log Out",
+    "element" : "Element{node=[A: null], tag=A, text=Log Out, attributes={class=signout_caller, data-i18n=Log Out, href=/user/logout}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 17,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=icon_holder, href=/user/change_language}}",
+    "eventType" : "click"
+  }, {
+    "source" : 17,
+    "target" : 0,
+    "text" : "English",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=English, attributes={class=btn btn-default btn-block btn-primary process_button, data-code=default, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 19,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=image-link, href=http://localhost:3000/images/homepage/screenshots/transactions.jpg, id=image-link-1, style=background-image: url('http://localhost:3000/images/homepage/screenshots/transactions.jpg');}}",
+    "eventType" : "click"
+  }, {
+    "source" : 19,
+    "target" : 0,
+    "text" : "×",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=×, attributes={class=mfp-close, title=Close (Esc), type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 21,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=image-link, href=http://localhost:3000/images/homepage/screenshots/wallets.jpg, id=image-link-wallets, style=background-image: url('http://localhost:3000/images/homepage/screenshots/wallets.jpg');}}",
+    "eventType" : "click"
+  }, {
+    "source" : 21,
+    "target" : 19,
+    "text" : "",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=, attributes={class=mfp-arrow mfp-arrow-left mfp-prevent-close, title=Previous (Left arrow key), type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 19,
+    "target" : 23,
+    "text" : "",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=, attributes={class=mfp-arrow mfp-arrow-left mfp-prevent-close, title=Previous (Left arrow key), type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 23,
+    "target" : 19,
+    "text" : "",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=, attributes={class=mfp-arrow mfp-arrow-right mfp-prevent-close, title=Next (Right arrow key), type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 19,
+    "target" : 21,
+    "text" : "",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=, attributes={class=mfp-arrow mfp-arrow-right mfp-prevent-close, title=Next (Right arrow key), type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 21,
+    "target" : 26,
+    "text" : "",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=, attributes={class=mfp-arrow mfp-arrow-right mfp-prevent-close, title=Next (Right arrow key), type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 26,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=image-link, href=http://localhost:3000/images/homepage/screenshots/goal.jpg, id=image-link-agpl, style=background-image: url('http://localhost:3000/images/homepage/screenshots/goal.jpg');}}",
+    "eventType" : "click"
+  }, {
+    "source" : 2,
+    "target" : 5,
+    "text" : "Register",
+    "element" : "Element{node=[A: null], tag=A, text=Register, attributes={data-i18n=Register, href=/user/registration}}",
+    "eventType" : "click"
+  }, {
+    "source" : 6,
+    "target" : 0,
+    "text" : "×",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=×, attributes={aria-hidden=true, class=close, data-dismiss=modal, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 23,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=image-link, href=http://localhost:3000/images/homepage/screenshots/i18n.jpg, id=image-link-2, style=background-image: url('http://localhost:3000/images/homepage/screenshots/i18n.jpg');}}",
+    "eventType" : "click"
+  }, {
+    "source" : 10,
+    "target" : 35,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary pull-left, data-loading-text=Processing..., id=restore_modal_form_submit, type=submit, value=Restore}}",
+    "eventType" : "click"
+  }, {
+    "source" : 17,
+    "target" : 44,
+    "text" : "Українська",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Українська, attributes={class=btn btn-default btn-block process_button, data-code=ua, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 44,
+    "target" : 45,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary, data-i18nvalue=here, id=demo_signup, type=submit, value=сюди}}",
+    "eventType" : "click"
+  }, {
+    "source" : 45,
+    "target" : 46,
+    "text" : "$3041.02 Приховати Редагувати ДоступSample Bank Account Wallet",
+    "element" : "Element{node=[A: null], tag=A, text=$3041.02 Приховати Редагувати ДоступSample Bank Account Wallet, attributes={class=list-group-item item, data-id=2, href=http://localhost:3000/wallets/2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 46,
+    "target" : 47,
+    "text" : "встановити загальну суму у",
+    "element" : "Element{node=[A: null], tag=A, text=встановити загальну суму у, attributes={class=action, href=#, id=set_total_to_button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 47,
+    "target" : 48,
+    "text" : "Next »",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Next », attributes={class=btn btn-sm btn-default, data-role=next}}",
+    "eventType" : "click"
+  }, {
+    "source" : 48,
+    "target" : 49,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary pull-left, data-loading-text=Збереження..., type=submit, value=Встановити}}",
+    "eventType" : "click"
+  }, {
+    "source" : 49,
+    "target" : 50,
+    "text" : "встановити загальну суму у",
+    "element" : "Element{node=[A: null], tag=A, text=встановити загальну суму у, attributes={aria-describedby=popover240788, class=action tour-tour-element tour-tour-1-element tour-step-element-reflex, href=#, id=set_total_to_button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 2,
+    "text" : "$ dimeshift",
+    "element" : "Element{node=[A: null], tag=A, text=$ dimeshift, attributes={class=btn btn-info btn-lg btn-logo, href=/}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 17,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=icon_holder, href=/user/change_language}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 85,
+    "text" : "$3041.02 Приховати Редагувати ДоступSample Bank Account Wallet",
+    "element" : "Element{node=[A: null], tag=A, text=$3041.02 Приховати Редагувати ДоступSample Bank Account Wallet, attributes={class=list-group-item item, data-id=2, href=http://localhost:3000/wallets/2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 85,
+    "text" : "$3417.06 Приховати Редагувати ДоступSample Cash Wallet",
+    "element" : "Element{node=[A: null], tag=A, text=$3417.06 Приховати Редагувати ДоступSample Cash Wallet, attributes={class=list-group-item item, data-id=3, href=http://localhost:3000/wallets/3}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 89,
+    "text" : "Додати",
+    "element" : "Element{node=[A: null], tag=A, text=Додати, attributes={class=btn btn-primary, href=http://localhost:3000/wallets/add, id=add_wallet_button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 89,
+    "target" : 51,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary pull-left, data-loading-text=Збереження..., id=add_wallet_modal_form_submit, type=submit, value=Додати}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 92,
+    "text" : "Приховані",
+    "element" : "Element{node=[A: null], tag=A, text=Приховані, attributes={class=filter_menu, data-status=hidden, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 92,
+    "target" : 93,
+    "text" : "Головна",
+    "element" : "Element{node=[A: null], tag=A, text=Головна, attributes={href=http://localhost:3000}}",
+    "eventType" : "click"
+  }, {
+    "source" : 93,
+    "target" : 51,
+    "text" : "Активні",
+    "element" : "Element{node=[A: null], tag=A, text=Активні, attributes={class=filter_menu, data-status=active, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 97,
+    "text" : "Ваші",
+    "element" : "Element{node=[A: null], tag=A, text=Ваші, attributes={class=origin_menu, data-origin=mine, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 97,
+    "target" : 98,
+    "text" : "Інших користувачів",
+    "element" : "Element{node=[A: null], tag=A, text=Інших користувачів, attributes={class=origin_menu, data-origin=shared, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 99,
+    "target" : 92,
+    "text" : "Приховані",
+    "element" : "Element{node=[A: null], tag=A, text=Приховані, attributes={class=filter_menu, data-status=hidden, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 93,
+    "target" : 107,
+    "text" : "Ваші",
+    "element" : "Element{node=[A: null], tag=A, text=Ваші, attributes={class=origin_menu, data-origin=mine, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 107,
+    "target" : 108,
+    "text" : "Інших користувачів",
+    "element" : "Element{node=[A: null], tag=A, text=Інших користувачів, attributes={class=origin_menu, data-origin=shared, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 97,
+    "target" : 110,
+    "text" : "Приховати",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Приховати, attributes={class=btn btn-default btn-xs item_button_remove}}",
+    "eventType" : "click"
+  }, {
+    "source" : 110,
+    "target" : 111,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary pull-left, data-loading-text=Скасування..., type=submit, value=Скасувати}}",
+    "eventType" : "click"
+  }, {
+    "source" : 111,
+    "target" : 85,
+    "text" : "$0.00 Приховати Редагувати ДоступBigPlan",
+    "element" : "Element{node=[A: null], tag=A, text=$0.00 Приховати Редагувати ДоступBigPlan, attributes={class=list-group-item item, data-id=4, href=http://localhost:3000/wallets/4}}",
+    "eventType" : "click"
+  }, {
+    "source" : 99,
+    "target" : 85,
+    "text" : "$0.00 Приховати Редагувати ДоступBigPlan",
+    "element" : "Element{node=[A: null], tag=A, text=$0.00 Приховати Редагувати ДоступBigPlan, attributes={class=list-group-item item, data-id=4, href=http://localhost:3000/wallets/4}}",
+    "eventType" : "click"
+  }, {
+    "source" : 93,
+    "target" : 108,
+    "text" : "Інших користувачів",
+    "element" : "Element{node=[A: null], tag=A, text=Інших користувачів, attributes={class=origin_menu, data-origin=shared, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 97,
+    "target" : 118,
+    "text" : "Редагувати",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Редагувати, attributes={class=btn btn-default btn-xs item_button_edit}}",
+    "eventType" : "click"
+  }, {
+    "source" : 118,
+    "target" : 119,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary pull-left, data-loading-text=Збереження..., type=submit, value=Зберегти}}",
+    "eventType" : "click"
+  }, {
+    "source" : 119,
+    "target" : 120,
+    "text" : "Додати",
+    "element" : "Element{node=[A: null], tag=A, text=Додати, attributes={class=btn btn-primary, href=http://localhost:3000/wallets/add, id=add_wallet_button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 121,
+    "target" : 92,
+    "text" : "Приховані",
+    "element" : "Element{node=[A: null], tag=A, text=Приховані, attributes={class=filter_menu, data-status=hidden, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 110,
+    "target" : 123,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=process_button btn btn-danger pull-left, data-loading-text=Обробка..., type=button, value=Так, приховати}}",
+    "eventType" : "click"
+  }, {
+    "source" : 123,
+    "target" : 85,
+    "text" : "$0.00 Приховати Редагувати ДоступBigPlan",
+    "element" : "Element{node=[A: null], tag=A, text=$0.00 Приховати Редагувати ДоступBigPlan, attributes={class=list-group-item item, data-id=4, href=http://localhost:3000/wallets/4}}",
+    "eventType" : "click"
+  }, {
+    "source" : 125,
+    "target" : 92,
+    "text" : "Приховані",
+    "element" : "Element{node=[A: null], tag=A, text=Приховані, attributes={class=filter_menu, data-status=hidden, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 111,
+    "target" : 127,
+    "text" : "Додати",
+    "element" : "Element{node=[A: null], tag=A, text=Додати, attributes={class=btn btn-primary, href=http://localhost:3000/wallets/add, id=add_wallet_button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 97,
+    "target" : 131,
+    "text" : "Доступ",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Доступ, attributes={class=btn btn-default btn-xs item_button_accesses}}",
+    "eventType" : "click"
+  }, {
+    "source" : 131,
+    "target" : 132,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=btn btn-primary pull-left, data-loading-text=Збереження..., type=submit, value=Дозволити доступ}}",
+    "eventType" : "click"
+  }, {
+    "source" : 132,
+    "target" : 133,
+    "text" : "Видалити доступ",
+    "element" : "Element{node=[A: null], tag=A, text=Видалити доступ, attributes={class=btn btn-default btn-xs item_button_remove_access, data-id=1, href=#}}",
+    "eventType" : "click"
+  }, {
+    "source" : 133,
+    "target" : 131,
+    "text" : "",
+    "element" : "Element{node=[INPUT: null], tag=INPUT, text=, attributes={class=process_button btn btn-danger pull-left, data-loading-text=Обробка..., type=button, value=Так, видалити}}",
+    "eventType" : "click"
+  }, {
+    "source" : 119,
+    "target" : 136,
+    "text" : "Приховати",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Приховати, attributes={class=btn btn-default btn-xs item_button_remove}}",
+    "eventType" : "click"
+  } ]
+}

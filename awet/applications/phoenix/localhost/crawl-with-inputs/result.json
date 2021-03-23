@@ -1,0 +1,2893 @@
+{
+  "states" : {
+    "state96" : {
+      "name" : "state96",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 580,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[4]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 89,
+        "left" : 588,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[4]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 96,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 19.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253531223,
+      "nearestState" : "state49"
+    },
+    "state170" : {
+      "name" : "state170",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '20-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '20-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 281,
+        "left" : 392,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[11]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 281,
+        "left" : 400,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[11]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 170,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 12.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253748005,
+      "nearestState" : "state158"
+    },
+    "state5" : {
+      "name" : "state5",
+      "url" : "http://localhost:4000/sign_in",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]",
+        "width" : 800,
+        "height" : 560
+      }, {
+        "top" : 43,
+        "left" : 301,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/HEADER[1]/DIV[1]",
+        "width" : 198,
+        "height" : 62
+      }, {
+        "top" : 137,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_in_form']/DIV[1]",
+        "width" : 450,
+        "height" : 24
+      }, {
+        "top" : 169,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_in_form']/DIV[2]",
+        "width" : 450,
+        "height" : 56
+      }, {
+        "top" : 233,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_in_form']/DIV[3]",
+        "width" : 450,
+        "height" : 56
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 5,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 6.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253268866,
+      "nearestState" : "state4"
+    },
+    "state2" : {
+      "name" : "state2",
+      "url" : "http://localhost:4000/sign_up",
+      "candidateElements" : [ {
+        "top" : 463,
+        "left" : 375,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]",
+        "width" : 48,
+        "height" : 17
+      }, {
+        "top" : 378,
+        "left" : 225,
+        "xpath" : "//FORM[@id = 'sign_up_form']/BUTTON[1]",
+        "width" : 350,
+        "height" : 58
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]",
+        "width" : 800,
+        "height" : 560
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]",
+        "width" : 800,
+        "height" : 560
+      }, {
+        "top" : -36,
+        "left" : 301,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/HEADER[1]/DIV[1]",
+        "width" : 198,
+        "height" : 62
+      }, {
+        "top" : 57,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_up_form']/DIV[1]",
+        "width" : 450,
+        "height" : 56
+      }, {
+        "top" : 121,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_up_form']/DIV[2]",
+        "width" : 450,
+        "height" : 56
+      }, {
+        "top" : 185,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_up_form']/DIV[3]",
+        "width" : 450,
+        "height" : 57
+      }, {
+        "top" : 250,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_up_form']/DIV[4]",
+        "width" : 450,
+        "height" : 56
+      }, {
+        "top" : 314,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_up_form']/DIV[5]",
+        "width" : 450,
+        "height" : 56
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 2,
+      "failedEvents" : [ "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]", "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]", "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]", "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]", "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]", "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]", "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]", "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 25.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253257664,
+      "nearestState" : "index"
+    },
+    "state4" : {
+      "name" : "state4",
+      "url" : "http://localhost:4000/sign_in",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]",
+        "width" : 800,
+        "height" : 560
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]",
+        "width" : 800,
+        "height" : 560
+      }, {
+        "top" : 43,
+        "left" : 301,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/HEADER[1]/DIV[1]",
+        "width" : 198,
+        "height" : 62
+      }, {
+        "top" : 137,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_in_form']/DIV[1]",
+        "width" : 450,
+        "height" : 24
+      }, {
+        "top" : 169,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_in_form']/DIV[2]",
+        "width" : 450,
+        "height" : 56
+      }, {
+        "top" : 233,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_in_form']/DIV[3]",
+        "width" : 450,
+        "height" : 56
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 4,
+      "failedEvents" : [ "xpath //FORM[@id = 'sign_in_form']/BUTTON[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 13.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253265090,
+      "nearestState" : "index"
+    },
+    "state132" : {
+      "name" : "state132",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 185,
+        "left" : 392,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[7]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 185,
+        "left" : 400,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[7]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 132,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 18.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253635761,
+      "nearestState" : "state122"
+    },
+    "state253" : {
+      "name" : "state253",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 364,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 253,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 7.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253998191,
+      "nearestState" : "state204"
+    },
+    "state252" : {
+      "name" : "state252",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 434,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 434,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 2,
+      "id" : 252,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 9.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253993265,
+      "nearestState" : "state204"
+    },
+    "state122" : {
+      "name" : "state122",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '16-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '16-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 185,
+        "left" : 392,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[7]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 185,
+        "left" : 400,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[7]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 122,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 12.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253607329,
+      "nearestState" : "state120"
+    },
+    "state18" : {
+      "name" : "state18",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 9,
+        "left" : 24,
+        "xpath" : "//NAV[@id = 'boards_nav']/UL[1]/LI[1]/A[1]",
+        "width" : 86,
+        "height" : 26
+      }, {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 8,
+        "left" : 541,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/NAV[2]/UL[1]/LI[1]/A[1]",
+        "width" : 132,
+        "height" : 27
+      }, {
+        "top" : 8,
+        "left" : 681,
+        "xpath" : "//A[@id = 'crawler-sign-out']",
+        "width" : 94,
+        "height" : 27
+      }, {
+        "top" : 101,
+        "left" : 67,
+        "xpath" : "//A[@id = 'add_new_board']",
+        "width" : 86,
+        "height" : 56
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'authentication_container']",
+        "width" : 800,
+        "height" : 600
+      }, {
+        "top" : 43,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]",
+        "width" : 800,
+        "height" : 535
+      }, {
+        "top" : 43,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]",
+        "width" : 800,
+        "height" : 487
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]",
+        "width" : 753,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 3,
+      "fanOut" : 3,
+      "id" : 18,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 24.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253308136,
+      "nearestState" : "state2"
+    },
+    "state168" : {
+      "name" : "state168",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 281,
+        "left" : 204,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[10]",
+        "width" : 189,
+        "height" : 197
+      }, {
+        "top" : 281,
+        "left" : 212,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[10]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 168,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 17.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253741202,
+      "nearestState" : "state158"
+    },
+    "state204" : {
+      "name" : "state204",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 377,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[13]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 377,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[13]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 204,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 20.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253848495,
+      "nearestState" : "state192"
+    },
+    "state206" : {
+      "name" : "state206",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '23-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '23-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 377,
+        "left" : 204,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[14]",
+        "width" : 189,
+        "height" : 96
+      }, {
+        "top" : 377,
+        "left" : 212,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[14]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 206,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 15.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253855553,
+      "nearestState" : "state182"
+    },
+    "state98" : {
+      "name" : "state98",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '14-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '14-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 185,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[5]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 185,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[5]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 98,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 10.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253537659,
+      "nearestState" : "state86"
+    },
+    "state82" : {
+      "name" : "state82",
+      "url" : "http://localhost:4000/boards/12-my_board",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 15,
+      "fanOut" : 0,
+      "id" : 82,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 6.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253490379,
+      "nearestState" : "state31"
+    },
+    "state42" : {
+      "name" : "state42",
+      "url" : "http://localhost:4000/boards/11-my_board",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 274,
+        "left" : 113,
+        "xpath" : "//FORM[@id = 'new_card_form']/A[1]",
+        "width" : 46,
+        "height" : 17
+      }, {
+        "top" : 260,
+        "left" : 36,
+        "xpath" : "//FORM[@id = 'new_card_form']/BUTTON[1]",
+        "width" : 54,
+        "height" : 45
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'list_85']",
+        "width" : 272,
+        "height" : 228
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'list_85']/DIV[1]",
+        "width" : 272,
+        "height" : 228
+      }, {
+        "top" : 132,
+        "left" : 36,
+        "xpath" : "//DIV[@id = 'list_85']/DIV[1]/FOOTER[1]/DIV[1]",
+        "width" : 248,
+        "height" : 173
+      }, {
+        "top" : 89,
+        "left" : 306,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 272,
+        "height" : 228
+      }, {
+        "top" : 89,
+        "left" : 306,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 272,
+        "height" : 48
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 42,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 12.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253383387,
+      "nearestState" : "state41"
+    },
+    "state86" : {
+      "name" : "state86",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '13-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '13-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 89,
+        "left" : 580,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[4]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 588,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[4]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 86,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 10.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253502770,
+      "nearestState" : "state46"
+    },
+    "state41" : {
+      "name" : "state41",
+      "url" : "http://localhost:4000/boards/11-my_board",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 144,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'list_85']/DIV[1]/FOOTER[1]/A[1]",
+        "width" : 272,
+        "height" : 40
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'list_85']",
+        "width" : 272,
+        "height" : 95
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'list_85']/DIV[1]",
+        "width" : 272,
+        "height" : 95
+      }, {
+        "top" : 89,
+        "left" : 306,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 272,
+        "height" : 95
+      }, {
+        "top" : 89,
+        "left" : 306,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 272,
+        "height" : 48
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 41,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 3.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253379304,
+      "nearestState" : "state38"
+    },
+    "state84" : {
+      "name" : "state84",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 392,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 89,
+        "left" : 400,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 84,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 11.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253496391,
+      "nearestState" : "state46"
+    },
+    "index" : {
+      "name" : "index",
+      "url" : "http://localhost:4000",
+      "candidateElements" : [ {
+        "top" : 367,
+        "left" : 328,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]",
+        "width" : 142,
+        "height" : 17
+      }, {
+        "top" : 282,
+        "left" : 225,
+        "xpath" : "//FORM[@id = 'sign_in_form']/BUTTON[1]",
+        "width" : 350,
+        "height" : 58
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]",
+        "width" : 800,
+        "height" : 560
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]",
+        "width" : 800,
+        "height" : 560
+      }, {
+        "top" : 59,
+        "left" : 301,
+        "xpath" : "//MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/HEADER[1]/DIV[1]",
+        "width" : 198,
+        "height" : 62
+      }, {
+        "top" : 153,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_in_form']/DIV[1]",
+        "width" : 450,
+        "height" : 56
+      }, {
+        "top" : 217,
+        "left" : 175,
+        "xpath" : "//FORM[@id = 'sign_in_form']/DIV[2]",
+        "width" : 450,
+        "height" : 56
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 2,
+      "id" : 0,
+      "failedEvents" : [ ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : -1.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253252399,
+      "nearestState" : "null"
+    },
+    "state180" : {
+      "name" : "state180",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 281,
+        "left" : 392,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[11]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 281,
+        "left" : 400,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[11]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 180,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 16.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253776806,
+      "nearestState" : "state170"
+    },
+    "state182" : {
+      "name" : "state182",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '21-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '21-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 281,
+        "left" : 580,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[12]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 281,
+        "left" : 588,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[12]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 182,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 12.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253783776,
+      "nearestState" : "state170"
+    },
+    "state134" : {
+      "name" : "state134",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '17-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '17-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 185,
+        "left" : 580,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[8]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 185,
+        "left" : 588,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[8]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 134,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 14.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253642324,
+      "nearestState" : "state110"
+    },
+    "state254" : {
+      "name" : "state254",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 254,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 2.0,
+      "cluster" : -1,
+      "timeAdded" : 1607254002966,
+      "nearestState" : "state253"
+    },
+    "state256" : {
+      "name" : "state256",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 256,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 5.0,
+      "cluster" : -1,
+      "timeAdded" : 1607254009730,
+      "nearestState" : "state252"
+    },
+    "state216" : {
+      "name" : "state216",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 377,
+        "left" : 204,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[14]",
+        "width" : 189,
+        "height" : 197
+      }, {
+        "top" : 377,
+        "left" : 212,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[14]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 216,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 16.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253884598,
+      "nearestState" : "state206"
+    },
+    "state46" : {
+      "name" : "state46",
+      "url" : "http://localhost:4000/boards/11-my_board",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 306,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 272,
+        "height" : 122
+      }, {
+        "top" : 89,
+        "left" : 306,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 272,
+        "height" : 122
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 0,
+      "id" : 46,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 22.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253397132,
+      "nearestState" : "state24"
+    },
+    "state218" : {
+      "name" : "state218",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '24-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '24-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 377,
+        "left" : 392,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[15]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 377,
+        "left" : 400,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[15]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 218,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 9.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253891717,
+      "nearestState" : "state206"
+    },
+    "state43" : {
+      "name" : "state43",
+      "url" : "http://localhost:4000/boards/11-my_board",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'list_85']",
+        "width" : 272,
+        "height" : 95
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'list_85']/DIV[1]",
+        "width" : 272,
+        "height" : 95
+      }, {
+        "top" : 89,
+        "left" : 306,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]",
+        "width" : 272,
+        "height" : 95
+      }, {
+        "top" : 89,
+        "left" : 306,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 272,
+        "height" : 48
+      } ],
+      "fanIn" : 3,
+      "fanOut" : 1,
+      "id" : 43,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 1.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253387683,
+      "nearestState" : "state41"
+    },
+    "state49" : {
+      "name" : "state49",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '11-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '11-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 89,
+        "left" : 204,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[2]",
+        "width" : 189,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 212,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 3,
+      "id" : 49,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 11.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253406524,
+      "nearestState" : "state24"
+    },
+    "state31" : {
+      "name" : "state31",
+      "url" : "http://localhost:4000/boards/11-my_board",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 47,
+        "left" : 746,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/HEADER[1]/UL[1]/SPAN[1]/LI[2]/A[1]",
+        "width" : 30,
+        "height" : 30
+      }, {
+        "top" : 43,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]",
+        "width" : 800,
+        "height" : 487
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 752,
+        "height" : 471
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 752,
+        "height" : 471
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 752,
+        "height" : 48
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 272,
+        "height" : 48
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 272,
+        "height" : 48
+      } ],
+      "fanIn" : 33,
+      "fanOut" : 3,
+      "id" : 31,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 22.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253347776,
+      "nearestState" : "state18"
+    },
+    "state74" : {
+      "name" : "state74",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '12-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '12-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 89,
+        "left" : 392,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 400,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 74,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 11.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253467144,
+      "nearestState" : "state72"
+    },
+    "state72" : {
+      "name" : "state72",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 204,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[2]",
+        "width" : 189,
+        "height" : 197
+      }, {
+        "top" : 89,
+        "left" : 212,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[2]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 72,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 16.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253460732,
+      "nearestState" : "state46"
+    },
+    "state192" : {
+      "name" : "state192",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 281,
+        "left" : 580,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[12]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 281,
+        "left" : 588,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[12]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 192,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 19.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253812556,
+      "nearestState" : "state86"
+    },
+    "state194" : {
+      "name" : "state194",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '22-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '22-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 377,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[13]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 377,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[13]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 194,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 11.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253819535,
+      "nearestState" : "state98"
+    },
+    "state110" : {
+      "name" : "state110",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '15-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '15-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 185,
+        "left" : 204,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[6]",
+        "width" : 189,
+        "height" : 96
+      }, {
+        "top" : 185,
+        "left" : 212,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[6]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 110,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 15.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253572304,
+      "nearestState" : "state24"
+    },
+    "state230" : {
+      "name" : "state230",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '25-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '25-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 377,
+        "left" : 580,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[16]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 377,
+        "left" : 588,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[16]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 230,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 11.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253927886,
+      "nearestState" : "state218"
+    },
+    "state144" : {
+      "name" : "state144",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 185,
+        "left" : 580,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[8]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 185,
+        "left" : 588,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[8]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 144,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 14.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253670612,
+      "nearestState" : "state134"
+    },
+    "state146" : {
+      "name" : "state146",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '18-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '18-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 281,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[9]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 281,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[9]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 146,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 15.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253677245,
+      "nearestState" : "state18"
+    },
+    "state228" : {
+      "name" : "state228",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 377,
+        "left" : 392,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[15]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 377,
+        "left" : 400,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[15]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 228,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 15.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253920591,
+      "nearestState" : "state218"
+    },
+    "state108" : {
+      "name" : "state108",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 185,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[5]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 185,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[5]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 108,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 20.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253565797,
+      "nearestState" : "state24"
+    },
+    "state32" : {
+      "name" : "state32",
+      "url" : "http://localhost:4000/boards/11-my_board",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 194,
+        "left" : 608,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/HEADER[1]/UL[1]/SPAN[1]/LI[2]/UL[1]/LI[1]/FORM[1]/A[1]",
+        "width" : 46,
+        "height" : 17
+      }, {
+        "top" : 180,
+        "left" : 468,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/HEADER[1]/UL[1]/SPAN[1]/LI[2]/UL[1]/LI[1]/FORM[1]/BUTTON[1]",
+        "width" : 118,
+        "height" : 45
+      }, {
+        "top" : 43,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]",
+        "width" : 800,
+        "height" : 487
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 752,
+        "height" : 471
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 752,
+        "height" : 471
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 752,
+        "height" : 48
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 272,
+        "height" : 48
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 272,
+        "height" : 48
+      } ],
+      "fanIn" : 1,
+      "fanOut" : 1,
+      "id" : 32,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 22.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253351671,
+      "nearestState" : "state4"
+    },
+    "state38" : {
+      "name" : "state38",
+      "url" : "http://localhost:4000/boards/11-my_board",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 168,
+        "left" : 145,
+        "xpath" : "//FORM[@id = 'new_list_form']/A[1]",
+        "width" : 46,
+        "height" : 17
+      }, {
+        "top" : 154,
+        "left" : 36,
+        "xpath" : "//FORM[@id = 'new_list_form']/BUTTON[1]",
+        "width" : 86,
+        "height" : 45
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 272,
+        "height" : 122
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 272,
+        "height" : 122
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 2,
+      "id" : 38,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 23.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253369573,
+      "nearestState" : "state24"
+    },
+    "state240" : {
+      "name" : "state240",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 377,
+        "left" : 580,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[16]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 377,
+        "left" : 588,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[16]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 240,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 19.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253957074,
+      "nearestState" : "state192"
+    },
+    "state242" : {
+      "name" : "state242",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '26-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '26-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 473,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 473,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 5,
+      "id" : 242,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 14.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253964318,
+      "nearestState" : "state230"
+    },
+    "state120" : {
+      "name" : "state120",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 185,
+        "left" : 204,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[6]",
+        "width" : 189,
+        "height" : 197
+      }, {
+        "top" : 185,
+        "left" : 212,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[6]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 120,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 17.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253600779,
+      "nearestState" : "state110"
+    },
+    "state156" : {
+      "name" : "state156",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 281,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[9]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 281,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[9]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 1,
+      "id" : 156,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 19.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253705782,
+      "nearestState" : "state72"
+    },
+    "state158" : {
+      "name" : "state158",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = '19-my_board']",
+        "width" : 188,
+        "height" : 96
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = '19-my_board']/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      }, {
+        "top" : 281,
+        "left" : 204,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[10]",
+        "width" : 189,
+        "height" : 96
+      }, {
+        "top" : 281,
+        "left" : 212,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[10]/DIV[1]",
+        "width" : 172,
+        "height" : 80
+      } ],
+      "fanIn" : 0,
+      "fanOut" : 4,
+      "id" : 158,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 11.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253712644,
+      "nearestState" : "state156"
+    },
+    "state24" : {
+      "name" : "state24",
+      "url" : "http://localhost:4000/",
+      "candidateElements" : [ {
+        "top" : 0,
+        "left" : 110,
+        "xpath" : "//DIV[@id = 'authentication_container']/HEADER[1]/A[1]",
+        "width" : 0,
+        "height" : 0
+      }, {
+        "top" : 235,
+        "left" : 36,
+        "xpath" : "//FORM[@id = 'new_board_form']/A[1]",
+        "width" : 46,
+        "height" : 17
+      }, {
+        "top" : 185,
+        "left" : 36,
+        "xpath" : "//FORM[@id = 'new_board_form']/BUTTON[1]",
+        "width" : 119,
+        "height" : 45
+      }, {
+        "top" : 0,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'authentication_container']",
+        "width" : 800,
+        "height" : 600
+      }, {
+        "top" : 43,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]",
+        "width" : 800,
+        "height" : 535
+      }, {
+        "top" : 43,
+        "left" : 0,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]",
+        "width" : 800,
+        "height" : 487
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]",
+        "width" : 753,
+        "height" : 197
+      }, {
+        "top" : 89,
+        "left" : 16,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]",
+        "width" : 188,
+        "height" : 197
+      }, {
+        "top" : 89,
+        "left" : 24,
+        "xpath" : "//DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]/DIV[1]",
+        "width" : 172,
+        "height" : 181
+      } ],
+      "fanIn" : 2,
+      "fanOut" : 2,
+      "id" : 24,
+      "failedEvents" : [ "xpath //DIV[@id = 'authentication_container']/HEADER[1]/A[1]" ],
+      "hasNearDuplicate" : false,
+      "distToNearestState" : 20.0,
+      "cluster" : -1,
+      "timeAdded" : 1607253327138,
+      "nearestState" : "state18"
+    }
+  },
+  "edges" : [ {
+    "from" : "index",
+    "to" : "state2",
+    "text" : "Create new account",
+    "id" : "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Create new account, attributes={data-reactid=.0.0.0.2, href=/sign_up}}",
+    "eventType" : "click",
+    "inputValues" : "id##user_email##yigitsoydan98@gmail.com,yigitsoydan98@gmail.com:id##user_password##123456,123456"
+  }, {
+    "from" : "state2",
+    "to" : "index",
+    "text" : "Sign in",
+    "id" : "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]/MAIN[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Sign in, attributes={data-reactid=.0.0.0.2, href=/sign_in}}",
+    "eventType" : "click",
+    "inputValues" : "id##user_first_name##Yigit,Yigit:id##user_last_name##Soydan,Soydan:id##user_email##yigitsoydan98@gmail.com,yigitsoydan98@gmail.com:id##user_password##123456,123456:id##user_password_confirmation##123456,123456"
+  }, {
+    "from" : "index",
+    "to" : "state4",
+    "text" : "Sign in",
+    "id" : "xpath //FORM[@id = 'sign_in_form']/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Sign in, attributes={data-reactid=.0.0.0.1.3, type=submit}}",
+    "eventType" : "click",
+    "inputValues" : "id##user_email##yigitsoydan98@gmail.com,yigitsoydan98@gmail.com:id##user_password##123456,123456"
+  }, {
+    "from" : "state4",
+    "to" : "state5",
+    "text" : "Invalid email or passwordSign inCreate new account",
+    "id" : "xpath //MAIN[@id = 'main_container']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Invalid email or passwordSign inCreate new account, attributes={data-reactid=.0}}",
+    "eventType" : "click",
+    "inputValues" : "id##user_email##yigitsoydan98@gmail.com,yigitsoydan98@gmail.com:id##user_password##123456,123456"
+  }, {
+    "from" : "state2",
+    "to" : "state18",
+    "text" : "Sign up",
+    "id" : "xpath //FORM[@id = 'sign_up_form']/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Sign up, attributes={data-reactid=.0.0.0.1.5, type=submit}}",
+    "eventType" : "click",
+    "inputValues" : "id##user_first_name##Yigit,Yigit:id##user_last_name##Soydan,Soydan:id##user_email##yigitsoydan98@gmail.com,yigitsoydan98@gmail.com:id##user_password##123456,123456:id##user_password_confirmation##123456,123456"
+  }, {
+    "from" : "state18",
+    "to" : "index",
+    "text" : "Sign out",
+    "id" : "xpath //A[@id = 'crawler-sign-out']",
+    "element" : "Element{node=[A: null], tag=A, text=Sign out, attributes={data-reactid=.0.0.0.2.0.1.0, href=#, id=crawler-sign-out}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state4",
+    "to" : "state18",
+    "text" : "Invalid email or passwordSign inCreate new account",
+    "id" : "xpath //MAIN[@id = 'main_container']/DIV[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Invalid email or passwordSign inCreate new account, attributes={class=view-container sessions new, data-reactid=.0.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state18",
+    "to" : "state24",
+    "text" : "Add new board...",
+    "id" : "xpath //A[@id = 'add_new_board']",
+    "element" : "Element{node=[A: null], tag=A, text=Add new board..., attributes={data-reactid=.0.0.1.0.0.1.1.0.0, id=add_new_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state24",
+    "to" : "state18",
+    "text" : "cancel",
+    "id" : "xpath //FORM[@id = 'new_board_form']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=cancel, attributes={data-reactid=.0.0.1.0.0.1.1.0.1.4, href=#}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state18",
+    "to" : "state24",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state24",
+    "to" : "state31",
+    "text" : "Create board",
+    "id" : "xpath //FORM[@id = 'new_board_form']/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Create board, attributes={data-reactid=.0.0.1.0.0.1.1.0.1.2, type=submit}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state31",
+    "to" : "state32",
+    "text" : "",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/HEADER[1]/UL[1]/SPAN[1]/LI[2]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=add-new, data-reactid=.0.0.1.0.0.1.0.$=11.0, href=#}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state32",
+    "to" : "state31",
+    "text" : "cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/HEADER[1]/UL[1]/SPAN[1]/LI[2]/UL[1]/LI[1]/FORM[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=cancel, attributes={data-reactid=.0.0.1.0.0.1.0.$=11.1.0.0.5, href=#}}",
+    "eventType" : "click",
+    "inputValues" : "id##crawljax_member_email##yigitsoydan98@gmail.com,yigitsoydan98@gmail.com,nezih123456789@gmail.com,nezih123456789@gmail.com"
+  }, {
+    "from" : "state31",
+    "to" : "state38",
+    "text" : "Add new list...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new list..., attributes={class=list add-new, data-reactid=.0.0.1.0.1.0.0.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state38",
+    "to" : "state31",
+    "text" : "cancel",
+    "id" : "xpath //FORM[@id = 'new_list_form']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=cancel, attributes={data-reactid=.0.0.1.0.1.0.0.1.0.0.4, href=#}}",
+    "eventType" : "click",
+    "inputValues" : "id##list_name##list name,standard tuning,list,new list,just a list"
+  }, {
+    "from" : "state31",
+    "to" : "state38",
+    "text" : "Add new list...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new list..., attributes={class=inner, data-reactid=.0.0.1.0.1.0.0.1.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state38",
+    "to" : "state41",
+    "text" : "Save list",
+    "id" : "xpath //FORM[@id = 'new_list_form']/BUTTON[1]",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Save list, attributes={data-reactid=.0.0.1.0.1.0.0.1.0.0.2, type=submit}}",
+    "eventType" : "click",
+    "inputValues" : "id##list_name##list name,standard tuning,list,new list,just a list"
+  }, {
+    "from" : "state41",
+    "to" : "state42",
+    "text" : "Add a new card...",
+    "id" : "xpath //DIV[@id = 'list_85']/DIV[1]/FOOTER[1]/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=Add a new card..., attributes={class=add-new, data-reactid=.0.0.1.0.1.0.0.0:$85.0.2.1, href=#}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state42",
+    "to" : "state43",
+    "text" : "cancel",
+    "id" : "xpath //FORM[@id = 'new_card_form']/A[1]",
+    "element" : "Element{node=[A: null], tag=A, text=cancel, attributes={data-reactid=.0.0.1.0.1.0.0.0:$85.0.2.0.0.4, href=#}}",
+    "eventType" : "click",
+    "inputValues" : "id##card_name##first,hey,card,card,hey,first"
+  }, {
+    "from" : "state43",
+    "to" : "state46",
+    "text" : "Add new list...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[1]/DIV[2]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new list..., attributes={class=list add-new, data-reactid=.0.0.1.0.1.0.0.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state49",
+    "to" : "state43",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '11-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$11-my_board, id=11-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state49",
+    "to" : "state43",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '11-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$11-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state49",
+    "to" : "state72",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[2]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state72",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[2]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state74",
+    "to" : "state72",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[2]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state74",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '12-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$12-my_board, id=12-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state74",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '12-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$12-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state74",
+    "to" : "state84",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state84",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state86",
+    "to" : "state84",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[3]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state86",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '13-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$13-my_board, id=13-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state86",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '13-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$13-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state86",
+    "to" : "state96",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[4]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state96",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[4]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state98",
+    "to" : "state96",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[4]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state98",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '14-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$14-my_board, id=14-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state98",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '14-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$14-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state98",
+    "to" : "state108",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[5]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state108",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[5]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state110",
+    "to" : "state108",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[5]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state110",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '15-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$15-my_board, id=15-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state110",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '15-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$15-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state110",
+    "to" : "state120",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[6]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state120",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[6]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state122",
+    "to" : "state120",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[6]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state122",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '16-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$16-my_board, id=16-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state122",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '16-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$16-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state122",
+    "to" : "state132",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[7]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state132",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[7]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state134",
+    "to" : "state132",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[7]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state134",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '17-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$17-my_board, id=17-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state134",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '17-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$17-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state134",
+    "to" : "state144",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[8]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state144",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[8]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state146",
+    "to" : "state144",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[8]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state146",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '18-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$18-my_board, id=18-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state146",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '18-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$18-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state146",
+    "to" : "state156",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[9]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state156",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[9]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state158",
+    "to" : "state156",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[9]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state158",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '19-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$19-my_board, id=19-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state158",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '19-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$19-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state158",
+    "to" : "state168",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[10]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state168",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[10]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state170",
+    "to" : "state168",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[10]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state170",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '20-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$20-my_board, id=20-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state170",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '20-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$20-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state170",
+    "to" : "state180",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[11]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state180",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[11]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state182",
+    "to" : "state180",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[11]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state182",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '21-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$21-my_board, id=21-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state182",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '21-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$21-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state182",
+    "to" : "state192",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[12]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state192",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[12]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state194",
+    "to" : "state192",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[12]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state194",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '22-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$22-my_board, id=22-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state194",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '22-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$22-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state194",
+    "to" : "state204",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[13]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state204",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[13]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state206",
+    "to" : "state204",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[13]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state206",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '23-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$23-my_board, id=23-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state206",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '23-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$23-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state206",
+    "to" : "state216",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[14]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state216",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[14]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state218",
+    "to" : "state216",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[14]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state218",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '24-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$24-my_board, id=24-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state218",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '24-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$24-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state218",
+    "to" : "state228",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[15]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state228",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[15]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state230",
+    "to" : "state228",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[15]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state230",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '25-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$25-my_board, id=25-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state230",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '25-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$25-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state230",
+    "to" : "state240",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[16]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state240",
+    "to" : "state31",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[16]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state242",
+    "to" : "state240",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[16]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state242",
+    "to" : "state31",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '26-my_board']",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=board, data-reactid=.0.0.1.0.0.1.0:$26-my_board, id=26-my_board}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state242",
+    "to" : "state82",
+    "text" : "my_board",
+    "id" : "xpath //DIV[@id = '26-my_board']/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=my_board, attributes={class=inner, data-reactid=.0.0.1.0.0.1.0:$26-my_board.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state242",
+    "to" : "state252",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=board add-new, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state252",
+    "to" : "state253",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=board form, data-reactid=.0.0.1.0.0.1.1}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state253",
+    "to" : "state254",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=inner, data-reactid=.0.0.1.0.0.1.1.0}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  }, {
+    "from" : "state242",
+    "to" : "state256",
+    "text" : "Add new board...",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=Add new board..., attributes={class=inner, data-reactid=.0.0.1.0.0.1.1.0}}",
+    "eventType" : "click",
+    "inputValues" : "none"
+  }, {
+    "from" : "state252",
+    "to" : "state253",
+    "text" : "New boardCreate board or cancel",
+    "id" : "xpath //DIV[@id = 'authentication_container']/DIV[1]/DIV[1]/SECTION[1]/DIV[1]/DIV[17]/DIV[1]",
+    "element" : "Element{node=[DIV: null], tag=DIV, text=New boardCreate board or cancel, attributes={class=inner, data-reactid=.0.0.1.0.0.1.1.0}}",
+    "eventType" : "click",
+    "inputValues" : "id##board_name##my_board,my_board"
+  } ],
+  "statistics" : {
+    "duration" : "12 minutes 45 seconds",
+    "crawlPaths" : 52,
+    "averageDomSize" : "4.868 kB",
+    "edges" : 102,
+    "startDate" : "2020-12-06 14:14:03 TRT",
+    "stateStats" : {
+      "leastFanOut" : {
+        "id" : "state5",
+        "count" : 0
+      },
+      "leastFanIn" : {
+        "id" : "state170",
+        "count" : 0
+      },
+      "mostFanOut" : {
+        "id" : "state242",
+        "count" : 5
+      },
+      "mostFanIn" : {
+        "id" : "state31",
+        "count" : 33
+      },
+      "totalNumberOfStates" : 49,
+      "urls" : {
+        "http://localhost:4000/" : [ "state96", "state170", "state132", "state253", "state252", "state122", "state18", "state168", "state204", "state206", "state98", "state86", "state84", "state180", "state182", "state134", "state254", "state256", "state216", "state218", "state49", "state74", "state72", "state192", "state194", "state110", "state230", "state144", "state146", "state228", "state108", "state240", "state242", "state120", "state156", "state158", "state24" ],
+        "http://localhost:4000/sign_in" : [ "state5", "state4" ],
+        "http://localhost:4000/sign_up" : [ "state2" ],
+        "http://localhost:4000/boards/12-my_board" : [ "state82" ],
+        "http://localhost:4000/boards/11-my_board" : [ "state42", "state41", "state46", "state43", "state31", "state32", "state38" ],
+        "http://localhost:4000" : [ "index" ]
+      }
+    },
+    "failedEvents" : 54
+  },
+  "exitStatus" : "EXHAUSTED"
+}

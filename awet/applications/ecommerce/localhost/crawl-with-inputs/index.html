@@ -1,0 +1,3396 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Crawl overview</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="CrawlJax">
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+<style>
+html,body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -40px;	
+}
+
+#push, footer {
+	height: 40px;
+}
+
+footer {
+	background-color: #f5f5f5;
+}
+
+footer small {
+	display: inline;
+	margin-top: 10px;
+}
+
+.url-table td {
+	word-wrap: break-word;
+	max-width: 700px;
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.url-table td {
+		max-width: 500px;
+	}
+}
+
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.url-table td {
+		max-width: 450px;
+	}
+}
+
+
+#wrap>.container {
+	padding-top: 60px;
+}
+
+.slider-panel {
+	position: absolute;
+	right: 10px;
+	top: 70px;
+	left: auto;
+	display: block;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, .9);
+	max-width: 300px;
+	z-index: 1000;
+}
+
+.panel-right {
+	position: absolute;
+	right: 10px;
+	top: 70px;
+	left: auto;
+	display: block;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, .9);
+	max-width: 300px;
+}
+
+.panel-right dd {
+	text-transform: capitalize;
+	word-wrap: break-word;
+}
+
+#container-graph>svg{
+	background:rgb(255, 255, 255);
+}
+</style>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/alchemyjs/0.2.0/alchemy.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/alchemyjs/0.2.0/scripts/vendor.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/alchemyjs/0.2.0/alchemy.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">	
+	<!--
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="lib/vivagraph-0.9.0.min.js"></script>
+	 <script src="http://d3js.org/d3.v2.js"></script>
+
+	<!--
+	<link rel="stylesheet" href="http://cdn.graphalchemist.com/alchemy.0.2.min.css"> 
+	<script type="text/javascript" src="http://cdn.graphalchemist.com/alchemy.0.2.min.js"></script>
+	-->
+	
+</head>
+<body>
+<body>
+	<div id="wrap">
+		<nav class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+							<a class="brand" href="#">Crawl overview</a>
+						<ul class="nav">
+									<li class="active"><a href="#graph" class="nav-link">State graph</a></li>
+					<li><a href="#statistics" class="nav-link">Statistics</a></li>
+					<li><a href="#urls" class="nav-link">URL's</a></li>
+					<li><a href="#config" class="nav-link">Configuration</a></li>
+					<!--li><a href="#clusters" class="nav-link">Clusters</a></li-->
+							</ul>
+			<div class="nav pull-right">
+				<a href="#" class="btn graphBtn" id='pauseButton' data-toggle="tooltip" data-placement="bottom" title="Pause the graph movement"><i class="icon-pause"></i></a>
+				<a href="#" class="btn graphBtn" rel="popover" data-placement="bottom"  data-original-title="What to do"><i class='icon-question-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="toggleND" data-placement="bottom"  data-original-title="Show or Hide Near Duplicates"><i class='icon-remove-sign'></i></a>
+				<a href="#" class="btn graphBtn" id="clusterBtn" data-placement="bottom"  data-original-title="Show clusters"><i class='icon-asterisk'></i></a>
+				<div style="display: none" id='popup-content'>
+					<p>You can double click a state to inspect it further.</p>
+					<p>Clicking an edge gives more details on the state transition.</p>
+					<p>Use your mouse to zoom in and out by scrolling, or drag the states and view around.</p>
+				</div>
+				<a href="result.json" class="btn" data-toggle="tooltip" data-placement="bottom" title="Download result as JSON"><i class='icon-download'></i></a>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</div>
+</nav>		<div class="container page" id="container-graph" style="width: 100%; padding-top: 40px;">
+
+			<div class="panel slider-panel">
+				<p>Adjust to view nodes based on distance</p>
+				<div id="slider"> </div>
+				<div id="selectedThresholdDiv"> </div>
+			</div>
+
+			<div class="popover fade panel-right">
+				<div class="popover-inner">
+					<h3 class="popover-title">Edge info</h3>
+					<div class="popover-content">
+						<dl>
+							<dt>Element name</dt>
+							<dd name='elemName'></dd>
+						</dl>
+						<dl>
+							<dt>From</dt>
+							<dd name='from'></dd>
+						</dl>
+						<dl>
+							<dt>To</dt>
+							<dd name='to'></dd>
+						</dl>
+						<dl>
+							<dt>Identified by</dt>
+							<dd name='id'></dd>
+						</dl>
+						<dl>
+							<dt>Element</dt>
+							<dd name='element' style="text-transform: none;"></dd>
+						</dl>
+						<dl>
+							<dt>Event type</dt>
+							<dd name='eventType'></dd>
+						</dl>
+						<button class="btn btn-small" id='hideButton'>Hide</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container page" id="container-statistics" style="display: none;">
+			
+<section id='crawlResults'>
+	<div class="page-header">
+		<h1>Crawl results</h1>
+	</div>
+	<table class="table table-bordered table-striped">
+		<tbody>
+			<tr>
+				<th>Crawl time</th>
+				<td>1 minute 22 seconds</td>
+			</tr>
+			<tr>
+				<th>Exit status</th>
+				<td>Exhausted</td>
+			<tr>
+				<th>Number of states</th>
+				<td>27</td>
+			</tr>
+			<tr>
+				<th><a href="#urls" class="nav-link">URL's visited</a></th>
+				<td>15</td>
+			</tr>
+			<tr>
+				<th>Number of edges</th>
+				<td>40</td>
+			</tr>
+			<tr>
+				<th>Number of crawl paths</th>
+				<td>18</td>
+			</tr>
+			<tr>
+				<th>Failed events</th>
+				<td>0</td>
+			<tr>
+				<th>Average DOM length</th>
+				<td>5.418 kB</td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+
+<section id='highs-and-low'>
+	<div class="page-header">
+		<h1>Highs and lows</h1>
+	</div>
+	<table class="table table-bordered table-striped">
+		<tbody>
+			<tr>
+				<th>Highest fan-out</th> 
+								<td><a href="states/state9.html">state9</a></td>
+				<td>7</td>
+			</tr>
+			<tr>
+				<th>Lowest fan-out</th> 				<td><a href="states/state31.html">state31</a></td>
+				<td>0</td>
+			</tr>
+			<tr>
+				<th>Highest fan-in</th> 				<td><a href="states/state11.html">state11</a></td>
+				<td>5</td>
+			</tr>
+			<tr>
+				<th>Lowest fan-in</th> 				<td><a href="states/state38.html">state38</a></td>
+				<td>0</td>
+			</tr>
+		</tbody>
+	</table>
+</section>
+		</div>
+		<div class="container page" id="container-urls" style="display: none;">
+			<div class="page-header">
+	<h1>URL's visited</h1>
+</div>
+<table class="table table-bordered table-striped url-table">
+	<tbody>
+				<tr>
+			<td><a href="http://localhost:3000/home/3/product/2">http://localhost:3000/home/3/product/2</a></td>
+			<td> <a
+				href="states/state31.html">state31</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/2">http://localhost:3000/home/2</a></td>
+			<td> <a
+				href="states/state9.html">state9</a>,  <a
+				href="states/state51.html">state51</a>,  <a
+				href="states/state43.html">state43</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/2/product/2">http://localhost:3000/home/2/product/2</a></td>
+			<td> <a
+				href="states/state52.html">state52</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/shopping">http://localhost:3000/shopping</a></td>
+			<td> <a
+				href="states/state4.html">state4</a>,  <a
+				href="states/state17.html">state17</a>,  <a
+				href="states/state39.html">state39</a>,  <a
+				href="states/state40.html">state40</a>,  <a
+				href="states/state48.html">state48</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/purchased">http://localhost:3000/purchased</a></td>
+			<td> <a
+				href="states/state3.html">state3</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/2/product/1">http://localhost:3000/home/2/product/1</a></td>
+			<td> <a
+				href="states/state56.html">state56</a>,  <a
+				href="states/state44.html">state44</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/3/product/3">http://localhost:3000/home/3/product/3</a></td>
+			<td> <a
+				href="states/state33.html">state33</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/3">http://localhost:3000/home/3</a></td>
+			<td> <a
+				href="states/state11.html">state11</a>,  <a
+				href="states/state37.html">state37</a>,  <a
+				href="states/state46.html">state46</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/1">http://localhost:3000/home/1</a></td>
+			<td> <a
+				href="states/state38.html">state38</a>,  <a
+				href="states/state41.html">state41</a>,  <a
+				href="states/state49.html">state49</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/3/product/1">http://localhost:3000/home/3/product/1</a></td>
+			<td> <a
+				href="states/state16.html">state16</a>,  <a
+				href="states/state15.html">state15</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/2/product/3">http://localhost:3000/home/2/product/3</a></td>
+			<td> <a
+				href="states/state58.html">state58</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000">http://localhost:3000</a></td>
+			<td> <a
+				href="states/index.html">index</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/1/product/1">http://localhost:3000/home/1/product/1</a></td>
+			<td> <a
+				href="states/state23.html">state23</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/1/product/3">http://localhost:3000/home/1/product/3</a></td>
+			<td> <a
+				href="states/state27.html">state27</a>, 			</td>
+		</tr>
+				<tr>
+			<td><a href="http://localhost:3000/home/1/product/2">http://localhost:3000/home/1/product/2</a></td>
+			<td> <a
+				href="states/state25.html">state25</a>, 			</td>
+		</tr>
+			</tbody>
+</table>
+		</div>
+		<div class="container page" id="container-config" style="display: none;">
+			<section id='crawlConfig'>
+	<div class="page-header">
+		<h1>Crawl configuration</h1>
+	</div>
+	<table class="table table-bordered table-striped">
+		<tbody>
+						<tr>
+				<td>Maximum Runtime</td> 
+								<td>300000</td> 
+							</tr>
+						<tr>
+				<td>Maximum States</td> 
+								<td>&infin;</td> 
+							</tr>
+						<tr>
+				<td>Maximum Depth</td> 
+								<td>&infin;</td> 
+							</tr>
+						<tr>
+				<td>Site Dir</td> 
+								<td>/home/nezihsunman/workspace/AWET/awet/applications/ecommerce/localhost</td>
+							</tr>
+						<tr>
+				<td>Output Dir</td> 
+								<td>/home/nezihsunman/workspace/AWET/awet/applications/ecommerce/localhost/crawl0</td>
+							</tr>
+						<tr>
+				<td>State Vertex Factory</td> 
+								<td>null</td> 
+							</tr>
+						<tr>
+				<td>Basic Auth Url</td> 
+								<td>null</td> 
+							</tr>
+						<tr>
+				<td>Url</td> 
+								<td>http://localhost:3000</td> 
+							</tr>
+						<tr>
+				<td>Browser Config</td> 
+								<td>1 browsers of type CHROME using builder Default web driver factory</td> 
+							</tr>
+						<tr>
+				<td>Proxy Configuration</td> 
+								<td>NOTHING</td> 
+							</tr>
+						<tr>
+				<td>Crawl Rules</td> 
+								<td><pre><code>{
+  &quot;crawlEvents&quot; : [ &quot;click&quot; ],
+  &quot;invariants&quot; : [ ],
+  &quot;oracleComparators&quot; : [ {
+    &quot;preConditions&quot; : [ ],
+    &quot;id&quot; : &quot;SimpleComparator&quot;,
+    &quot;oracle&quot; : { }
+  } ],
+  &quot;ignoredFrameIdentifiers&quot; : [ ],
+  &quot;preCrawlConfig&quot; : {
+    &quot;waitConditions&quot; : [ ],
+    &quot;crawlConditions&quot; : [ ],
+    &quot;includedElements&quot; : [ {
+      &quot;tagName&quot; : &quot;A&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id649734728&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : null,
+      &quot;withXpathExpression&quot; : null
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1595953398&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : null,
+      &quot;withXpathExpression&quot; : null
+    }, {
+      &quot;tagName&quot; : &quot;INPUT&quot;,
+      &quot;attributeName&quot; : &quot;type&quot;,
+      &quot;attributeValue&quot; : &quot;submit&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id998351292&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id998351292&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;//INPUT[@type='submit']&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;//INPUT[@type='submit']&quot;
+    }, {
+      &quot;tagName&quot; : &quot;INPUT&quot;,
+      &quot;attributeName&quot; : &quot;type&quot;,
+      &quot;attributeValue&quot; : &quot;button&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1684106402&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1684106402&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;//INPUT[@type='button']&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;//INPUT[@type='button']&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1816326817&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1816326817&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;//A[contains(.,\\'Your Shop Name\\')]&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;//a[contains(.,\\'Your Shop Name\\')]&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id396821493&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id396821493&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;back&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;back&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1609742538&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1609742538&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;back&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;back&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1636487850&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1636487850&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;back&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;back&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id447144896&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id447144896&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;description-1-1&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;description-1-1&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id892466122&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id892466122&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;first-category&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;first-category&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id2144282958&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id2144282958&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;go-to-cart&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;go-to-cart&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1214753695&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1214753695&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;home&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;home&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1710422448&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1710422448&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;product-1-1&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;product-1-1&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1609038183&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1609038183&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;product-1-1&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;product-1-1&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1508130444&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1508130444&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;product-2-1&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;product-2-1&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id749362556&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id749362556&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;purchased&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;purchased&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1583816224&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1583816224&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;second-category&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;second-category&quot;
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1051453514&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : {
+        &quot;id&quot; : &quot;id1051453514&quot;,
+        &quot;conditions&quot; : [ ],
+        &quot;inXPath&quot; : &quot;third-category&quot;,
+        &quot;linkedInputFields&quot; : [ ]
+      },
+      &quot;withXpathExpression&quot; : &quot;third-category&quot;
+    }, {
+      &quot;tagName&quot; : &quot;A&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id1187225933&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : null,
+      &quot;withXpathExpression&quot; : null
+    }, {
+      &quot;tagName&quot; : &quot;BUTTON&quot;,
+      &quot;attributeName&quot; : &quot;&quot;,
+      &quot;attributeValue&quot; : &quot;&quot;,
+      &quot;text&quot; : &quot;&quot;,
+      &quot;id&quot; : &quot;id956061012&quot;,
+      &quot;eventType&quot; : &quot;click&quot;,
+      &quot;eventableCondition&quot; : null,
+      &quot;withXpathExpression&quot; : null
+    } ],
+    &quot;excludedElements&quot; : [ ],
+    &quot;filterAttributeNames&quot; : [ &quot;closure_hashcode_(\\w)*&quot;, &quot;jquery[0-9]+&quot; ]
+  },
+  &quot;formFillMode&quot; : &quot;NORMAL&quot;,
+  &quot;inputSpecification&quot; : {
+    &quot;formInputs&quot; : { },
+    &quot;forms&quot; : [ ],
+    &quot;crawlElements&quot; : [ ]
+  },
+  &quot;testInvariantsWhileCrawling&quot; : true,
+  &quot;clickOnce&quot; : true,
+  &quot;randomizeCandidateElements&quot; : false,
+  &quot;crawlHiddenAnchors&quot; : false,
+  &quot;waitAfterReloadUrl&quot; : 200,
+  &quot;waitAfterEvent&quot; : 250,
+  &quot;disableIdAndNameIdentification&quot; : false,
+  &quot;inputFieldIdsWithEnterClick&quot; : [ ],
+  &quot;crawlPriorityMode&quot; : &quot;NORMAL&quot;,
+  &quot;crawlNearDuplicates&quot; : true,
+  &quot;delayNearDuplicateCrawling&quot; : true,
+  &quot;allCrawlElements&quot; : [ {
+    &quot;tagName&quot; : &quot;A&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id649734728&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : null,
+    &quot;withXpathExpression&quot; : null
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1595953398&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : null,
+    &quot;withXpathExpression&quot; : null
+  }, {
+    &quot;tagName&quot; : &quot;INPUT&quot;,
+    &quot;attributeName&quot; : &quot;type&quot;,
+    &quot;attributeValue&quot; : &quot;submit&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id998351292&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id998351292&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;//INPUT[@type='submit']&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;//INPUT[@type='submit']&quot;
+  }, {
+    &quot;tagName&quot; : &quot;INPUT&quot;,
+    &quot;attributeName&quot; : &quot;type&quot;,
+    &quot;attributeValue&quot; : &quot;button&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1684106402&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1684106402&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;//INPUT[@type='button']&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;//INPUT[@type='button']&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1816326817&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1816326817&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;//A[contains(.,\\'Your Shop Name\\')]&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;//a[contains(.,\\'Your Shop Name\\')]&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id396821493&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id396821493&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;back&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;back&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1609742538&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1609742538&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;back&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;back&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1636487850&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1636487850&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;back&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;back&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id447144896&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id447144896&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;description-1-1&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;description-1-1&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id892466122&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id892466122&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;first-category&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;first-category&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id2144282958&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id2144282958&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;go-to-cart&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;go-to-cart&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1214753695&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1214753695&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;home&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;home&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1710422448&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1710422448&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;product-1-1&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;product-1-1&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1609038183&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1609038183&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;product-1-1&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;product-1-1&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1508130444&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1508130444&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;product-2-1&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;product-2-1&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id749362556&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id749362556&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;purchased&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;purchased&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1583816224&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1583816224&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;second-category&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;second-category&quot;
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1051453514&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : {
+      &quot;id&quot; : &quot;id1051453514&quot;,
+      &quot;conditions&quot; : [ ],
+      &quot;inXPath&quot; : &quot;third-category&quot;,
+      &quot;linkedInputFields&quot; : [ ]
+    },
+    &quot;withXpathExpression&quot; : &quot;third-category&quot;
+  }, {
+    &quot;tagName&quot; : &quot;A&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id1187225933&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : null,
+    &quot;withXpathExpression&quot; : null
+  }, {
+    &quot;tagName&quot; : &quot;BUTTON&quot;,
+    &quot;attributeName&quot; : &quot;&quot;,
+    &quot;attributeValue&quot; : &quot;&quot;,
+    &quot;text&quot; : &quot;&quot;,
+    &quot;id&quot; : &quot;id956061012&quot;,
+    &quot;eventType&quot; : &quot;click&quot;,
+    &quot;eventableCondition&quot; : null,
+    &quot;withXpathExpression&quot; : null
+  } ]
+}</code></pre></td> 
+							</tr>
+						<tr>
+				<td>Plugins</td> 
+								<td><ul><li>CrawlOverview</li><li>TestSuiteGenerator</li></ul></td> 
+							</tr>
+						<tr>
+				<td>Consider Candidate Elements Once</td> 
+								<td>fired</td> 
+							</tr>
+						<tr>
+				<td>Crawl Path Separator</td> 
+								<td>-----</td> 
+							</tr>
+						<tr>
+				<td>Selenium Actions File Name</td> 
+								<td>selenium-actions-ecommerce-fired.txt</td> 
+							</tr>
+					</tbody>
+	</table>
+</section>
+<section id='versionInfo'>
+	<div class="page-header">
+		<h1>Version info</h1>
+	</div>
+	<table class="table table-bordered table-striped">
+		<tbody>
+			<tr>
+				<td>Crawljax version</td>
+				<td>4.2-SNAPSHOT</td>
+			</tr>
+		</tbody>
+	</table>
+</section>		</div>
+		<div class="container page" id="container-clusters" style="display: none;">
+			
+		</div>
+		<div id="push"></div>
+	</div>
+	<footer>
+		<div class="container">
+			<small class="pull-left muted">Crawl of <a href="http://localhost:3000">http://localhost:3000</a> at Sun Nov 15 11:02:51 EST 2020</small>
+			<small class="pull-right muted">Crawled by <a href="http://crawljax.com">Crawljax</a> 4.2-SNAPSHOT</small>
+		</div>
+	</footer>
+		
+	<script src="js/graphbuilder.js"></script>
+	<script>
+		var edges = [ {
+  "from" : "index",
+  "to" : "state3",
+  "text" : "Products purchased",
+  "id" : "xpath //A[@id = 'purchased']",
+  "element" : "Element{node=[A: null], tag=A, text=Products purchased, attributes={href=/purchased, id=purchased, ng-reflect-href=/purchased, ng-reflect-router-link=/purchased}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state3",
+  "to" : "state4",
+  "text" : "0 - Items",
+  "id" : "xpath //A[@id = 'shop-cart-icon']",
+  "element" : "Element{node=[A: null], tag=A, text=0 - Items, attributes={aria-expanded=false, href=/shopping, id=shop-cart-icon, ng-reflect-href=/shopping, ng-reflect-router-link=/shopping, role=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state4",
+  "to" : "index",
+  "text" : "Continue Shopping",
+  "id" : "xpath //BUTTON[@id = 'back']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Continue Shopping, attributes={class=btn btn-default, id=back, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "index",
+  "to" : "state4",
+  "text" : "0 - Items",
+  "id" : "xpath //A[@id = 'shop-cart-icon']",
+  "element" : "Element{node=[A: null], tag=A, text=0 - Items, attributes={aria-expanded=false, href=/shopping, id=shop-cart-icon, ng-reflect-href=/shopping, ng-reflect-router-link=/shopping, role=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "index",
+  "to" : "state9",
+  "text" : "Category 2",
+  "id" : "xpath //A[@id = 'second-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state9",
+  "to" : "index",
+  "text" : "Category 1",
+  "id" : "xpath //A[@id = 'first-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 1, attributes={class=list-group-item, href=/home/1, id=first-category, ng-reflect-href=/home/1, ng-reflect-router-link=/home,1, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "index",
+  "to" : "state11",
+  "text" : "Category 3",
+  "id" : "xpath //A[@id = 'third-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state11",
+  "to" : "state15",
+  "text" : "nps.gov",
+  "id" : "xpath //A[@id = 'product-1-3']",
+  "element" : "Element{node=[A: null], tag=A, text=nps.gov, attributes={id=product-1-3}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state15",
+  "to" : "state16",
+  "text" : "Add to cart",
+  "id" : "xpath //BUTTON[@id = 'add']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add to cart, attributes={class=btn btn-success pull-right, id=add, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state16",
+  "to" : "state17",
+  "text" : "Go to cart",
+  "id" : "xpath //BUTTON[@id = 'go-to-cart']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Go to cart, attributes={class=btn btn-primary text-center, id=go-to-cart, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state17",
+  "to" : "state4",
+  "text" : "Remove",
+  "id" : "xpath //BUTTON[@id = 'remove-product-1-3']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Remove, attributes={class=btn btn-danger, id=remove-product-1-3, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state3",
+  "to" : "index",
+  "text" : "Continue Shopping",
+  "id" : "xpath //BUTTON[@id = 'back']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Continue Shopping, attributes={class=btn btn-default, id=back, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "index",
+  "to" : "state23",
+  "text" : "Bitchip",
+  "id" : "xpath //A[@id = 'product-1-1']",
+  "element" : "Element{node=[A: null], tag=A, text=Bitchip, attributes={id=product-1-1}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state23",
+  "to" : "index",
+  "text" : "Back",
+  "id" : "xpath //BUTTON[@id = 'back']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "index",
+  "to" : "state25",
+  "text" : "Zathin",
+  "id" : "xpath //A[@id = 'product-2-1']",
+  "element" : "Element{node=[A: null], tag=A, text=Zathin, attributes={id=product-2-1}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "index",
+  "to" : "state27",
+  "text" : "Flexidy",
+  "id" : "xpath //A[@id = 'product-3-1']",
+  "element" : "Element{node=[A: null], tag=A, text=Flexidy, attributes={id=product-3-1}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state9",
+  "to" : "state11",
+  "text" : "Category 3",
+  "id" : "xpath //A[@id = 'third-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state11",
+  "to" : "state31",
+  "text" : "google.de",
+  "id" : "xpath //A[@id = 'product-2-3']",
+  "element" : "Element{node=[A: null], tag=A, text=google.de, attributes={id=product-2-3}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state11",
+  "to" : "state33",
+  "text" : "howstuffworks.com",
+  "id" : "xpath //A[@id = 'product-3-3']",
+  "element" : "Element{node=[A: null], tag=A, text=howstuffworks.com, attributes={id=product-3-3}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state15",
+  "to" : "state4",
+  "text" : "Go to cart",
+  "id" : "xpath //BUTTON[@id = 'go-to-cart']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Go to cart, attributes={class=btn btn-primary text-center, id=go-to-cart, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state16",
+  "to" : "state37",
+  "text" : "Back",
+  "id" : "xpath //BUTTON[@id = 'back']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state38",
+  "to" : "state11",
+  "text" : "Category 3",
+  "id" : "xpath //A[@id = 'third-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state17",
+  "to" : "state39",
+  "text" : "Checkout",
+  "id" : "xpath //BUTTON[@id = 'checkout']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Checkout, attributes={class=btn btn-success, id=checkout, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state39",
+  "to" : "state40",
+  "text" : "×",
+  "id" : "xpath /HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-TITLE[1]/DIV[1]/BUTTON[1]",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=×, attributes={aria-label=Close, class=close, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state41",
+  "to" : "state9",
+  "text" : "Category 2",
+  "id" : "xpath //A[@id = 'second-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state41",
+  "to" : "state11",
+  "text" : "Category 3",
+  "id" : "xpath //A[@id = 'third-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state9",
+  "to" : "state43",
+  "text" : "",
+  "id" : "xpath //DIV[@id = 'carousel-example-generic']/A[1]",
+  "element" : "Element{node=[A: null], tag=A, text=, attributes={class=left carousel-control, data-slide=prev, href=#carousel-example-generic}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state43",
+  "to" : "state44",
+  "text" : "Teal",
+  "id" : "xpath //A[@id = 'product-1-2']",
+  "element" : "Element{node=[A: null], tag=A, text=Teal, attributes={id=product-1-2}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state15",
+  "to" : "state46",
+  "text" : "Back",
+  "id" : "xpath //BUTTON[@id = 'back']",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state39",
+  "to" : "state48",
+  "text" : "OK",
+  "id" : "xpath /HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-FOOTER[1]/DIV[1]/BUTTON[1]",
+  "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=OK, attributes={class=btn btn-primary, ng-reflect-ng-class=btn btn-primary}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state49",
+  "to" : "state9",
+  "text" : "Category 2",
+  "id" : "xpath //A[@id = 'second-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state49",
+  "to" : "state11",
+  "text" : "Category 3",
+  "id" : "xpath //A[@id = 'third-category']",
+  "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state9",
+  "to" : "state51",
+  "text" : "",
+  "id" : "xpath //DIV[@id = 'carousel-example-generic']/A[2]",
+  "element" : "Element{node=[A: null], tag=A, text=, attributes={class=right carousel-control, data-slide=next, href=#carousel-example-generic}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state51",
+  "to" : "state52",
+  "text" : "Blue",
+  "id" : "xpath //A[@id = 'product-2-2']",
+  "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state43",
+  "to" : "state52",
+  "text" : "Blue",
+  "id" : "xpath //A[@id = 'product-2-2']",
+  "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state9",
+  "to" : "state56",
+  "text" : "Teal",
+  "id" : "xpath //A[@id = 'product-1-2']",
+  "element" : "Element{node=[A: null], tag=A, text=Teal, attributes={id=product-1-2}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state51",
+  "to" : "state58",
+  "text" : "Mauv",
+  "id" : "xpath //A[@id = 'product-3-2']",
+  "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state43",
+  "to" : "state58",
+  "text" : "Mauv",
+  "id" : "xpath //A[@id = 'product-3-2']",
+  "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state9",
+  "to" : "state52",
+  "text" : "Blue",
+  "id" : "xpath //A[@id = 'product-2-2']",
+  "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+}, {
+  "from" : "state9",
+  "to" : "state58",
+  "text" : "Mauv",
+  "id" : "xpath //A[@id = 'product-3-2']",
+  "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+  "eventType" : "click",
+  "inputValues" : "none"
+} ];
+		var states = {
+  "state31" : {
+    "name" : "state31",
+    "url" : "http://localhost:3000/home/3/product/2",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 31,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456211869,
+    "nearestState" : "state27"
+  },
+  "state9" : {
+    "name" : "state9",
+    "url" : "http://localhost:3000/home/2",
+    "candidateElements" : [ {
+      "top" : 119,
+      "left" : 56,
+      "xpath" : "//A[@id = 'first-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 160,
+      "left" : 56,
+      "xpath" : "//A[@id = 'second-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 201,
+      "left" : 56,
+      "xpath" : "//A[@id = 'third-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 70,
+      "left" : 349,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+      "width" : 127,
+      "height" : 300
+    }, {
+      "top" : 70,
+      "left" : 1069,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+      "width" : 128,
+      "height" : 300
+    }, {
+      "top" : 541,
+      "left" : 359,
+      "xpath" : "//A[@id = 'product-1-2']",
+      "width" : 33,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-2']",
+      "width" : 36,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-2']",
+      "width" : 44,
+      "height" : 20
+    } ],
+    "fanIn" : 3,
+    "fanOut" : 7,
+    "id" : 9,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456187968,
+    "nearestState" : "state4"
+  },
+  "state52" : {
+    "name" : "state52",
+    "url" : "http://localhost:3000/home/2/product/2",
+    "candidateElements" : [ ],
+    "fanIn" : 3,
+    "fanOut" : 0,
+    "id" : 52,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456251588,
+    "nearestState" : "state51"
+  },
+  "state51" : {
+    "name" : "state51",
+    "url" : "http://localhost:3000/home/2",
+    "candidateElements" : [ {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-2']",
+      "width" : 36,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-2']",
+      "width" : 44,
+      "height" : 20
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 51,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456249108,
+    "nearestState" : "state49"
+  },
+  "state4" : {
+    "name" : "state4",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ {
+      "top" : 139,
+      "left" : 41,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 163,
+      "height" : 34
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 1,
+    "id" : 4,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456184923,
+    "nearestState" : "state3"
+  },
+  "state3" : {
+    "name" : "state3",
+    "url" : "http://localhost:3000/purchased",
+    "candidateElements" : [ {
+      "top" : 0,
+      "left" : 1120,
+      "xpath" : "//A[@id = 'shop-cart-icon']",
+      "width" : 102,
+      "height" : 50
+    }, {
+      "top" : 139,
+      "left" : 41,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 163,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 3,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456183047,
+    "nearestState" : "index"
+  },
+  "state56" : {
+    "name" : "state56",
+    "url" : "http://localhost:3000/home/2/product/1",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 56,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456255182,
+    "nearestState" : "state52"
+  },
+  "state33" : {
+    "name" : "state33",
+    "url" : "http://localhost:3000/home/3/product/3",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 33,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456214852,
+    "nearestState" : "state31"
+  },
+  "state11" : {
+    "name" : "state11",
+    "url" : "http://localhost:3000/home/3",
+    "candidateElements" : [ {
+      "top" : 201,
+      "left" : 56,
+      "xpath" : "//A[@id = 'third-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 70,
+      "left" : 349,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+      "width" : 127,
+      "height" : 300
+    }, {
+      "top" : 70,
+      "left" : 1069,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+      "width" : 128,
+      "height" : 300
+    }, {
+      "top" : 541,
+      "left" : 359,
+      "xpath" : "//A[@id = 'product-1-3']",
+      "width" : 63,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-3']",
+      "width" : 79,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-3']",
+      "width" : 153,
+      "height" : 20
+    } ],
+    "fanIn" : 5,
+    "fanOut" : 3,
+    "id" : 11,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456191345,
+    "nearestState" : "state9"
+  },
+  "state17" : {
+    "name" : "state17",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ {
+      "top" : 118,
+      "left" : 985,
+      "xpath" : "//BUTTON[@id = 'remove-product-1-3']",
+      "width" : 96,
+      "height" : 34
+    }, {
+      "top" : 304,
+      "left" : 985,
+      "xpath" : "//BUTTON[@id = 'checkout']",
+      "width" : 103,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 17,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456199603,
+    "nearestState" : "state16"
+  },
+  "state39" : {
+    "name" : "state39",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ {
+      "top" : 44,
+      "left" : 1033,
+      "xpath" : "/HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-TITLE[1]/DIV[1]/BUTTON[1]",
+      "width" : 12,
+      "height" : 21
+    }, {
+      "top" : 262,
+      "left" : 999,
+      "xpath" : "/HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-FOOTER[1]/DIV[1]/BUTTON[1]",
+      "width" : 46,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 39,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456225274,
+    "nearestState" : "state38"
+  },
+  "state38" : {
+    "name" : "state38",
+    "url" : "http://localhost:3000/home/1",
+    "candidateElements" : [ ],
+    "fanIn" : 0,
+    "fanOut" : 1,
+    "id" : 38,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456221598,
+    "nearestState" : "state37"
+  },
+  "state16" : {
+    "name" : "state16",
+    "url" : "http://localhost:3000/home/3/product/1",
+    "candidateElements" : [ {
+      "top" : 546,
+      "left" : 359,
+      "xpath" : "//BUTTON[@id = 'go-to-cart']",
+      "width" : 87,
+      "height" : 34
+    }, {
+      "top" : 546,
+      "left" : 450,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 57,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 16,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456197187,
+    "nearestState" : "state15"
+  },
+  "state37" : {
+    "name" : "state37",
+    "url" : "http://localhost:3000/home/3",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 37,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456219412,
+    "nearestState" : "state33"
+  },
+  "state15" : {
+    "name" : "state15",
+    "url" : "http://localhost:3000/home/3/product/1",
+    "candidateElements" : [ {
+      "top" : 546,
+      "left" : 1092,
+      "xpath" : "//BUTTON[@id = 'add']",
+      "width" : 94,
+      "height" : 34
+    }, {
+      "top" : 546,
+      "left" : 359,
+      "xpath" : "//BUTTON[@id = 'go-to-cart']",
+      "width" : 87,
+      "height" : 34
+    }, {
+      "top" : 546,
+      "left" : 450,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 57,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 15,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456194673,
+    "nearestState" : "state11"
+  },
+  "state58" : {
+    "name" : "state58",
+    "url" : "http://localhost:3000/home/2/product/3",
+    "candidateElements" : [ ],
+    "fanIn" : 3,
+    "fanOut" : 0,
+    "id" : 58,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456257968,
+    "nearestState" : "state56"
+  },
+  "state41" : {
+    "name" : "state41",
+    "url" : "http://localhost:3000/home/1",
+    "candidateElements" : [ ],
+    "fanIn" : 0,
+    "fanOut" : 2,
+    "id" : 41,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456229190,
+    "nearestState" : "state40"
+  },
+  "state40" : {
+    "name" : "state40",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 40,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456227343,
+    "nearestState" : "state39"
+  },
+  "index" : {
+    "name" : "index",
+    "url" : "http://localhost:3000",
+    "candidateElements" : [ {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//A[@id = 'home']",
+      "width" : 166,
+      "height" : 50
+    }, {
+      "top" : 0,
+      "left" : 166,
+      "xpath" : "//A[@id = 'purchased']",
+      "width" : 155,
+      "height" : 50
+    }, {
+      "top" : 0,
+      "left" : 1120,
+      "xpath" : "//A[@id = 'shop-cart-icon']",
+      "width" : 102,
+      "height" : 50
+    }, {
+      "top" : 119,
+      "left" : 56,
+      "xpath" : "//A[@id = 'first-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 160,
+      "left" : 56,
+      "xpath" : "//A[@id = 'second-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 201,
+      "left" : 56,
+      "xpath" : "//A[@id = 'third-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 70,
+      "left" : 349,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+      "width" : 127,
+      "height" : 300
+    }, {
+      "top" : 70,
+      "left" : 1069,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+      "width" : 128,
+      "height" : 300
+    }, {
+      "top" : 541,
+      "left" : 359,
+      "xpath" : "//A[@id = 'product-1-1']",
+      "width" : 54,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-1']",
+      "width" : 50,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-1']",
+      "width" : 57,
+      "height" : 20
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 7,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456180834,
+    "nearestState" : "null"
+  },
+  "state46" : {
+    "name" : "state46",
+    "url" : "http://localhost:3000/home/3",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 46,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456238877,
+    "nearestState" : "state44"
+  },
+  "state23" : {
+    "name" : "state23",
+    "url" : "http://localhost:3000/home/1/product/1",
+    "candidateElements" : [ {
+      "top" : 506,
+      "left" : 450,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 57,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 23,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456203373,
+    "nearestState" : "state17"
+  },
+  "state44" : {
+    "name" : "state44",
+    "url" : "http://localhost:3000/home/2/product/1",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 44,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456236213,
+    "nearestState" : "state43"
+  },
+  "state43" : {
+    "name" : "state43",
+    "url" : "http://localhost:3000/home/2",
+    "candidateElements" : [ {
+      "top" : 541,
+      "left" : 359,
+      "xpath" : "//A[@id = 'product-1-2']",
+      "width" : 33,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-2']",
+      "width" : 36,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-2']",
+      "width" : 44,
+      "height" : 20
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 43,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456233947,
+    "nearestState" : "state41"
+  },
+  "state27" : {
+    "name" : "state27",
+    "url" : "http://localhost:3000/home/1/product/3",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 27,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456208478,
+    "nearestState" : "state25"
+  },
+  "state49" : {
+    "name" : "state49",
+    "url" : "http://localhost:3000/home/1",
+    "candidateElements" : [ ],
+    "fanIn" : 0,
+    "fanOut" : 2,
+    "id" : 49,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456244511,
+    "nearestState" : "state48"
+  },
+  "state48" : {
+    "name" : "state48",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 48,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456243062,
+    "nearestState" : "state46"
+  },
+  "state25" : {
+    "name" : "state25",
+    "url" : "http://localhost:3000/home/1/product/2",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 25,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456206167,
+    "nearestState" : "state23"
+  }
+};
+		var alchemyGraph = {
+  "nodes" : [ {
+    "name" : "state31",
+    "url" : "http://localhost:3000/home/3/product/2",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 31,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456211869,
+    "nearestState" : "state27"
+  }, {
+    "name" : "state9",
+    "url" : "http://localhost:3000/home/2",
+    "candidateElements" : [ {
+      "top" : 119,
+      "left" : 56,
+      "xpath" : "//A[@id = 'first-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 160,
+      "left" : 56,
+      "xpath" : "//A[@id = 'second-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 201,
+      "left" : 56,
+      "xpath" : "//A[@id = 'third-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 70,
+      "left" : 349,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+      "width" : 127,
+      "height" : 300
+    }, {
+      "top" : 70,
+      "left" : 1069,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+      "width" : 128,
+      "height" : 300
+    }, {
+      "top" : 541,
+      "left" : 359,
+      "xpath" : "//A[@id = 'product-1-2']",
+      "width" : 33,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-2']",
+      "width" : 36,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-2']",
+      "width" : 44,
+      "height" : 20
+    } ],
+    "fanIn" : 3,
+    "fanOut" : 7,
+    "id" : 9,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456187968,
+    "nearestState" : "state4"
+  }, {
+    "name" : "state52",
+    "url" : "http://localhost:3000/home/2/product/2",
+    "candidateElements" : [ ],
+    "fanIn" : 3,
+    "fanOut" : 0,
+    "id" : 52,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456251588,
+    "nearestState" : "state51"
+  }, {
+    "name" : "state51",
+    "url" : "http://localhost:3000/home/2",
+    "candidateElements" : [ {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-2']",
+      "width" : 36,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-2']",
+      "width" : 44,
+      "height" : 20
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 51,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456249108,
+    "nearestState" : "state49"
+  }, {
+    "name" : "state4",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ {
+      "top" : 139,
+      "left" : 41,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 163,
+      "height" : 34
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 1,
+    "id" : 4,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456184923,
+    "nearestState" : "state3"
+  }, {
+    "name" : "state3",
+    "url" : "http://localhost:3000/purchased",
+    "candidateElements" : [ {
+      "top" : 0,
+      "left" : 1120,
+      "xpath" : "//A[@id = 'shop-cart-icon']",
+      "width" : 102,
+      "height" : 50
+    }, {
+      "top" : 139,
+      "left" : 41,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 163,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 3,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456183047,
+    "nearestState" : "index"
+  }, {
+    "name" : "state56",
+    "url" : "http://localhost:3000/home/2/product/1",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 56,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456255182,
+    "nearestState" : "state52"
+  }, {
+    "name" : "state33",
+    "url" : "http://localhost:3000/home/3/product/3",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 33,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456214852,
+    "nearestState" : "state31"
+  }, {
+    "name" : "state11",
+    "url" : "http://localhost:3000/home/3",
+    "candidateElements" : [ {
+      "top" : 201,
+      "left" : 56,
+      "xpath" : "//A[@id = 'third-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 70,
+      "left" : 349,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+      "width" : 127,
+      "height" : 300
+    }, {
+      "top" : 70,
+      "left" : 1069,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+      "width" : 128,
+      "height" : 300
+    }, {
+      "top" : 541,
+      "left" : 359,
+      "xpath" : "//A[@id = 'product-1-3']",
+      "width" : 63,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-3']",
+      "width" : 79,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-3']",
+      "width" : 153,
+      "height" : 20
+    } ],
+    "fanIn" : 5,
+    "fanOut" : 3,
+    "id" : 11,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456191345,
+    "nearestState" : "state9"
+  }, {
+    "name" : "state17",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ {
+      "top" : 118,
+      "left" : 985,
+      "xpath" : "//BUTTON[@id = 'remove-product-1-3']",
+      "width" : 96,
+      "height" : 34
+    }, {
+      "top" : 304,
+      "left" : 985,
+      "xpath" : "//BUTTON[@id = 'checkout']",
+      "width" : 103,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 17,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456199603,
+    "nearestState" : "state16"
+  }, {
+    "name" : "state39",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ {
+      "top" : 44,
+      "left" : 1033,
+      "xpath" : "/HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-TITLE[1]/DIV[1]/BUTTON[1]",
+      "width" : 12,
+      "height" : 21
+    }, {
+      "top" : 262,
+      "left" : 999,
+      "xpath" : "/HTML[1]/BODY[1]/MODAL-OVERLAY[1]/BS-MODAL-CONTAINER[1]/DIV[1]/DIV[1]/MODAL-CONTENT[1]/MODAL-FOOTER[1]/DIV[1]/BUTTON[1]",
+      "width" : 46,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 39,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456225274,
+    "nearestState" : "state38"
+  }, {
+    "name" : "state38",
+    "url" : "http://localhost:3000/home/1",
+    "candidateElements" : [ ],
+    "fanIn" : 0,
+    "fanOut" : 1,
+    "id" : 38,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456221598,
+    "nearestState" : "state37"
+  }, {
+    "name" : "state16",
+    "url" : "http://localhost:3000/home/3/product/1",
+    "candidateElements" : [ {
+      "top" : 546,
+      "left" : 359,
+      "xpath" : "//BUTTON[@id = 'go-to-cart']",
+      "width" : 87,
+      "height" : 34
+    }, {
+      "top" : 546,
+      "left" : 450,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 57,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 2,
+    "id" : 16,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456197187,
+    "nearestState" : "state15"
+  }, {
+    "name" : "state37",
+    "url" : "http://localhost:3000/home/3",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 37,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456219412,
+    "nearestState" : "state33"
+  }, {
+    "name" : "state15",
+    "url" : "http://localhost:3000/home/3/product/1",
+    "candidateElements" : [ {
+      "top" : 546,
+      "left" : 1092,
+      "xpath" : "//BUTTON[@id = 'add']",
+      "width" : 94,
+      "height" : 34
+    }, {
+      "top" : 546,
+      "left" : 359,
+      "xpath" : "//BUTTON[@id = 'go-to-cart']",
+      "width" : 87,
+      "height" : 34
+    }, {
+      "top" : 546,
+      "left" : 450,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 57,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 15,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456194673,
+    "nearestState" : "state11"
+  }, {
+    "name" : "state58",
+    "url" : "http://localhost:3000/home/2/product/3",
+    "candidateElements" : [ ],
+    "fanIn" : 3,
+    "fanOut" : 0,
+    "id" : 58,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456257968,
+    "nearestState" : "state56"
+  }, {
+    "name" : "state41",
+    "url" : "http://localhost:3000/home/1",
+    "candidateElements" : [ ],
+    "fanIn" : 0,
+    "fanOut" : 2,
+    "id" : 41,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456229190,
+    "nearestState" : "state40"
+  }, {
+    "name" : "state40",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 40,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456227343,
+    "nearestState" : "state39"
+  }, {
+    "name" : "index",
+    "url" : "http://localhost:3000",
+    "candidateElements" : [ {
+      "top" : 0,
+      "left" : 0,
+      "xpath" : "//A[@id = 'home']",
+      "width" : 166,
+      "height" : 50
+    }, {
+      "top" : 0,
+      "left" : 166,
+      "xpath" : "//A[@id = 'purchased']",
+      "width" : 155,
+      "height" : 50
+    }, {
+      "top" : 0,
+      "left" : 1120,
+      "xpath" : "//A[@id = 'shop-cart-icon']",
+      "width" : 102,
+      "height" : 50
+    }, {
+      "top" : 119,
+      "left" : 56,
+      "xpath" : "//A[@id = 'first-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 160,
+      "left" : 56,
+      "xpath" : "//A[@id = 'second-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 201,
+      "left" : 56,
+      "xpath" : "//A[@id = 'third-category']",
+      "width" : 263,
+      "height" : 42
+    }, {
+      "top" : 70,
+      "left" : 349,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[1]",
+      "width" : 127,
+      "height" : 300
+    }, {
+      "top" : 70,
+      "left" : 1069,
+      "xpath" : "//DIV[@id = 'carousel-example-generic']/A[2]",
+      "width" : 128,
+      "height" : 300
+    }, {
+      "top" : 541,
+      "left" : 359,
+      "xpath" : "//A[@id = 'product-1-1']",
+      "width" : 54,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-1']",
+      "width" : 50,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-1']",
+      "width" : 57,
+      "height" : 20
+    } ],
+    "fanIn" : 4,
+    "fanOut" : 7,
+    "id" : 0,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456180834,
+    "nearestState" : "null"
+  }, {
+    "name" : "state46",
+    "url" : "http://localhost:3000/home/3",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 46,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456238877,
+    "nearestState" : "state44"
+  }, {
+    "name" : "state23",
+    "url" : "http://localhost:3000/home/1/product/1",
+    "candidateElements" : [ {
+      "top" : 506,
+      "left" : 450,
+      "xpath" : "//BUTTON[@id = 'back']",
+      "width" : 57,
+      "height" : 34
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 1,
+    "id" : 23,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456203373,
+    "nearestState" : "state17"
+  }, {
+    "name" : "state44",
+    "url" : "http://localhost:3000/home/2/product/1",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 44,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456236213,
+    "nearestState" : "state43"
+  }, {
+    "name" : "state43",
+    "url" : "http://localhost:3000/home/2",
+    "candidateElements" : [ {
+      "top" : 541,
+      "left" : 359,
+      "xpath" : "//A[@id = 'product-1-2']",
+      "width" : 33,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 651,
+      "xpath" : "//A[@id = 'product-2-2']",
+      "width" : 36,
+      "height" : 20
+    }, {
+      "top" : 541,
+      "left" : 943,
+      "xpath" : "//A[@id = 'product-3-2']",
+      "width" : 44,
+      "height" : 20
+    } ],
+    "fanIn" : 1,
+    "fanOut" : 3,
+    "id" : 43,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456233947,
+    "nearestState" : "state41"
+  }, {
+    "name" : "state27",
+    "url" : "http://localhost:3000/home/1/product/3",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 27,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456208478,
+    "nearestState" : "state25"
+  }, {
+    "name" : "state49",
+    "url" : "http://localhost:3000/home/1",
+    "candidateElements" : [ ],
+    "fanIn" : 0,
+    "fanOut" : 2,
+    "id" : 49,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456244511,
+    "nearestState" : "state48"
+  }, {
+    "name" : "state48",
+    "url" : "http://localhost:3000/shopping",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 48,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456243062,
+    "nearestState" : "state46"
+  }, {
+    "name" : "state25",
+    "url" : "http://localhost:3000/home/1/product/2",
+    "candidateElements" : [ ],
+    "fanIn" : 1,
+    "fanOut" : 0,
+    "id" : 25,
+    "failedEvents" : [ ],
+    "hasNearDuplicate" : false,
+    "distToNearestState" : -1.0,
+    "cluster" : -1,
+    "timeAdded" : 1605456206167,
+    "nearestState" : "state23"
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 3,
+    "text" : "Products purchased",
+    "element" : "Element{node=[A: null], tag=A, text=Products purchased, attributes={href=/purchased, id=purchased, ng-reflect-href=/purchased, ng-reflect-router-link=/purchased}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 4,
+    "text" : "0 - Items",
+    "element" : "Element{node=[A: null], tag=A, text=0 - Items, attributes={aria-expanded=false, href=/shopping, id=shop-cart-icon, ng-reflect-href=/shopping, ng-reflect-router-link=/shopping, role=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 4,
+    "target" : 0,
+    "text" : "Continue Shopping",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Continue Shopping, attributes={class=btn btn-default, id=back, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 4,
+    "text" : "0 - Items",
+    "element" : "Element{node=[A: null], tag=A, text=0 - Items, attributes={aria-expanded=false, href=/shopping, id=shop-cart-icon, ng-reflect-href=/shopping, ng-reflect-router-link=/shopping, role=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 9,
+    "text" : "Category 2",
+    "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 9,
+    "target" : 0,
+    "text" : "Category 1",
+    "element" : "Element{node=[A: null], tag=A, text=Category 1, attributes={class=list-group-item, href=/home/1, id=first-category, ng-reflect-href=/home/1, ng-reflect-router-link=/home,1, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 11,
+    "text" : "Category 3",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 11,
+    "target" : 15,
+    "text" : "nps.gov",
+    "element" : "Element{node=[A: null], tag=A, text=nps.gov, attributes={id=product-1-3}}",
+    "eventType" : "click"
+  }, {
+    "source" : 15,
+    "target" : 16,
+    "text" : "Add to cart",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Add to cart, attributes={class=btn btn-success pull-right, id=add, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 16,
+    "target" : 17,
+    "text" : "Go to cart",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Go to cart, attributes={class=btn btn-primary text-center, id=go-to-cart, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 17,
+    "target" : 4,
+    "text" : "Remove",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Remove, attributes={class=btn btn-danger, id=remove-product-1-3, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 3,
+    "target" : 0,
+    "text" : "Continue Shopping",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Continue Shopping, attributes={class=btn btn-default, id=back, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 23,
+    "text" : "Bitchip",
+    "element" : "Element{node=[A: null], tag=A, text=Bitchip, attributes={id=product-1-1}}",
+    "eventType" : "click"
+  }, {
+    "source" : 23,
+    "target" : 0,
+    "text" : "Back",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 25,
+    "text" : "Zathin",
+    "element" : "Element{node=[A: null], tag=A, text=Zathin, attributes={id=product-2-1}}",
+    "eventType" : "click"
+  }, {
+    "source" : 0,
+    "target" : 27,
+    "text" : "Flexidy",
+    "element" : "Element{node=[A: null], tag=A, text=Flexidy, attributes={id=product-3-1}}",
+    "eventType" : "click"
+  }, {
+    "source" : 9,
+    "target" : 11,
+    "text" : "Category 3",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 11,
+    "target" : 31,
+    "text" : "google.de",
+    "element" : "Element{node=[A: null], tag=A, text=google.de, attributes={id=product-2-3}}",
+    "eventType" : "click"
+  }, {
+    "source" : 11,
+    "target" : 33,
+    "text" : "howstuffworks.com",
+    "element" : "Element{node=[A: null], tag=A, text=howstuffworks.com, attributes={id=product-3-3}}",
+    "eventType" : "click"
+  }, {
+    "source" : 15,
+    "target" : 4,
+    "text" : "Go to cart",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Go to cart, attributes={class=btn btn-primary text-center, id=go-to-cart, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 16,
+    "target" : 37,
+    "text" : "Back",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 38,
+    "target" : 11,
+    "text" : "Category 3",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 17,
+    "target" : 39,
+    "text" : "Checkout",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Checkout, attributes={class=btn btn-success, id=checkout, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 39,
+    "target" : 40,
+    "text" : "×",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=×, attributes={aria-label=Close, class=close, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 41,
+    "target" : 9,
+    "text" : "Category 2",
+    "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 41,
+    "target" : 11,
+    "text" : "Category 3",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 9,
+    "target" : 43,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=left carousel-control, data-slide=prev, href=#carousel-example-generic}}",
+    "eventType" : "click"
+  }, {
+    "source" : 43,
+    "target" : 44,
+    "text" : "Teal",
+    "element" : "Element{node=[A: null], tag=A, text=Teal, attributes={id=product-1-2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 15,
+    "target" : 46,
+    "text" : "Back",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=Back, attributes={class=btn btn-primary, id=back, type=button}}",
+    "eventType" : "click"
+  }, {
+    "source" : 39,
+    "target" : 48,
+    "text" : "OK",
+    "element" : "Element{node=[BUTTON: null], tag=BUTTON, text=OK, attributes={class=btn btn-primary, ng-reflect-ng-class=btn btn-primary}}",
+    "eventType" : "click"
+  }, {
+    "source" : 49,
+    "target" : 9,
+    "text" : "Category 2",
+    "element" : "Element{node=[A: null], tag=A, text=Category 2, attributes={class=list-group-item, href=/home/2, id=second-category, ng-reflect-href=/home/2, ng-reflect-router-link=/home,2, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 49,
+    "target" : 11,
+    "text" : "Category 3",
+    "element" : "Element{node=[A: null], tag=A, text=Category 3, attributes={class=list-group-item, href=/home/3, id=third-category, ng-reflect-href=/home/3, ng-reflect-router-link=/home,3, ng-reflect-router-link-active=active, routerlinkactive=active}}",
+    "eventType" : "click"
+  }, {
+    "source" : 9,
+    "target" : 51,
+    "text" : "",
+    "element" : "Element{node=[A: null], tag=A, text=, attributes={class=right carousel-control, data-slide=next, href=#carousel-example-generic}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 52,
+    "text" : "Blue",
+    "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 43,
+    "target" : 52,
+    "text" : "Blue",
+    "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 9,
+    "target" : 56,
+    "text" : "Teal",
+    "element" : "Element{node=[A: null], tag=A, text=Teal, attributes={id=product-1-2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 51,
+    "target" : 58,
+    "text" : "Mauv",
+    "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 43,
+    "target" : 58,
+    "text" : "Mauv",
+    "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 9,
+    "target" : 52,
+    "text" : "Blue",
+    "element" : "Element{node=[A: null], tag=A, text=Blue, attributes={id=product-2-2}}",
+    "eventType" : "click"
+  }, {
+    "source" : 9,
+    "target" : 58,
+    "text" : "Mauv",
+    "element" : "Element{node=[A: null], tag=A, text=Mauv, attributes={id=product-3-2}}",
+    "eventType" : "click"
+  } ]
+};
+		var maxRaw = -1.0;
+		var clusters = null;
+		var selectedThreshold = 0.0;
+		var selectedThresholdChanged = false;
+		$(document).ready(
+				function() {
+					$.each(states, function() {
+						graph.addNode(this.name, {
+							img : 'screenshots/' + this.name + '_small.jpg',
+							url : "states/" + this.name + ".html"
+						});
+					});
+
+					var edgesSeen = {};
+					$.each(edges, function() {
+						var edgeKey = this.from + "-to-" + this.to;
+						if (!(edgeKey in edgesSeen)) {
+							edgesSeen[edgeKey] = true;
+							graph.addLink(this.from, this.to, {
+								text : this.text,
+								id : this.id,
+								eventType : this.eventType,
+								element : this.element
+
+							});
+						}
+					});
+
+					$("#hideButton").click(function() {
+						$(".panel-right").removeClass("in");
+						$('path[stroke="red"]').attr("stroke", "grey");
+					});
+
+					$("a[rel='popover']").popover({
+						content : $("#popup-content").html(),
+						html : true,
+						trigger : "hover"
+					});
+
+					$("a[data-toggle='tooltip']").tooltip();
+
+					var paused = false;
+					$("#pauseButton").click(
+							function() {
+								if (paused) {
+									renderer.resume();
+									paused = false;
+									$(this).children(":first").attr("class",
+											"icon-pause");
+								} else {
+									renderer.pause();
+									paused = true;
+									$(this).children(":first").attr("class",
+											"icon-play");
+								}
+							});
+
+					var hideNearDuplicates = true;
+					$("#toggleND").click(
+							function(){
+								if(hideNearDuplicates){
+									hideNearDuplicates = false;
+									hideNearDuplicatesFn();
+								}else{
+									hideNearDuplicates = true;
+									showAllNodes();
+								}
+							}
+						);
+
+					if(maxRaw == -1.0){
+						console.log("No slider");
+						$(".slider-panel").html("");
+					}
+
+					else{
+						$("#slider").slider(
+							{
+								orientation: "horizontal",
+								step:maxRaw/100,
+								max:maxRaw,
+								change:function( event, ui) {
+									currentValue = $("#slider").slider("option","value");
+									if(currentValue != selectedThreshold){
+										selectedThresholdChanged = true;
+										selectedThreshold = currentValue;
+										console.log(selectedThreshold)
+										$("#selectedThresholdDiv").html("selected threshold : " + selectedThreshold);
+										distanceBasedGraph();
+									}
+									
+								}
+							});
+					}
+
+					// Initializing Alchemy Graph
+					// alchemy.begin({
+			  //       	dataSource: alchemyGraph, 
+			  //       	divSelector: "#container-clusters",
+			  //       	nodeCaption: 'name', 
+			  //       	nodeMouseOver: 'name',
+			  //           cluster: true
+			  //           //clusterColours: ["#1B9E77","#D95F02","#7570B3","#E7298A","#66A61E","#E6AB02"]
+			  //       });
+
+					/* Makes nav links update the nav toolback with current page */
+					$('.nav-link').click(function(e) { 
+						/* Example: #url */
+						var target = e.target.hash;
+
+						updateNav(target);
+					});
+
+					/* page: a string with target page, like "#nav" */
+					function updateNav(page) {
+						/* Removes active class from previous active link */
+						$('.navbar li').removeClass('active');
+
+						/* Find correct link on nav-bar and add active class to it */
+						$('.navbar li').each(function(index, element) {
+							if ($(element).find('a').get(0).hash === page) {
+								$(element).addClass('active');
+
+								return false;
+							}
+						});
+					}
+
+					function loadPage(page) {
+						$('.page').hide();
+						$('#container-' + page).show();
+
+						if (page === "graph") {
+							$('.graphBtn').show();
+						} else {
+							$('.graphBtn').hide();
+						}
+					}
+
+					$(window).on(
+							'hashchange',
+							function(e) {
+								pageRef = window.location.hash.substring(1);
+								if ($("#container-" + pageRef).length == 0
+										&& pageRef !== "graph") {
+									window.location.hash = "graph";
+								} else {
+									loadPage(pageRef);
+								}
+							});
+
+					$(window).trigger('hashchange');
+				});
+
+		function rebuildGraph(){
+			$.each(states, function() {
+						graph.addNode(this.name, {
+							img : 'screenshots/' + this.name + '_small.jpg',
+							url : "states/" + this.name + ".html"
+						});
+					});
+
+					var edgesSeen = {};
+					$.each(edges, function() {
+						var edgeKey = this.from + "-to-" + this.to;
+						if (!(edgeKey in edgesSeen)) {
+							edgesSeen[edgeKey] = true;
+							graph.addLink(this.from, this.to, {
+								text : this.text,
+								id : this.id,
+								eventType : this.eventType,
+								element : this.element
+
+							});
+						}
+					});
+		}
+
+		function hideNearDuplicatesFn(){
+			$.each(states, function() {
+				if(this.hasNearDuplicate){
+					graph.removeNode(this.name);
+				}
+			});
+		}
+
+		function distanceBasedGraph(){
+			selectedThresholdChanged = false;
+			graph.clear();
+			rebuildGraph();
+			$.each(states, function() {
+
+				if(this.distToNearestState < selectedThreshold && this.distToNearestState > 0){
+					graph.removeNode(this.name);
+				}
+			});
+		}
+
+		function showAllNodes(){
+			graph.clear();
+			rebuildGraph();
+		}
+
+
+
+		function showInfo(link) {
+			$(".panel-right").addClass("in");
+			$(".panel-right [name='elemName']").text(link.data.text);
+			$(".panel-right [name='from']").html(asStateLink(link.fromId));
+			$(".panel-right [name='to']").html(asStateLink(link.toId));
+			$(".panel-right [name='id']").text(link.data.id);
+			$(".panel-right [name='element']").text(link.data.element);
+			$(".panel-right [name='eventType']").text(link.data.eventType);
+		}
+
+		function asStateLink(name) {
+			return "<a href='states/" + name + ".html' target='_new'>" + name
+					+ "</a>";
+		}
+
+		$('#container-graph svg').css("width", "100%");
+		function resize() {
+			$('#container-graph').css("height", window.innerHeight - 80);
+			$('#container-graph svg').css("height", window.innerHeight - 80);
+		}
+		$(window).resize(resize);
+		resize();
+	</script>
+
+	<style type="text/css">
+		#container-clusters>svg {
+		  border: 1px solid #ccc;
+		}
+		
+		circle.node {
+		  fill: lightsteelblue;
+		  stroke: #555;
+		  stroke-width: 3px;
+		}
+		circle.leaf {
+		  stroke: #fff;
+		  stroke-width: 1.5px;
+		}
+		path.hull {
+		  fill: lightsteelblue;
+		  fill-opacity: 0.3;
+		}
+		line.link {
+		  stroke: #333;
+		  stroke-opacity: 0.5;
+		  pointer-events: none;
+		}
+    </style>
+
+	<script>
+var width = 960,     // svg width
+    height = 600,     // svg height
+    dr = 4,      // default point radius
+    off = 15,    // cluster hull offset
+    expand = {}, // expanded "clusters
+    data, net, force, hullg, hull, linkg, link, nodeg, node;
+
+var curve = d3.svg.line()
+    .interpolate("cardinal-closed")
+    .tension(.85);
+
+var fill = d3.scale.category20();
+
+function noop() { return false; }
+
+function nodeid(n) {
+  return n.size ? "_g_"+n.cluster : n.name;
+}
+
+function linkid(l) {
+  var u = nodeid(l.source),
+      v = nodeid(l.target);
+  return u<v ? u+"|"+v : v+"|"+u;
+}
+
+function getcluster(n) { 
+  return n.cluster; }
+
+// constructs the network to visualize
+function network(data, prev, index, expand) {
+  expand = expand || {};
+  var gm = {},    // cluster map
+      nm = {},    // node map
+      lm = {},    // link map
+      gn = {},    // previous cluster nodes
+      gc = {},    // previous cluster centroids
+      nodes = [], // output nodes
+      links = []; // output links
+
+  // process previous nodes for reuse or centroid calculation
+  if (prev) {
+    prev.nodes.forEach(function(n) {
+      var i = index(n), o;
+      if (n.size > 0) {
+        gn[i] = n;
+        n.size = 0;
+      } else {
+        o = gc[i] || (gc[i] = {x:0,y:0,count:0});
+        o.x += n.x;
+        o.y += n.y;
+        o.count += 1;
+      }
+    });
+  }
+
+  // determine nodes
+  for (var k=0; k<data.nodes.length; ++k) {
+    var n = data.nodes[k],
+        i = index(n),
+        l = gm[i] || (gm[i]=gn[i]) || (gm[i]={cluster:i, size:0, nodes:[]});
+
+    if (expand[i]) {
+      // the node should be directly visible
+      nm[n.name] = nodes.length;
+      nodes.push(n);
+      if (gn[i]) {
+        // place new nodes at cluster location (plus jitter)
+        n.x = gn[i].x + Math.random();
+        n.y = gn[i].y + Math.random();
+      }
+    } else {
+      // the node is part of a collapsed cluster
+      if (l.size == 0) {
+        // if new cluster, add to set and position at centroid of leaf nodes
+        nm[i] = nodes.length;
+        nodes.push(l);
+        if (gc[i]) {
+          l.x = gc[i].x / gc[i].count;
+          l.y = gc[i].y / gc[i].count;
+        }
+      }
+      l.nodes.push(n);
+    }
+  // always count cluster size as we also use it to tweak the force graph strengths/distances
+    l.size += 1;
+  n.cluster_data = l;
+  }
+
+  for (i in gm) { gm[i].link_count = 0; }
+
+  // determine links
+  for (k=0; k<data.links.length; ++k) {
+    
+    var e = data.links[k];
+    if((typeof e.source == "undefined") || (typeof e.target == "undefined")){
+      console.log("source " + e.source);
+      console.log("target " + e.target);
+      continue;
+    }
+      var u = index(e.source),
+        v = index(e.target);
+    if (u != v) {
+      gm[u].link_count++;
+      gm[v].link_count++;
+    }
+    u = expand[u] ? nm[e.source.name] : nm[u];
+    v = expand[v] ? nm[e.target.name] : nm[v];
+    var i = (u<v ? u+"|"+v : v+"|"+u),
+        l = lm[i] || (lm[i] = {source:u, target:v, size:0});
+    l.size += 1;
+  }
+  for (i in lm) { links.push(lm[i]); }
+
+  return {nodes: nodes, links: links};
+}
+
+function convexHulls(nodes, index, offset) {
+  var hulls = {};
+
+  // create point sets
+  for (var k=0; k<nodes.length; ++k) {
+    var n = nodes[k];
+    if (n.size) continue;
+    var i = index(n),
+        l = hulls[i] || (hulls[i] = []);
+    l.push([n.x-offset, n.y-offset]);
+    l.push([n.x-offset, n.y+offset]);
+    l.push([n.x+offset, n.y-offset]);
+    l.push([n.x+offset, n.y+offset]);
+  }
+
+  // create convex hulls
+  var hullset = [];
+  for (i in hulls) {
+    hullset.push({cluster: i, path: d3.geom.hull(hulls[i])});
+  }
+
+  return hullset;
+}
+
+function drawCluster(d) {
+  return curve(d.path); // 0.8
+}
+
+function getNodeFromId(id){
+  for(var i=0; i< data.nodes.length; i++){
+    node = data.nodes[i];
+    if(node.id == id)
+      return node;
+  }
+}
+
+// --------------------------------------------------------
+
+var body = d3.select('body>div.container-clusters');
+
+var vis = body.append("svg")
+   .attr("width", width)
+   .attr("height", height);
+
+
+  data = alchemyGraph;
+  for (var i=0; i<data.links.length; ++i) {
+    o = data.links[i];
+    o.source = getNodeFromId(o.source);
+    o.target = getNodeFromId(o.target);
+  }
+
+  hullg = vis.append("g");
+  linkg = vis.append("g");
+  nodeg = vis.append("g");
+
+  init();
+
+  vis.attr("opacity", 1e-6)
+    .transition()
+      .duration(1000)
+      .attr("opacity", 1);
+
+function init() {
+  if (force) force.stop();
+
+  net = network(data, net, getcluster, expand);
+
+  force = d3.layout.force()
+      .nodes(net.nodes)
+      .links(net.links)
+      .size([width, height])
+      .linkDistance(function(l, i) {
+      var n1 = l.source, n2 = l.target;
+    // larger distance for bigger clusters:
+    // both between single nodes and _other_ clusters (where size of own node cluster still counts),
+    // and between two cluster nodes.
+    //
+    // reduce distance for clusters with very few outer links,
+    // again both in expanded and clustered form, i.e. between individual nodes of a cluster and
+    // nodes of another cluster or other cluster node or between two cluster nodes.
+    //
+    // The latter was done to keep the single-link clusters ('blue', rose, ...) close.
+    return 30 +
+      Math.min(20 * Math.min((n1.size || (n1.cluster != n2.cluster ? n1.cluster_data.size : 0)),
+                             (n2.size || (n1.cluster != n2.cluster ? n2.cluster_data.size : 0))),
+           -30 +
+           30 * Math.min((n1.link_count || (n1.cluster != n2.cluster ? n1.cluster_data.link_count : 0)),
+                         (n2.link_count || (n1.cluster != n2.cluster ? n2.cluster_data.link_count : 0))),
+           100);
+      //return 150;
+    })
+    .linkStrength(function(l, i) {
+    return 1;
+    })
+    .gravity(0.02)   // gravity+charge tweaked to ensure good 'clustered' view (e.g. green cluster not smack between blue&orange, ...
+    .charge(-600)    // ... charge is important to turn single-linked clusters to the outside
+    .friction(0.5)   // friction adjusted to get dampened display: less bouncy bouncy ball [Swedish Chef, anyone?]
+      .start();
+
+  hullg.selectAll("path.hull").remove();
+  hull = hullg.selectAll("path.hull")
+      .data(convexHulls(net.nodes, getcluster, off))
+    .enter().append("path")
+      .attr("class", "hull")
+      .attr("d", drawCluster)
+      .style("fill", function(d) { return fill(d.cluster); })
+      .on("click", function(d) {
+console.log("hull click", d, arguments, this, expand[d.cluster]);
+      expand[d.cluster] = false; init();
+    });
+
+  link = linkg.selectAll("line.link").data(net.links, linkid);
+  link.exit().remove();
+  link.enter().append("line")
+      .attr("class", "link")
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; })
+      .style("stroke-width", function(d) { return d.size || 1; });
+
+  node = nodeg.selectAll("g").data(net.nodes, nodeid);
+  node.exit().remove();
+  var nodeEnter = node.enter().append("g")
+      .attr("class", function(d) { return "node" + (d.size?"":" leaf"); })
+      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+      .on("dblclick", function(d) {
+      console.log("node click", d, arguments, this, expand[d.cluster]);
+              expand[d.cluster] = !expand[d.cluster];
+          init();
+            });
+  
+  
+  var images = nodeEnter.append("svg:image")
+    .attr("xlink:href",  function(d) { 
+      if(typeof d.name == "undefined")
+        return "screenshots/dummy.jpeg";
+      else
+        return "screenshots/" +d.name+"_small.jpg";
+    })
+    .style("opacity", function(d){ 
+      if(typeof d.name == "undefined")
+        return 0;
+      else
+        return 1;
+    })
+    .attr("x", function(d) { return -25;})
+    .attr("y", function(d) { return -25;})
+     .attr("height", 100)
+     .attr("width", 100)
+     .on("dblclick", function(d) {
+     	 if(typeof d.name == "undefined")
+     	 	console.log();
+	      else{
+	      	window.open("states/" +d.name+".html", '_blank');
+	      	d3.event.stopPropagation();
+
+	      }
+     		// $.get("states/" +d.name+".html", function (data) {
+       //              $('#statePopup').html("").append(data);
+       //          });
+
+            });
+
+  var circles = nodeEnter.append("circle")
+     
+    // // if (d.size) -- d.size > 0 when d is a cluster node.
+      .attr("r", function(d) { return d.size ? d.size + dr : dr+1; })
+      .style("fill", function(d) { return fill(d.cluster); })
+      
+
+	var text = nodeEnter.append("svg:text")
+      .html(nodeid);
+
+
+  node.call(force.drag);
+
+  force.on("tick", function() {
+    if (!hull.empty()) {
+      hull.data(convexHulls(net.nodes, getcluster, off))
+          .attr("d", drawCluster);
+    }
+
+    link.attr("x1", function(d) { return d.source.x; })
+        .attr("y1", function(d) { return d.source.y; })
+        .attr("x2", function(d) { return d.target.x; })
+        .attr("y2", function(d) { return d.target.y; });
+
+    // node.attr("cx", function(d) { return d.x; })
+    //     .attr("cy", function(d) { return d.y; });
+    node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+  });
+}
+$('#container-clusters svg').css("width", "100%");
+		function resize() {
+			$('#container-clusters').css("height", window.innerHeight - 80);
+			$('#container-clusters svg').css("height", window.innerHeight - 80);
+		}
+		$(window).resize(resize);
+		resize();
+    </script>
+</body>
+</html>
