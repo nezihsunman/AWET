@@ -1,0 +1,234 @@
+driver.findElement(By.xpath("//div[2]/p")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div[3]/p")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("github")).click();
+Thread.sleep(3000);
+-----
+ driver.findElement(By.xpath("//p[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("barcelona");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/div/div/input")).sendKeys("ayk\'");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[2]/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[2]/div/div/input")).sendKeys("nezo");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-primary")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[3]/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[3]/div/div/input")).sendKeys("dero");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".event-currency")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement dropdown = driver.findElement(By.cssSelector(".event-currency"));
+Thread.sleep(3000);
+
+        dropdown.findElement(By.xpath("//option[. = 'Bulgarian lev (BGN)']")).click();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.cssSelector("option:nth-child(10)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-success")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("#ember868 .btn")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-success")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".alert")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//ul/h4")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//main/div/ul/li[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".alert")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".ember-application")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-success")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("dropDownUsers")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("dero")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("dropDownUsers")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("nezo")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//span[contains(.,\'0.00 BGN\')]")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//main/div/ul/li[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("dropDownEvents")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Add New Event")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("\'st");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li/div/div/input")).sendKeys("ayk");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-success")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[2]/div/div/input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//li[2]/div/div/input")).sendKeys("rak");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-success")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-primary path")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("10");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".form-group")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("10/24");
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/div/div[2]/div")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//input")).sendKeys("3");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.cssSelector(".transaction-list-item-description"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.doubleClick(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement element = driver.findElement(By.cssSelector(".transaction-list-item-description"));
+Thread.sleep(3000);
+
+        Actions builder = new Actions(driver);
+Thread.sleep(3000);
+
+        builder.doubleClick(element).perform();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.cssSelector(".help-block")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".transaction-list-item-description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-add-with-details")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[4]/div/input")).sendKeys("2020-12-17");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-success")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.xpath("//div[2]/a")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-success")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-sm")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".modal-footer > .btn-primary")).click();
+Thread.sleep(3000);
+-----

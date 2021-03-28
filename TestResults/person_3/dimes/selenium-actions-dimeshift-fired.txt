@@ -1,0 +1,191 @@
+ driver.findElement(By.id("wrap")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("#add_wallet_button > span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).sendKeys("Sample Cash Wallet 2");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_currency")).click();
+Thread.sleep(3000);
+
+    {
+        WebElement dropdown = driver.findElement(By.id("input_currency"));
+Thread.sleep(3000);
+
+        dropdown.findElement(By.xpath("//option[. = 'Mongolian Tugrik']")).click();
+Thread.sleep(3000);
+
+    }
+    driver.findElement(By.cssSelector("option:nth-child(97)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("add_wallet_modal_form_submit")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".list-group-item:nth-child(3) .item_button_edit > span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-group > .btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-group > .btn:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".pull-left")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".list-group-item:nth-child(3) .item_button_accesses > span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_email")).sendKeys("ecem@gmail.com");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".pull-left")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".close")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".list-group-item:nth-child(3) strong")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("add_transaction_text")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("add_transaction_text")).sendKeys("200");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".popover-navigation > .btn")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("strong")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn > span:nth-child(2)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("preloader")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Cancel")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("goto_prev")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("#add_profit_button > span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_amount")).sendKeys("200");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_description")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-primary:nth-child(1)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn-default:nth-child(2) > span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Goals")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Goals")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Contact")).click();
+Thread.sleep(3000);
+-----
+ driver.findElement(By.linkText("Contact")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Contact")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Contact")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Contact")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("API")).click();
+Thread.sleep(3000);
+-----
+driver.findElement(By.linkText("Settings")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("current_password_input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("current_password_input")).sendKeys("38948");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_input")).sendKeys("23432");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("change_password_form")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("change_password_form")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_repeat_input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_repeat_input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_input")).sendKeys("gggb123.");
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_repeat_input")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("new_password_repeat_input")).sendKeys("gggb123.");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".btn:nth-child(4)")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".row")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("push")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".glyphicon-globe")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector(".close")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.linkText("Goals")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("#button_create_new > span")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).click();
+Thread.sleep(3000);
+
+    driver.findElement(By.id("input_name")).sendKeys("Transact");
+Thread.sleep(3000);
+
+    driver.findElement(By.cssSelector("html")).click();
+Thread.sleep(3000);
+-----
