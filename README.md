@@ -59,16 +59,12 @@ Another task that has to be performed manually is the implementation of the rese
 However, with the `dimeshift` application, it is not needed to implement the reset state class, since closing the browser after each test case execution is enough to completely clean up the state of the web application.
 
 ## 5. Comparing results with other tools
-Here we compare AWET with Dante, Crawljax and Atusa in terms of JS code coverage. The script to run the test minimization is [run-tests-and-measure-coverage.sh](https://github.com/nezihsunman/AWET/blob/master/awet/run-tests-and-measure-coverage.sh). The first argument is the `application_name`, the second argument is the `headless` flag and the third argument is the `technique` whose values are `dante|crawljax|atusa`. The fourth argument is the `extraction_strategy` but it is required only when the `technique` is `dante`.
-For awet configuration we use extended version of crawljax configuration. Use dimeshift true crawljax for AWET settings.
+The script to execute the tests and measure coverage is [run-tests-and-measure-coverage.sh](https://github.com/nezihsunman/AWET/blob/master/awet/run-tests-and-measure-coverage.sh). The first argument is the `application_name`, the second argument is the `headless` flag and the third argument is the `tool ` like `dante` and `crawljax`. The fourth argument is the `extraction_strategy` but it is required only when the `tool` is `dante`.
+AWET employs an extended version of Crawljax. Hence, the `headless` and `tool ` arguments should be set as `true` and `crawljax`, respectively for using AWET.
 
-To run the comparison we execute the following commands:
+To run the tests and measure coverage for the `dimeshift` application we execute the following command for instance:
 - `./run-tests-and-measure-coverage.sh dimeshift true crawljax`
 
 The log files `logs_RunTests_[technique]_dimeshift.txt` in the `Desktop` folder report the tests that passed as well as the tests that broke. The log files `logs_MeasureCoverageOfTests_[technique]_dimeshift.txt` in the `Desktop` folder report the code coverage achieved by the non-broken tests.
 
-Like in the dante paper all techniques achieve the same code coverage, i.e. `97%`, but with different test suite sizes and breakage rates:
-- DANTE generates two tests and none of them break (breakage rate `0%`). Coverage reports are in the `dante/applications/dimeshift/testsuite-dimeshift/date-coverage-reports`;
-- Crawljax generates 18 tests and two of them break (breakage rate `11%`) Coverage reports are in the `dante/applications/dimeshift/testsuite-dimeshift/crawljax-coverage-reports`;
-- Atusa generates 37 tests and none of them break (breakage rate `0%`) Coverage reports are in the `dante/applications/dimeshift/testsuite-dimeshift/atusa-coverage-reports-k-15`. The value of `k` is determined automatically as described in the Dantes's paper. 
 
