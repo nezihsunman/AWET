@@ -4,16 +4,17 @@ AWET (Automated Web application testing based on Exploratory Testing) is a tool 
 
 AWET uses Selenium (https://www.selenium.dev/) as well as an extended version of Crawljax (https://github.com/crawljax/).
 
-The runtime platform and the experimental setup is adopted from another open source project, DANTE:
+The runtime platform and the experimental setup are adopted from another open source project, DANTE:
 https://github.com/matteobiagiola/ICST20-submission-material-DANTE
 
-You can freely use the virtual box of DANTE for an automated setup.
+You can freely use the virtual box of DANTE for an automated setup:
+https://www.techjunkie.com/ova-virtualbox/
 
-VirtualBox: https://www.techjunkie.com/ova-virtualbox/
+Note that the generated test cases depend on the set of recorded test cases, which are provided as input. This repository also includes a set of sample test cases recorded for 5 Web applications and the corresponding results.
 
 ## 1. Automatic Setup
 
-A virtual machine running Ubuntu 18.04 LTS is available for download [here](https://drive.google.com/file/d/1PAbpgt1Atx6GpTwRZRM0heNLs8IDfbwo/view?usp=sharing) . The virtual machine contains this repository and all the dependencies needed to run DANTE on the test suite subjects.
+A virtual machine running Ubuntu 18.04 LTS is available for download [here](https://drive.google.com/file/d/1PAbpgt1Atx6GpTwRZRM0heNLs8IDfbwo/view?usp=sharing) . The virtual machine contains this repository and all the dependencies needed to run the system.
 
 The virtual machine was created with VirtualBox and was exported in the `.ova` format, a platform-independent distribution format for virtual machines. It can be imported by any virtualization software although it was tested only on VirtualBox and VMWare Fusion. Instructions on how to import an `.ova` format virtual machine in VirtualBox and VMWare Fusion are listed below:
 
@@ -80,5 +81,3 @@ Like in the dante paper all techniques achieve the same code coverage, i.e. `97%
 - Crawljax generates 18 tests and two of them break (breakage rate `11%`) Coverage reports are in the `dante/applications/dimeshift/testsuite-dimeshift/crawljax-coverage-reports`;
 - Atusa generates 37 tests and none of them break (breakage rate `0%`) Coverage reports are in the `dante/applications/dimeshift/testsuite-dimeshift/atusa-coverage-reports-k-15`. The value of `k` is determined automatically as described in the Dantes's paper. 
 
-##  Finally
-- AWET creates many tests, but these tests vary according to the inputs from the database. The configuration of the awet varies from system to system and according to the time given to the awet.
