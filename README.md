@@ -1,12 +1,13 @@
 # AWET
 
-The basic codes of this project are taken from the project in this link. https://github.com/matteobiagiola/ICST20-submission-material-DANTE
+AWET (Automated Web application testing based on Exploratory Testing) is a tool that takes a set of recorded test cases as input to generate further test cases for Web applications. Test cases should be provided in the form of JUnit tests that can be executed by Selenium. AWET crawls the application to explore it and to create a test model for generating test cases automatically. It exploits the input test cases to steer this process rather than just randomly crawling the application.
 
-Thank you for making open source software.
+AWET uses Selenium (https://www.selenium.dev/) as well as an extended version of Crawljax (https://github.com/crawljax/).
 
-For automatic setup;
+The runtime platform and the experimental setup is adopted from another open source project, DANTE:
+https://github.com/matteobiagiola/ICST20-submission-material-DANTE
 
-You can freely use from Dante's virtual box.
+You can freely use the virtual box of DANTE for an automated setup.
 
 VirtualBox: https://www.techjunkie.com/ova-virtualbox/
 
