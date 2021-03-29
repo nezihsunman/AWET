@@ -47,18 +47,18 @@ In this step the `awet/applications/dimeshift/seletion-actions-dimeshift-fired.t
 The first argument is `application_name` and the second argument is `headless`. Following with the `dimeshift` example the command to run is:
 - `./generate-java-project-from-crawling.sh dimeshift false`
 
-The command generates the java project with the test suite and runs it. It also collects the coverage of all tests.
+The command generates the Java project with the test suite and runs it. It also collects the coverage of all tests.
 
 However, there may still be errors in run time due to the system's own dynamics. This is due to the change in the codes of the java project according to the environment used.
 
-## 4. Fixing flakiness in created JUnit test cases
+## 4. Fixing flakiness in generated JUnit test cases
 In the running example with the `dimeshift` application, the test suite is not flaky. In general, AWET does not fix flakiness automatically, therefore the generated test suite needs to be fixed. In particular the applications `splittypie` and `phoenix` are challenging in terms of flakiness since in `splittypie` there are many notifications that hide Web elements and the menu in `phoenix` is not deterministic (the order of the items in the menu keeps changing).
 
-Another task that has to be performed manually is the implementation of the reset state class, which is called both by the validation script (i.e. `tedd`) and when the tests are run in isolation (i.e. `atusa` and `crawljax`). An example is the [ResetAppState](https://github.com/anon-icst2020/ICST20-submission-material-DANTE/blob/master/dante/applications/dimeshift/testsuite-dimeshift/src/main/java/utils/ResetAppState.java) class of the `dimeshift` application. 
+Another task that has to be performed manually is the implementation of the reset state class, which is called both by the validation script (i.e. `tedd`) and when the tests are run in isolation. An example is the [ResetAppState](https://github.com/anon-icst2020/ICST20-submission-material-DANTE/blob/master/dante/applications/dimeshift/testsuite-dimeshift/src/main/java/utils/ResetAppState.java) class of the `dimeshift` application. 
 
-However, with the `dimeshift` application, it is not needed to implement the reset state class, since closing the browser after each test case execution is enough to completely clean up the state of the web application.
+However, with the `dimeshift` application, it is not needed to implement the reset state class, since closing the browser after each test case execution is enough to completely clean up the state of the Web application.
 
-## 5. Comparing results with other tools
+## 5. Running the tests and measuring coverage
 The script to execute the tests and measure coverage is [run-tests-and-measure-coverage.sh](https://github.com/nezihsunman/AWET/blob/master/awet/run-tests-and-measure-coverage.sh). The first argument is the `application_name`, the second argument is the `headless` flag and the third argument is the `tool ` like `dante` and `crawljax`. The fourth argument is the `extraction_strategy` but it is required only when the `tool` is `dante`.
 AWET employs an extended version of Crawljax. Hence, the `headless` and `tool ` arguments should be set as `true` and `crawljax`, respectively for using AWET.
 
