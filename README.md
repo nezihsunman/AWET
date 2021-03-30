@@ -10,20 +10,15 @@ Note that the generated test cases depend on the set of recorded test cases, whi
 
 ## 1. Ready-to-use Setup
 
-A virtual machine running Ubuntu 18.04 LTS is available for download [here](https://drive.google.com/file/d/1PAbpgt1Atx6GpTwRZRM0heNLs8IDfbwo/view?usp=sharing) . The virtual machine contains this repository and all the dependencies needed to run the system.
+A virtual machine running Ubuntu 18.04 LTS is available for download [here](https://drive.google.com/file/d/1PAbpgt1Atx6GpTwRZRM0heNLs8IDfbwo/view?usp=sharing) . The virtual machine contains this repository and all the required dependencies.
 
-The virtual machine was created with VirtualBox and was exported in the `.ova` format, a platform-independent distribution format for virtual machines. It can be imported by any virtualization software although it was tested only on VirtualBox. Instructions on how to import an `.ova` format virtual machine in VirtualBox are listed below:
+The virtual machine is exported in the `.ova` format, a platform-independent distribution format for virtual machines. Instructions on how to import an `.ova` format virtual machine in VirtualBox are listed below:
 https://www.techjunkie.com/ova-virtualbox/
 
-The project should be cloned to the workspace folder of virtual box and absolute paths in the docker scripts must be updated.
-
-Like
+The project should be cloned to the workspace folder of virtual box and **absolute paths** in the docker scripts must be updated. For instance, the following path variable must be updated to locate the input test cases:
+```
 private static final String BASE_FILE_FOLDER_PATH = "/home/nezihsunman/Desktop/Tests";
-to
-private static final String BASE_FILE_FOLDER_PATH = "/home/icst20-dante/Desktop/Tests";
-
-Hints:
-With using Intellij idea shortcut CTRL + Shift + R  and replace nezihsunman to  icst20-dante.
+```
 
 ## 2. Crawling
 Project running script [run-crawling.sh](https://github.com/nezihsunman/AWET/blob/master/awet/run-crawling.sh).
