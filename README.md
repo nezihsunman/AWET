@@ -21,7 +21,7 @@ private static final String BASE_FILE_FOLDER_PATH = "/home/nezihsunman/Desktop/T
 ```
 
 ## 2. Crawling
-Project running script [run-crawling.sh](https://github.com/nezihsunman/AWET/blob/master/awet/run-crawling.sh).
+The script to be used for starting the crawling process is [run-crawling.sh](https://github.com/nezihsunman/AWET/blob/master/awet/run-crawling.sh).
 
 The first argument is the `application_name`. The available values are:
 - `phoenix|dimeshift|splittypie|retroboard|petclinic`
@@ -29,25 +29,25 @@ The first argument is the `application_name`. The available values are:
 The second argument is the `headless` flag which determines if the browser starts headless or with the GUI. The available values are:
 - `true|false`
 
-The third argument is a number, `crawling_max_runtime` which determines a timeout for the crawler.
+The third argument is a number, `crawling_max_runtime` which determines a timeout for the crawler, e.g.,
 
-- `./run-crawling.sh dimeshift false 5` (the crawler terminates the exploration in ~3 min)
+- `./run-crawling.sh dimeshift false 5`
 
-After the crawling the folder `awet/applications/dimeshift/localhost/crawl-with-inputs` is created, which contains the results of the crawling. In the folder `awet/applications/dimeshift` there is a file called `selenium-actions-dimeshift-fired.txt` which lists the test cases created by the crawler while it was exploring the application. The crawling generates around 18 tests.
+After the crawling the folder `awet/applications/dimeshift/localhost/crawl-with-inputs` is created, which contains the results of the crawling. In the folder `awet/applications/dimeshift` there is a file called `selenium-actions-dimeshift-fired.txt` which lists the test cases created by the crawler while it was exploring the application.
 
-## 3. Generating test cases
+## 3. Generating executable test cases
 
-In this step the `awet/applications/dimeshift/seletion-actions-dimeshift-fired.txt` is used to generate the test suite. The script to create the test suite and run it is [generate-java-project-from-crawling.sh](https://github.com/nezihsunman/AWET/blob/master/awet/generate-java-project-from-crawling.sh).
+In this step the `awet/applications/dimeshift/seletion-actions-dimeshift-fired.txt` is used for generating an executable test suite. The script to create the test suite and run it is [generate-java-project-from-crawling.sh](https://github.com/nezihsunman/AWET/blob/master/awet/generate-java-project-from-crawling.sh).
 
 The first argument is `application_name` and the second argument is `headless`. Following with the `dimeshift` example the command to run is:
 - `./generate-java-project-from-crawling.sh dimeshift false`
 
 The command generates the Java project with the test suite and runs it. It also collects the coverage of all tests.
 
-However, there may still be errors in run time due to the system's own dynamics. This is due to the change in the codes of the java project according to the environment used.
+However, there may still be errors in run time due to the system's own dynamics. This is due to the change in the codes of the Java project according to the environment used.
 
 ## 4. Fixing flakiness in generated JUnit test cases
-In the running example with the `dimeshift` application, the test suite is not flaky. In general, AWET does not fix flakiness automatically, therefore the generated test suite needs to be fixed. In particular the applications `splittypie` and `phoenix` are challenging in terms of flakiness since in `splittypie` there are many notifications that hide Web elements and the menu in `phoenix` is not deterministic (the order of the items in the menu keeps changing).
+In the running example with the `dimeshift` application, the test suite is not flaky. However, if there exist flakiness, AWET does not fix it automatically. Therefore, the generated test suite might need to be fixed. In particular, the applications `splittypie` and `phoenix` are challenging in terms of flakiness since in `splittypie` there are many notifications that hide Web elements and the menu in `phoenix` is not deterministic (the order of the items in the menu keeps changing).
 
 Another task that has to be performed manually is the implementation of the reset state class, which is called both by the validation script (i.e. `tedd`) and when the tests are run in isolation. An example is the [ResetAppState](https://github.com/anon-icst2020/ICST20-submission-material-DANTE/blob/master/dante/applications/dimeshift/testsuite-dimeshift/src/main/java/utils/ResetAppState.java) class of the `dimeshift` application. 
 
